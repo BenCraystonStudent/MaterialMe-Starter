@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/MaterialMe-Starter/app/src/main/res/drawable/ic_reset.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Ben/AndroidStudioProjects/MaterialMe-Starter/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/HE/Documents/MaterialMe-Starter/app/src/main/res/layout/activity_detail.xml" value="0.15425531914893617" />
         <entry key="..\:/Users/HE/Documents/MaterialMe-Starter/app/src/main/res/layout/list_item.xml" value="0.33125" />
       </map>

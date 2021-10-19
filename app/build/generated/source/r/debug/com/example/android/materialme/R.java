@@ -326,28 +326,37 @@ public final class R {
      */
     public static final int alphabeticModifiers=0x7f030028;
     /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int arrowHeadLength=0x7f030029;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int arrowShaftLength=0x7f03002a;
+    public static final int altSrc=0x7f030029;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int autoCompleteTextViewStyle=0x7f03002b;
+    public static final int animate_relativeTo=0x7f03002a;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int applyMotionScene=0x7f03002b;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>flip</td><td>2</td><td></td></tr>
+     * <tr><td>startHorizontal</td><td>1</td><td></td></tr>
+     * <tr><td>startVertical</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int arcMode=0x7f03002c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -355,7 +364,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int autoSizeMaxTextSize=0x7f03002c;
+    public static final int arrowHeadLength=0x7f03002d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -363,14 +372,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int autoSizeMinTextSize=0x7f03002d;
+    public static final int arrowShaftLength=0x7f03002e;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int attributeName=0x7f03002f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int autoSizePresetSizes=0x7f03002e;
+    public static final int autoCompleteTextViewStyle=0x7f030030;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -378,7 +392,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int autoSizeStepGranularity=0x7f03002f;
+    public static final int autoSizeMaxTextSize=0x7f030031;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int autoSizeMinTextSize=0x7f030032;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int autoSizePresetSizes=0x7f030033;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int autoSizeStepGranularity=0x7f030034;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -390,14 +427,29 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int autoSizeTextType=0x7f030030;
+    public static final int autoSizeTextType=0x7f030035;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>animateToEnd</td><td>4</td><td></td></tr>
+     * <tr><td>animateToStart</td><td>3</td><td></td></tr>
+     * <tr><td>jumpToEnd</td><td>2</td><td></td></tr>
+     * <tr><td>jumpToStart</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int autoTransition=0x7f030036;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int background=0x7f030031;
+    public static final int background=0x7f030037;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -407,7 +459,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int backgroundSplit=0x7f030032;
+    public static final int backgroundSplit=0x7f030038;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -417,13 +469,13 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int backgroundStacked=0x7f030033;
+    public static final int backgroundStacked=0x7f030039;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int backgroundTint=0x7f030034;
+    public static final int backgroundTint=0x7f03003a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -439,7 +491,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int backgroundTintMode=0x7f030035;
+    public static final int backgroundTintMode=0x7f03003b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -447,49 +499,82 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int barLength=0x7f030036;
+    public static final int barLength=0x7f03003c;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int barrierAllowsGoneWidgets=0x7f03003d;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     */
+    public static final int barrierDirection=0x7f03003e;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int barrierMargin=0x7f03003f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int borderlessButtonStyle=0x7f030037;
+    public static final int borderlessButtonStyle=0x7f030040;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int brightness=0x7f030041;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarButtonStyle=0x7f030038;
+    public static final int buttonBarButtonStyle=0x7f030042;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarNegativeButtonStyle=0x7f030039;
+    public static final int buttonBarNegativeButtonStyle=0x7f030043;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarNeutralButtonStyle=0x7f03003a;
+    public static final int buttonBarNeutralButtonStyle=0x7f030044;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarPositiveButtonStyle=0x7f03003b;
+    public static final int buttonBarPositiveButtonStyle=0x7f030045;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarStyle=0x7f03003c;
+    public static final int buttonBarStyle=0x7f030046;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -501,7 +586,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int buttonGravity=0x7f03003d;
+    public static final int buttonGravity=0x7f030047;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -509,34 +594,34 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int buttonIconDimen=0x7f03003e;
+    public static final int buttonIconDimen=0x7f030048;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonPanelSideLayout=0x7f03003f;
+    public static final int buttonPanelSideLayout=0x7f030049;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonStyle=0x7f030040;
+    public static final int buttonStyle=0x7f03004a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonStyleSmall=0x7f030041;
+    public static final int buttonStyleSmall=0x7f03004b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int buttonTint=0x7f030042;
+    public static final int buttonTint=0x7f03004c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -552,13 +637,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int buttonTintMode=0x7f030043;
+    public static final int buttonTintMode=0x7f03004d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int cardBackgroundColor=0x7f030044;
+    public static final int cardBackgroundColor=0x7f03004e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -566,7 +651,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardCornerRadius=0x7f030045;
+    public static final int cardCornerRadius=0x7f03004f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -574,7 +659,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardElevation=0x7f030046;
+    public static final int cardElevation=0x7f030050;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -582,106 +667,134 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardMaxElevation=0x7f030047;
+    public static final int cardMaxElevation=0x7f030051;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int cardPreventCornerOverlap=0x7f030048;
+    public static final int cardPreventCornerOverlap=0x7f030052;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int cardUseCompatPadding=0x7f030049;
+    public static final int cardUseCompatPadding=0x7f030053;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int cardViewStyle=0x7f03004a;
+    public static final int cardViewStyle=0x7f030054;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int chainUseRtl=0x7f030055;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkboxStyle=0x7f03004b;
+    public static final int checkboxStyle=0x7f030056;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkedTextViewStyle=0x7f03004c;
+    public static final int checkedTextViewStyle=0x7f030057;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int circleRadius=0x7f030058;
+    /**
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>jumpToEnd</td><td>100</td><td></td></tr>
+     * <tr><td>jumpToStart</td><td>1000</td><td></td></tr>
+     * <tr><td>toggle</td><td>11</td><td></td></tr>
+     * <tr><td>transitionToEnd</td><td>1</td><td></td></tr>
+     * <tr><td>transitionToStart</td><td>10</td><td></td></tr>
+     * </table>
+     */
+    public static final int clickAction=0x7f030059;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeIcon=0x7f03004d;
+    public static final int closeIcon=0x7f03005a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeItemLayout=0x7f03004e;
+    public static final int closeItemLayout=0x7f03005b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int collapseContentDescription=0x7f03004f;
+    public static final int collapseContentDescription=0x7f03005c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapseIcon=0x7f030050;
+    public static final int collapseIcon=0x7f03005d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int color=0x7f030051;
+    public static final int color=0x7f03005e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorAccent=0x7f030052;
+    public static final int colorAccent=0x7f03005f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorBackgroundFloating=0x7f030053;
+    public static final int colorBackgroundFloating=0x7f030060;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorButtonNormal=0x7f030054;
+    public static final int colorButtonNormal=0x7f030061;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlActivated=0x7f030055;
+    public static final int colorControlActivated=0x7f030062;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlHighlight=0x7f030056;
+    public static final int colorControlHighlight=0x7f030063;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlNormal=0x7f030057;
+    public static final int colorControlNormal=0x7f030064;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -691,151 +804,82 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorError=0x7f030058;
+    public static final int colorError=0x7f030065;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimary=0x7f030059;
+    public static final int colorPrimary=0x7f030066;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimaryDark=0x7f03005a;
+    public static final int colorPrimaryDark=0x7f030067;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorSwitchThumbNormal=0x7f03005b;
+    public static final int colorSwitchThumbNormal=0x7f030068;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int commitIcon=0x7f03005c;
+    public static final int commitIcon=0x7f030069;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int constraintSet=0x7f03006a;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int constraintSetEnd=0x7f03006b;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int constraintSetStart=0x7f03006c;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int contentDescription=0x7f03005d;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetEnd=0x7f03005e;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetEndWithActions=0x7f03005f;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetLeft=0x7f030060;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetRight=0x7f030061;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetStart=0x7f030062;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentInsetStartWithNavigation=0x7f030063;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentPadding=0x7f030064;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentPaddingBottom=0x7f030065;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentPaddingLeft=0x7f030066;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentPaddingRight=0x7f030067;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int contentPaddingTop=0x7f030068;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int controlBackground=0x7f030069;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int coordinatorLayoutStyle=0x7f03006a;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int customNavigationLayout=0x7f03006b;
+    public static final int constraint_referenced_ids=0x7f03006d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int defaultQueryHint=0x7f03006c;
+    public static final int constraint_referenced_tags=0x7f03006e;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int constraints=0x7f03006f;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int content=0x7f030070;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int contentDescription=0x7f030071;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -843,14 +887,235 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f03006d;
+    public static final int contentInsetEnd=0x7f030072;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetEndWithActions=0x7f030073;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetLeft=0x7f030074;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetRight=0x7f030075;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetStart=0x7f030076;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentInsetStartWithNavigation=0x7f030077;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPadding=0x7f030078;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPaddingBottom=0x7f030079;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPaddingLeft=0x7f03007a;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPaddingRight=0x7f03007b;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int contentPaddingTop=0x7f03007c;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int contrast=0x7f03007d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f03006e;
+    public static final int controlBackground=0x7f03007e;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int coordinatorLayoutStyle=0x7f03007f;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int crossfade=0x7f030080;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int currentState=0x7f030081;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>linear</td><td>1</td><td></td></tr>
+     * <tr><td>spline</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int curveFit=0x7f030082;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int customBoolean=0x7f030083;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int customColorDrawableValue=0x7f030084;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int customColorValue=0x7f030085;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int customDimension=0x7f030086;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int customFloatValue=0x7f030087;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int customIntegerValue=0x7f030088;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int customNavigationLayout=0x7f030089;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int customPixelDimension=0x7f03008a;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int customStringValue=0x7f03008b;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int defaultDuration=0x7f03008c;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int defaultQueryHint=0x7f03008d;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int defaultState=0x7f03008e;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int deltaPolarAngle=0x7f03008f;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int deltaPolarRadius=0x7f030090;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int deriveConstraintsFrom=0x7f030091;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int dialogCornerRadius=0x7f030092;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int dialogPreferredPadding=0x7f030093;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int dialogTheme=0x7f030094;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -867,21 +1132,21 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f03006f;
+    public static final int displayOptions=0x7f030095;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f030070;
+    public static final int divider=0x7f030096;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f030071;
+    public static final int dividerHorizontal=0x7f030097;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -889,14 +1154,54 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f030072;
+    public static final int dividerPadding=0x7f030098;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f030073;
+    public static final int dividerVertical=0x7f030099;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>dragDown</td><td>1</td><td></td></tr>
+     * <tr><td>dragEnd</td><td>5</td><td></td></tr>
+     * <tr><td>dragLeft</td><td>2</td><td></td></tr>
+     * <tr><td>dragRight</td><td>3</td><td></td></tr>
+     * <tr><td>dragStart</td><td>4</td><td></td></tr>
+     * <tr><td>dragUp</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int dragDirection=0x7f03009a;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int dragScale=0x7f03009b;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int dragThreshold=0x7f03009c;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>asConfigured</td><td>4</td><td></td></tr>
+     * <tr><td>deltaRelative</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>path</td><td>1</td><td></td></tr>
+     * <tr><td>pathRelative</td><td>2</td><td></td></tr>
+     * <tr><td>rectangles</td><td>5</td><td></td></tr>
+     * </table>
+     */
+    public static final int drawPath=0x7f03009d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -904,21 +1209,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f030074;
+    public static final int drawableSize=0x7f03009e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f030075;
+    public static final int drawerArrowStyle=0x7f03009f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f030076;
+    public static final int dropDownListViewStyle=0x7f0300a0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -926,14 +1231,18 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f030077;
+    public static final int dropdownListPreferredItemHeight=0x7f0300a1;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int duration=0x7f0300a2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f030078;
+    public static final int editTextBackground=0x7f0300a3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -943,14 +1252,14 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f030079;
+    public static final int editTextColor=0x7f0300a4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f03007a;
+    public static final int editTextStyle=0x7f0300a5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -958,71 +1267,249 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f03007b;
+    public static final int elevation=0x7f0300a6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f03007c;
+    public static final int expandActivityOverflowButtonDrawable=0x7f0300a7;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int fastScrollEnabled=0x7f03007d;
+    public static final int fastScrollEnabled=0x7f0300a8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalThumbDrawable=0x7f03007e;
+    public static final int fastScrollHorizontalThumbDrawable=0x7f0300a9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalTrackDrawable=0x7f03007f;
+    public static final int fastScrollHorizontalTrackDrawable=0x7f0300aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalThumbDrawable=0x7f030080;
+    public static final int fastScrollVerticalThumbDrawable=0x7f0300ab;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalTrackDrawable=0x7f030081;
+    public static final int fastScrollVerticalTrackDrawable=0x7f0300ac;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int firstBaselineToTopHeight=0x7f0300ad;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int flow_firstHorizontalBias=0x7f0300ae;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int flow_firstHorizontalStyle=0x7f0300af;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int flow_firstVerticalBias=0x7f0300b0;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int flow_firstVerticalStyle=0x7f0300b1;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>center</td><td>2</td><td></td></tr>
+     * <tr><td>end</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int flow_horizontalAlign=0x7f0300b2;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int flow_horizontalBias=0x7f0300b3;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int flow_horizontalGap=0x7f0300b4;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int flow_horizontalStyle=0x7f0300b5;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int flow_lastHorizontalBias=0x7f0300b6;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int flow_lastHorizontalStyle=0x7f0300b7;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int flow_lastVerticalBias=0x7f0300b8;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int flow_lastVerticalStyle=0x7f0300b9;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int flow_maxElementsWrap=0x7f0300ba;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int flow_padding=0x7f0300bb;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>baseline</td><td>3</td><td></td></tr>
+     * <tr><td>bottom</td><td>1</td><td></td></tr>
+     * <tr><td>center</td><td>2</td><td></td></tr>
+     * <tr><td>top</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int flow_verticalAlign=0x7f0300bc;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int flow_verticalBias=0x7f0300bd;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int flow_verticalGap=0x7f0300be;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int flow_verticalStyle=0x7f0300bf;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>aligned</td><td>2</td><td></td></tr>
+     * <tr><td>chain</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int flow_wrapMode=0x7f0300c0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f030082;
+    public static final int font=0x7f0300c1;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f030083;
+    public static final int fontFamily=0x7f0300c2;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f030084;
+    public static final int fontProviderAuthority=0x7f0300c3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f030085;
+    public static final int fontProviderCerts=0x7f0300c4;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1034,7 +1521,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f030086;
+    public static final int fontProviderFetchStrategy=0x7f0300c5;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -1046,17 +1533,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f030087;
+    public static final int fontProviderFetchTimeout=0x7f0300c6;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f030088;
+    public static final int fontProviderPackage=0x7f0300c7;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f030089;
+    public static final int fontProviderQuery=0x7f0300c8;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1068,11 +1555,20 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f03008a;
+    public static final int fontStyle=0x7f0300c9;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fontVariationSettings=0x7f0300ca;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f03008b;
+    public static final int fontWeight=0x7f0300cb;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int framePosition=0x7f0300cc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1080,14 +1576,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f03008c;
+    public static final int gapBetweenBars=0x7f0300cd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f03008d;
+    public static final int goIcon=0x7f0300ce;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1095,39 +1591,39 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f03008e;
+    public static final int height=0x7f0300cf;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f03008f;
+    public static final int hideOnContentScroll=0x7f0300d0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f030090;
+    public static final int homeAsUpIndicator=0x7f0300d1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f030091;
+    public static final int homeLayout=0x7f0300d2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f030092;
+    public static final int icon=0x7f0300d3;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int iconTint=0x7f030093;
+    public static final int iconTint=0x7f0300d4;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1143,36 +1639,36 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int iconTintMode=0x7f030094;
+    public static final int iconTintMode=0x7f0300d5;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f030095;
+    public static final int iconifiedByDefault=0x7f0300d6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f030096;
+    public static final int imageButtonStyle=0x7f0300d7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f030097;
+    public static final int indeterminateProgressStyle=0x7f0300d8;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f030098;
+    public static final int initialActivityCount=0x7f0300d9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f030099;
+    public static final int isLightTheme=0x7f0300da;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1180,33 +1676,73 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f03009a;
+    public static final int itemPadding=0x7f0300db;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>deltaRelative</td><td>0</td><td></td></tr>
+     * <tr><td>parentRelative</td><td>2</td><td></td></tr>
+     * <tr><td>pathRelative</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int keyPositionType=0x7f0300dc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int keylines=0x7f03009b;
+    public static final int keylines=0x7f0300dd;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int lastBaselineToBottomHeight=0x7f0300de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f03009c;
+    public static final int layout=0x7f0300df;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int layoutDescription=0x7f0300e0;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>honorRequest</td><td>1</td><td></td></tr>
+     * <tr><td>ignoreRequest</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layoutDuringTransition=0x7f0300e1;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layoutManager=0x7f03009d;
+    public static final int layoutManager=0x7f0300e2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_anchor=0x7f03009e;
+    public static final int layout_anchor=0x7f0300e3;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1230,12 +1766,426 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_anchorGravity=0x7f03009f;
+    public static final int layout_anchorGravity=0x7f0300e4;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_behavior=0x7f0300a0;
+    public static final int layout_behavior=0x7f0300e5;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int layout_constrainedHeight=0x7f0300e6;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int layout_constrainedWidth=0x7f0300e7;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintBaseline_creator=0x7f0300e8;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f0300e9;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintBottom_creator=0x7f0300ea;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintBottom_toBottomOf=0x7f0300eb;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintBottom_toTopOf=0x7f0300ec;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int layout_constraintCircle=0x7f0300ed;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintCircleAngle=0x7f0300ee;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintCircleRadius=0x7f0300ef;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int layout_constraintDimensionRatio=0x7f0300f0;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintEnd_toEndOf=0x7f0300f1;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintEnd_toStartOf=0x7f0300f2;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintGuide_begin=0x7f0300f3;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintGuide_end=0x7f0300f4;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintGuide_percent=0x7f0300f5;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintHeight_default=0x7f0300f6;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintHeight_max=0x7f0300f7;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintHeight_min=0x7f0300f8;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintHeight_percent=0x7f0300f9;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintHorizontal_bias=0x7f0300fa;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintHorizontal_chainStyle=0x7f0300fb;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintHorizontal_weight=0x7f0300fc;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintLeft_creator=0x7f0300fd;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintLeft_toLeftOf=0x7f0300fe;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintLeft_toRightOf=0x7f0300ff;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintRight_creator=0x7f030100;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintRight_toLeftOf=0x7f030101;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintRight_toRightOf=0x7f030102;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintStart_toEndOf=0x7f030103;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintStart_toStartOf=0x7f030104;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int layout_constraintTag=0x7f030105;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintTop_creator=0x7f030106;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintTop_toBottomOf=0x7f030107;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintTop_toTopOf=0x7f030108;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintVertical_bias=0x7f030109;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintVertical_chainStyle=0x7f03010a;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintVertical_weight=0x7f03010b;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintWidth_default=0x7f03010c;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintWidth_max=0x7f03010d;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_constraintWidth_min=0x7f03010e;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintWidth_percent=0x7f03010f;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1253,7 +2203,71 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f0300a1;
+    public static final int layout_dodgeInsetEdges=0x7f030110;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_editor_absoluteX=0x7f030111;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_editor_absoluteY=0x7f030112;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginBottom=0x7f030113;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginEnd=0x7f030114;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginLeft=0x7f030115;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginRight=0x7f030116;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginStart=0x7f030117;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_goneMarginTop=0x7f030118;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1270,53 +2284,41 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f0300a2;
+    public static final int layout_insetEdge=0x7f030119;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f0300a3;
+    public static final int layout_keyline=0x7f03011a;
+    /**
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>barrier</td><td>2</td><td></td></tr>
+     * <tr><td>cache_measures</td><td>100</td><td></td></tr>
+     * <tr><td>chains</td><td>4</td><td></td></tr>
+     * <tr><td>dependency_ordering</td><td>200</td><td></td></tr>
+     * <tr><td>dimensions</td><td>8</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, measure caches</td></tr>
+     * <tr><td>graph</td><td>40</td><td></td></tr>
+     * <tr><td>graph_wrap</td><td>80</td><td></td></tr>
+     * <tr><td>grouping</td><td>400</td><td></td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>ratio</td><td>10</td><td></td></tr>
+     * <tr><td>standard</td><td>101</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_optimizationLevel=0x7f03011b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f0300a4;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listDividerAlertDialog=0x7f0300a5;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listItemLayout=0x7f0300a6;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listLayout=0x7f0300a7;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listMenuViewStyle=0x7f0300a8;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int listPopupWindowStyle=0x7f0300a9;
+    public static final int limitBoundsTo=0x7f03011c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1324,51 +2326,105 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f0300aa;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int listPreferredItemHeightLarge=0x7f0300ab;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int listPreferredItemHeightSmall=0x7f0300ac;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int listPreferredItemPaddingLeft=0x7f0300ad;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int listPreferredItemPaddingRight=0x7f0300ae;
+    public static final int lineHeight=0x7f03011d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f0300af;
+    public static final int listChoiceBackgroundIndicator=0x7f03011e;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listDividerAlertDialog=0x7f03011f;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listItemLayout=0x7f030120;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listLayout=0x7f030121;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listMenuViewStyle=0x7f030122;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int listPopupWindowStyle=0x7f030123;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemHeight=0x7f030124;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemHeightLarge=0x7f030125;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemHeightSmall=0x7f030126;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemPaddingLeft=0x7f030127;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int listPreferredItemPaddingRight=0x7f030128;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int logo=0x7f030129;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f0300b0;
+    public static final int logoDescription=0x7f03012a;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int maxAcceleration=0x7f03012b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1376,31 +2432,173 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f0300b1;
+    public static final int maxButtonHeight=0x7f03012c;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int maxHeight=0x7f03012d;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int maxVelocity=0x7f03012e;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int maxWidth=0x7f03012f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f0300b2;
+    public static final int measureWithLargestChild=0x7f030130;
     /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
      */
-    public static final int multiChoiceItemLayout=0x7f0300b3;
+    public static final int minHeight=0x7f030131;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int minWidth=0x7f030132;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int mock_diagonalsColor=0x7f030133;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f0300b4;
+    public static final int mock_label=0x7f030134;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int mock_labelBackgroundColor=0x7f030135;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int mock_labelColor=0x7f030136;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int mock_showDiagonals=0x7f030137;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int mock_showLabel=0x7f030138;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>NO_DEBUG</td><td>0</td><td></td></tr>
+     * <tr><td>SHOW_ALL</td><td>3</td><td></td></tr>
+     * <tr><td>SHOW_PATH</td><td>2</td><td></td></tr>
+     * <tr><td>SHOW_PROGRESS</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int motionDebug=0x7f030139;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bounce</td><td>5</td><td></td></tr>
+     * <tr><td>easeIn</td><td>1</td><td></td></tr>
+     * <tr><td>easeInOut</td><td>0</td><td></td></tr>
+     * <tr><td>easeOut</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * </table>
+     */
+    public static final int motionInterpolator=0x7f03013a;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int motionPathRotate=0x7f03013b;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int motionProgress=0x7f03013c;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int motionStagger=0x7f03013d;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int motionTarget=0x7f03013e;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int motion_postLayoutCollision=0x7f03013f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f0300b5;
+    public static final int motion_triggerOnCollision=0x7f030140;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int moveWhenScrollAtTop=0x7f030141;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int multiChoiceItemLayout=0x7f030142;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int navigationContentDescription=0x7f030143;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int navigationIcon=0x7f030144;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1413,7 +2611,20 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f0300b6;
+    public static final int navigationMode=0x7f030145;
+    /**
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>disablePostScroll</td><td>1</td><td></td></tr>
+     * <tr><td>disableScroll</td><td>2</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int nestedScrollFlags=0x7f030146;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1429,194 +2640,354 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f0300b7;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int overlapAnchor=0x7f0300b8;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int paddingBottomNoButtons=0x7f0300b9;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int paddingEnd=0x7f0300ba;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int paddingStart=0x7f0300bb;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int paddingTopNoTitle=0x7f0300bc;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int panelBackground=0x7f0300bd;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int panelMenuListTheme=0x7f0300be;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int panelMenuListWidth=0x7f0300bf;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int popupMenuStyle=0x7f0300c0;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int popupTheme=0x7f0300c1;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int popupWindowStyle=0x7f0300c2;
-    /**
-     * <p>May be a boolean value, such as "<code>true</code>" or
-     * "<code>false</code>".
-     */
-    public static final int preserveIconSpacing=0x7f0300c3;
-    /**
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     */
-    public static final int progressBarPadding=0x7f0300c4;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int progressBarStyle=0x7f0300c5;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int queryBackground=0x7f0300c6;
+    public static final int numericModifiers=0x7f030147;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f0300c7;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int radioButtonStyle=0x7f0300c8;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int ratingBarStyle=0x7f0300c9;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int ratingBarStyleIndicator=0x7f0300ca;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int ratingBarStyleSmall=0x7f0300cb;
+    public static final int onCross=0x7f030148;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f0300cc;
+    public static final int onHide=0x7f030149;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int onNegativeCross=0x7f03014a;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int onPositiveCross=0x7f03014b;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int onShow=0x7f03014c;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>autoComplete</td><td>0</td><td></td></tr>
+     * <tr><td>autoCompleteToEnd</td><td>2</td><td></td></tr>
+     * <tr><td>autoCompleteToStart</td><td>1</td><td></td></tr>
+     * <tr><td>decelerate</td><td>4</td><td></td></tr>
+     * <tr><td>decelerateAndComplete</td><td>5</td><td></td></tr>
+     * <tr><td>stop</td><td>3</td><td></td></tr>
+     * </table>
+     */
+    public static final int onTouchUp=0x7f03014d;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int overlapAnchor=0x7f03014e;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int overlay=0x7f03014f;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int paddingBottomNoButtons=0x7f030150;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int paddingEnd=0x7f030151;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int paddingStart=0x7f030152;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int paddingTopNoTitle=0x7f030153;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f0300cd;
+    public static final int panelBackground=0x7f030154;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f0300ce;
+    public static final int panelMenuListTheme=0x7f030155;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int panelMenuListWidth=0x7f030156;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>flip</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>startHorizontal</td><td>2</td><td></td></tr>
+     * <tr><td>startVertical</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int pathMotionArc=0x7f030157;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int path_percent=0x7f030158;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int percentHeight=0x7f030159;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int percentWidth=0x7f03015a;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int percentX=0x7f03015b;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int percentY=0x7f03015c;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int perpendicularPath_percent=0x7f03015d;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int pivotAnchor=0x7f03015e;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>8</td><td></td></tr>
+     * <tr><td>invisible</td><td>4</td><td></td></tr>
+     * <tr><td>visible</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int placeholder_emptyVisibility=0x7f03015f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f0300cf;
+    public static final int popupMenuStyle=0x7f030160;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f0300d0;
+    public static final int popupTheme=0x7f030161;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f0300d1;
+    public static final int popupWindowStyle=0x7f030162;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int preserveIconSpacing=0x7f030163;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int progressBarPadding=0x7f030164;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f0300d2;
+    public static final int progressBarStyle=0x7f030165;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int queryBackground=0x7f030166;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int queryHint=0x7f030167;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int radioButtonStyle=0x7f030168;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int ratingBarStyle=0x7f030169;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int ratingBarStyleIndicator=0x7f03016a;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int ratingBarStyleSmall=0x7f03016b;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int region_heightLessThan=0x7f03016c;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int region_heightMoreThan=0x7f03016d;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int region_widthLessThan=0x7f03016e;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int region_widthMoreThan=0x7f03016f;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int reverseLayout=0x7f030170;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int round=0x7f030171;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int roundPercent=0x7f030172;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int saturation=0x7f030173;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int searchHintIcon=0x7f030174;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int searchIcon=0x7f030175;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int searchViewStyle=0x7f030176;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int seekBarStyle=0x7f030177;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int selectableItemBackground=0x7f030178;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int selectableItemBackgroundBorderless=0x7f030179;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1631,7 +3002,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f0300d3;
+    public static final int showAsAction=0x7f03017a;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1645,69 +3016,82 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f0300d4;
+    public static final int showDividers=0x7f03017b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f0300d5;
+    public static final int showPaths=0x7f03017c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f0300d6;
+    public static final int showText=0x7f03017d;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int showTitle=0x7f03017e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f0300d7;
+    public static final int singleChoiceItemLayout=0x7f03017f;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int sizePercent=0x7f030180;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f0300d8;
+    public static final int spanCount=0x7f030181;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f0300d9;
+    public static final int spinBars=0x7f030182;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f0300da;
+    public static final int spinnerDropDownItemStyle=0x7f030183;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f0300db;
+    public static final int spinnerStyle=0x7f030184;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f0300dc;
+    public static final int splitTrack=0x7f030185;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f0300dd;
+    public static final int srcCompat=0x7f030186;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f0300de;
+    public static final int stackFromEnd=0x7f030187;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int staggered=0x7f030188;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f0300df;
+    public static final int state_above_anchor=0x7f030189;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1717,53 +3101,53 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarBackground=0x7f0300e0;
+    public static final int statusBarBackground=0x7f03018a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f0300e1;
+    public static final int subMenuArrow=0x7f03018b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f0300e2;
+    public static final int submitBackground=0x7f03018c;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f0300e3;
+    public static final int subtitle=0x7f03018d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f0300e4;
+    public static final int subtitleTextAppearance=0x7f03018e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f0300e5;
+    public static final int subtitleTextColor=0x7f03018f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f0300e6;
+    public static final int subtitleTextStyle=0x7f030190;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f0300e7;
+    public static final int suggestionRowLayout=0x7f030191;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1771,7 +3155,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f0300e8;
+    public static final int switchMinWidth=0x7f030192;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1779,21 +3163,52 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f0300e9;
+    public static final int switchPadding=0x7f030193;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f0300ea;
+    public static final int switchStyle=0x7f030194;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f0300eb;
+    public static final int switchTextAppearance=0x7f030195;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int targetId=0x7f030196;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int telltales_tailColor=0x7f030197;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int telltales_tailScale=0x7f030198;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>layout</td><td>0</td><td></td></tr>
+     * <tr><td>postLayout</td><td>1</td><td></td></tr>
+     * <tr><td>staticLayout</td><td>3</td><td></td></tr>
+     * <tr><td>staticPostLayout</td><td>2</td><td></td></tr>
+     * </table>
+     */
+    public static final int telltales_velocityMode=0x7f030199;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1802,73 +3217,63 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f0300ec;
+    public static final int textAllCaps=0x7f03019a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f0300ed;
+    public static final int textAppearanceLargePopupMenu=0x7f03019b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f0300ee;
+    public static final int textAppearanceListItem=0x7f03019c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f0300ef;
+    public static final int textAppearanceListItemSecondary=0x7f03019d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f0300f0;
+    public static final int textAppearanceListItemSmall=0x7f03019e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f0300f1;
+    public static final int textAppearancePopupMenuHeader=0x7f03019f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f0300f2;
+    public static final int textAppearanceSearchResultSubtitle=0x7f0301a0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f0300f3;
+    public static final int textAppearanceSearchResultTitle=0x7f0301a1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f0300f4;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f0300f5;
+    public static final int textAppearanceSmallPopupMenu=0x7f0301a2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1878,14 +3283,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f0300f6;
+    public static final int textColorAlertDialogListItem=0x7f0301a3;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f0301a4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f0300f7;
+    public static final int theme=0x7f0301a5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1893,7 +3308,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f0300f8;
+    public static final int thickness=0x7f0301a6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1901,13 +3316,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f0300f9;
+    public static final int thumbTextPadding=0x7f0301a7;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f0300fa;
+    public static final int thumbTint=0x7f0301a8;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1923,20 +3338,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f0300fb;
+    public static final int thumbTintMode=0x7f0301a9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f0300fc;
+    public static final int tickMark=0x7f0301aa;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f0300fd;
+    public static final int tickMarkTint=0x7f0301ab;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1952,13 +3367,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f0300fe;
+    public static final int tickMarkTintMode=0x7f0301ac;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f0300ff;
+    public static final int tint=0x7f0301ad;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1974,12 +3389,12 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f030100;
+    public static final int tintMode=0x7f0301ae;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f030101;
+    public static final int title=0x7f0301af;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1987,7 +3402,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f030102;
+    public static final int titleMargin=0x7f0301b0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1995,7 +3410,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f030103;
+    public static final int titleMarginBottom=0x7f0301b1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2003,7 +3418,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f030104;
+    public static final int titleMarginEnd=0x7f0301b2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2011,7 +3426,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f030105;
+    public static final int titleMarginStart=0x7f0301b3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2019,7 +3434,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f030106;
+    public static final int titleMarginTop=0x7f0301b4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2027,41 +3442,41 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f030107;
+    public static final int titleMargins=0x7f0301b5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f030108;
+    public static final int titleTextAppearance=0x7f0301b6;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f030109;
+    public static final int titleTextColor=0x7f0301b7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f03010a;
+    public static final int titleTextStyle=0x7f0301b8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f03010b;
+    public static final int toolbarNavigationButtonStyle=0x7f0301b9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f03010c;
+    public static final int toolbarStyle=0x7f0301ba;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2071,32 +3486,63 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f03010d;
+    public static final int tooltipForegroundColor=0x7f0301bb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f03010e;
+    public static final int tooltipFrameBackground=0x7f0301bc;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f03010f;
+    public static final int tooltipText=0x7f0301bd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f030110;
+    public static final int touchAnchorId=0x7f0301be;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>1</td><td></td></tr>
+     * <tr><td>middle</td><td>4</td><td></td></tr>
+     * <tr><td>right</td><td>2</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int touchAnchorSide=0x7f0301bf;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int touchRegionId=0x7f0301c0;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int track=0x7f0301c1;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f030111;
+    public static final int trackTint=0x7f0301c2;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2112,34 +3558,155 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f030112;
+    public static final int trackTintMode=0x7f0301c3;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int transitionDisable=0x7f0301c4;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>accelerate</td><td>1</td><td></td></tr>
+     * <tr><td>decelerate</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * </table>
      */
-    public static final int viewInflaterClass=0x7f030113;
+    public static final int transitionEasing=0x7f0301c5;
+    /**
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>beginOnFirstDraw</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int transitionFlags=0x7f0301c6;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int transitionPathRotate=0x7f0301c7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f030114;
+    public static final int triggerId=0x7f0301c8;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int triggerReceiver=0x7f0301c9;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int triggerSlack=0x7f0301ca;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int ttcIndex=0x7f0301cb;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int viewInflaterClass=0x7f0301cc;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>ignore</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int visibilityMode=0x7f0301cd;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int voiceIcon=0x7f0301ce;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int warmth=0x7f0301cf;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int waveDecay=0x7f0301d0;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int waveOffset=0x7f0301d1;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int wavePeriod=0x7f0301d2;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bounce</td><td>6</td><td></td></tr>
+     * <tr><td>cos</td><td>5</td><td></td></tr>
+     * <tr><td>reverseSawtooth</td><td>4</td><td></td></tr>
+     * <tr><td>sawtooth</td><td>3</td><td></td></tr>
+     * <tr><td>sin</td><td>0</td><td></td></tr>
+     * <tr><td>square</td><td>1</td><td></td></tr>
+     * <tr><td>triangle</td><td>2</td><td></td></tr>
+     * </table>
+     */
+    public static final int waveShape=0x7f0301d3;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>path</td><td>1</td><td></td></tr>
+     * <tr><td>position</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int waveVariesBy=0x7f0301d4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f030115;
+    public static final int windowActionBar=0x7f0301d5;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f030116;
+    public static final int windowActionBarOverlay=0x7f0301d6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f030117;
+    public static final int windowActionModeOverlay=0x7f0301d7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2151,7 +3718,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f030118;
+    public static final int windowFixedHeightMajor=0x7f0301d8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2163,7 +3730,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f030119;
+    public static final int windowFixedHeightMinor=0x7f0301d9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2175,7 +3742,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f03011a;
+    public static final int windowFixedWidthMajor=0x7f0301da;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2187,7 +3754,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f03011b;
+    public static final int windowFixedWidthMinor=0x7f0301db;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2199,7 +3766,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f03011c;
+    public static final int windowMinWidthMajor=0x7f0301dc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2211,18 +3778,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f03011d;
+    public static final int windowMinWidthMinor=0x7f0301dd;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f03011e;
+    public static final int windowNoTitle=0x7f0301de;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
     public static final int abc_allow_stacked_button_bar=0x7f040001;
     public static final int abc_config_actionMenuItemAllCaps=0x7f040002;
-    public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f040003;
   }
   public static final class color {
     public static final int abc_background_cache_hint_selector_material_dark=0x7f050000;
@@ -2274,47 +3840,48 @@ public final class R {
     public static final int dim_foreground_disabled_material_light=0x7f05002e;
     public static final int dim_foreground_material_dark=0x7f05002f;
     public static final int dim_foreground_material_light=0x7f050030;
-    public static final int error_color_material=0x7f050031;
-    public static final int foreground_material_dark=0x7f050032;
-    public static final int foreground_material_light=0x7f050033;
-    public static final int highlighted_text_material_dark=0x7f050034;
-    public static final int highlighted_text_material_light=0x7f050035;
-    public static final int material_blue_grey_800=0x7f050036;
-    public static final int material_blue_grey_900=0x7f050037;
-    public static final int material_blue_grey_950=0x7f050038;
-    public static final int material_deep_teal_200=0x7f050039;
-    public static final int material_deep_teal_500=0x7f05003a;
-    public static final int material_grey_100=0x7f05003b;
-    public static final int material_grey_300=0x7f05003c;
-    public static final int material_grey_50=0x7f05003d;
-    public static final int material_grey_600=0x7f05003e;
-    public static final int material_grey_800=0x7f05003f;
-    public static final int material_grey_850=0x7f050040;
-    public static final int material_grey_900=0x7f050041;
-    public static final int notification_action_color_filter=0x7f050042;
-    public static final int notification_icon_bg_color=0x7f050043;
-    public static final int primary_dark_material_dark=0x7f050044;
-    public static final int primary_dark_material_light=0x7f050045;
-    public static final int primary_material_dark=0x7f050046;
-    public static final int primary_material_light=0x7f050047;
-    public static final int primary_text_default_material_dark=0x7f050048;
-    public static final int primary_text_default_material_light=0x7f050049;
-    public static final int primary_text_disabled_material_dark=0x7f05004a;
-    public static final int primary_text_disabled_material_light=0x7f05004b;
-    public static final int ripple_material_dark=0x7f05004c;
-    public static final int ripple_material_light=0x7f05004d;
-    public static final int secondary_text_default_material_dark=0x7f05004e;
-    public static final int secondary_text_default_material_light=0x7f05004f;
-    public static final int secondary_text_disabled_material_dark=0x7f050050;
-    public static final int secondary_text_disabled_material_light=0x7f050051;
-    public static final int switch_thumb_disabled_material_dark=0x7f050052;
-    public static final int switch_thumb_disabled_material_light=0x7f050053;
-    public static final int switch_thumb_material_dark=0x7f050054;
-    public static final int switch_thumb_material_light=0x7f050055;
-    public static final int switch_thumb_normal_material_dark=0x7f050056;
-    public static final int switch_thumb_normal_material_light=0x7f050057;
-    public static final int tooltip_background_dark=0x7f050058;
-    public static final int tooltip_background_light=0x7f050059;
+    public static final int error_color_material_dark=0x7f050031;
+    public static final int error_color_material_light=0x7f050032;
+    public static final int foreground_material_dark=0x7f050033;
+    public static final int foreground_material_light=0x7f050034;
+    public static final int highlighted_text_material_dark=0x7f050035;
+    public static final int highlighted_text_material_light=0x7f050036;
+    public static final int material_blue_grey_800=0x7f050037;
+    public static final int material_blue_grey_900=0x7f050038;
+    public static final int material_blue_grey_950=0x7f050039;
+    public static final int material_deep_teal_200=0x7f05003a;
+    public static final int material_deep_teal_500=0x7f05003b;
+    public static final int material_grey_100=0x7f05003c;
+    public static final int material_grey_300=0x7f05003d;
+    public static final int material_grey_50=0x7f05003e;
+    public static final int material_grey_600=0x7f05003f;
+    public static final int material_grey_800=0x7f050040;
+    public static final int material_grey_850=0x7f050041;
+    public static final int material_grey_900=0x7f050042;
+    public static final int notification_action_color_filter=0x7f050043;
+    public static final int notification_icon_bg_color=0x7f050044;
+    public static final int primary_dark_material_dark=0x7f050045;
+    public static final int primary_dark_material_light=0x7f050046;
+    public static final int primary_material_dark=0x7f050047;
+    public static final int primary_material_light=0x7f050048;
+    public static final int primary_text_default_material_dark=0x7f050049;
+    public static final int primary_text_default_material_light=0x7f05004a;
+    public static final int primary_text_disabled_material_dark=0x7f05004b;
+    public static final int primary_text_disabled_material_light=0x7f05004c;
+    public static final int ripple_material_dark=0x7f05004d;
+    public static final int ripple_material_light=0x7f05004e;
+    public static final int secondary_text_default_material_dark=0x7f05004f;
+    public static final int secondary_text_default_material_light=0x7f050050;
+    public static final int secondary_text_disabled_material_dark=0x7f050051;
+    public static final int secondary_text_disabled_material_light=0x7f050052;
+    public static final int switch_thumb_disabled_material_dark=0x7f050053;
+    public static final int switch_thumb_disabled_material_light=0x7f050054;
+    public static final int switch_thumb_material_dark=0x7f050055;
+    public static final int switch_thumb_material_light=0x7f050056;
+    public static final int switch_thumb_normal_material_dark=0x7f050057;
+    public static final int switch_thumb_normal_material_light=0x7f050058;
+    public static final int tooltip_background_dark=0x7f050059;
+    public static final int tooltip_background_light=0x7f05005a;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f060000;
@@ -2326,25 +3893,25 @@ public final class R {
     public static final int abc_action_bar_icon_vertical_padding_material=0x7f060006;
     public static final int abc_action_bar_overflow_padding_end_material=0x7f060007;
     public static final int abc_action_bar_overflow_padding_start_material=0x7f060008;
-    public static final int abc_action_bar_progress_bar_size=0x7f060009;
-    public static final int abc_action_bar_stacked_max_height=0x7f06000a;
-    public static final int abc_action_bar_stacked_tab_max_width=0x7f06000b;
-    public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f06000c;
-    public static final int abc_action_bar_subtitle_top_margin_material=0x7f06000d;
-    public static final int abc_action_button_min_height_material=0x7f06000e;
-    public static final int abc_action_button_min_width_material=0x7f06000f;
-    public static final int abc_action_button_min_width_overflow_material=0x7f060010;
-    public static final int abc_alert_dialog_button_bar_height=0x7f060011;
-    public static final int abc_alert_dialog_button_dimen=0x7f060012;
-    public static final int abc_button_inset_horizontal_material=0x7f060013;
-    public static final int abc_button_inset_vertical_material=0x7f060014;
-    public static final int abc_button_padding_horizontal_material=0x7f060015;
-    public static final int abc_button_padding_vertical_material=0x7f060016;
-    public static final int abc_cascading_menus_min_smallest_width=0x7f060017;
-    public static final int abc_config_prefDialogWidth=0x7f060018;
-    public static final int abc_control_corner_material=0x7f060019;
-    public static final int abc_control_inset_material=0x7f06001a;
-    public static final int abc_control_padding_material=0x7f06001b;
+    public static final int abc_action_bar_stacked_max_height=0x7f060009;
+    public static final int abc_action_bar_stacked_tab_max_width=0x7f06000a;
+    public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f06000b;
+    public static final int abc_action_bar_subtitle_top_margin_material=0x7f06000c;
+    public static final int abc_action_button_min_height_material=0x7f06000d;
+    public static final int abc_action_button_min_width_material=0x7f06000e;
+    public static final int abc_action_button_min_width_overflow_material=0x7f06000f;
+    public static final int abc_alert_dialog_button_bar_height=0x7f060010;
+    public static final int abc_alert_dialog_button_dimen=0x7f060011;
+    public static final int abc_button_inset_horizontal_material=0x7f060012;
+    public static final int abc_button_inset_vertical_material=0x7f060013;
+    public static final int abc_button_padding_horizontal_material=0x7f060014;
+    public static final int abc_button_padding_vertical_material=0x7f060015;
+    public static final int abc_cascading_menus_min_smallest_width=0x7f060016;
+    public static final int abc_config_prefDialogWidth=0x7f060017;
+    public static final int abc_control_corner_material=0x7f060018;
+    public static final int abc_control_inset_material=0x7f060019;
+    public static final int abc_control_padding_material=0x7f06001a;
+    public static final int abc_dialog_corner_radius_material=0x7f06001b;
     public static final int abc_dialog_fixed_height_major=0x7f06001c;
     public static final int abc_dialog_fixed_height_minor=0x7f06001d;
     public static final int abc_dialog_fixed_width_major=0x7f06001e;
@@ -2402,44 +3969,46 @@ public final class R {
     public static final int compat_button_padding_horizontal_material=0x7f060052;
     public static final int compat_button_padding_vertical_material=0x7f060053;
     public static final int compat_control_corner_material=0x7f060054;
-    public static final int disabled_alpha_material_dark=0x7f060055;
-    public static final int disabled_alpha_material_light=0x7f060056;
-    public static final int fastscroll_default_thickness=0x7f060057;
-    public static final int fastscroll_margin=0x7f060058;
-    public static final int fastscroll_minimum_range=0x7f060059;
-    public static final int highlight_alpha_material_colored=0x7f06005a;
-    public static final int highlight_alpha_material_dark=0x7f06005b;
-    public static final int highlight_alpha_material_light=0x7f06005c;
-    public static final int hint_alpha_material_dark=0x7f06005d;
-    public static final int hint_alpha_material_light=0x7f06005e;
-    public static final int hint_pressed_alpha_material_dark=0x7f06005f;
-    public static final int hint_pressed_alpha_material_light=0x7f060060;
-    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f060061;
-    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f060062;
-    public static final int item_touch_helper_swipe_escape_velocity=0x7f060063;
-    public static final int notification_action_icon_size=0x7f060064;
-    public static final int notification_action_text_size=0x7f060065;
-    public static final int notification_big_circle_margin=0x7f060066;
-    public static final int notification_content_margin_start=0x7f060067;
-    public static final int notification_large_icon_height=0x7f060068;
-    public static final int notification_large_icon_width=0x7f060069;
-    public static final int notification_main_column_padding_top=0x7f06006a;
-    public static final int notification_media_narrow_margin=0x7f06006b;
-    public static final int notification_right_icon_size=0x7f06006c;
-    public static final int notification_right_side_padding_top=0x7f06006d;
-    public static final int notification_small_icon_background_padding=0x7f06006e;
-    public static final int notification_small_icon_size_as_large=0x7f06006f;
-    public static final int notification_subtext_size=0x7f060070;
-    public static final int notification_top_pad=0x7f060071;
-    public static final int notification_top_pad_large_text=0x7f060072;
-    public static final int tooltip_corner_radius=0x7f060073;
-    public static final int tooltip_horizontal_padding=0x7f060074;
-    public static final int tooltip_margin=0x7f060075;
-    public static final int tooltip_precise_anchor_extra_offset=0x7f060076;
-    public static final int tooltip_precise_anchor_threshold=0x7f060077;
-    public static final int tooltip_vertical_padding=0x7f060078;
-    public static final int tooltip_y_offset_non_touch=0x7f060079;
-    public static final int tooltip_y_offset_touch=0x7f06007a;
+    public static final int compat_notification_large_icon_max_height=0x7f060055;
+    public static final int compat_notification_large_icon_max_width=0x7f060056;
+    public static final int disabled_alpha_material_dark=0x7f060057;
+    public static final int disabled_alpha_material_light=0x7f060058;
+    public static final int fastscroll_default_thickness=0x7f060059;
+    public static final int fastscroll_margin=0x7f06005a;
+    public static final int fastscroll_minimum_range=0x7f06005b;
+    public static final int highlight_alpha_material_colored=0x7f06005c;
+    public static final int highlight_alpha_material_dark=0x7f06005d;
+    public static final int highlight_alpha_material_light=0x7f06005e;
+    public static final int hint_alpha_material_dark=0x7f06005f;
+    public static final int hint_alpha_material_light=0x7f060060;
+    public static final int hint_pressed_alpha_material_dark=0x7f060061;
+    public static final int hint_pressed_alpha_material_light=0x7f060062;
+    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f060063;
+    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f060064;
+    public static final int item_touch_helper_swipe_escape_velocity=0x7f060065;
+    public static final int notification_action_icon_size=0x7f060066;
+    public static final int notification_action_text_size=0x7f060067;
+    public static final int notification_big_circle_margin=0x7f060068;
+    public static final int notification_content_margin_start=0x7f060069;
+    public static final int notification_large_icon_height=0x7f06006a;
+    public static final int notification_large_icon_width=0x7f06006b;
+    public static final int notification_main_column_padding_top=0x7f06006c;
+    public static final int notification_media_narrow_margin=0x7f06006d;
+    public static final int notification_right_icon_size=0x7f06006e;
+    public static final int notification_right_side_padding_top=0x7f06006f;
+    public static final int notification_small_icon_background_padding=0x7f060070;
+    public static final int notification_small_icon_size_as_large=0x7f060071;
+    public static final int notification_subtext_size=0x7f060072;
+    public static final int notification_top_pad=0x7f060073;
+    public static final int notification_top_pad_large_text=0x7f060074;
+    public static final int tooltip_corner_radius=0x7f060075;
+    public static final int tooltip_horizontal_padding=0x7f060076;
+    public static final int tooltip_margin=0x7f060077;
+    public static final int tooltip_precise_anchor_extra_offset=0x7f060078;
+    public static final int tooltip_precise_anchor_threshold=0x7f060079;
+    public static final int tooltip_vertical_padding=0x7f06007a;
+    public static final int tooltip_y_offset_non_touch=0x7f06007b;
+    public static final int tooltip_y_offset_touch=0x7f06007c;
   }
   public static final class drawable {
     public static final int abc_ab_share_pack_mtrl_alpha=0x7f070000;
@@ -2482,210 +4051,300 @@ public final class R {
     public static final int abc_ic_voice_search_api_material=0x7f070025;
     public static final int abc_item_background_holo_dark=0x7f070026;
     public static final int abc_item_background_holo_light=0x7f070027;
-    public static final int abc_list_divider_mtrl_alpha=0x7f070028;
-    public static final int abc_list_focused_holo=0x7f070029;
-    public static final int abc_list_longpressed_holo=0x7f07002a;
-    public static final int abc_list_pressed_holo_dark=0x7f07002b;
-    public static final int abc_list_pressed_holo_light=0x7f07002c;
-    public static final int abc_list_selector_background_transition_holo_dark=0x7f07002d;
-    public static final int abc_list_selector_background_transition_holo_light=0x7f07002e;
-    public static final int abc_list_selector_disabled_holo_dark=0x7f07002f;
-    public static final int abc_list_selector_disabled_holo_light=0x7f070030;
-    public static final int abc_list_selector_holo_dark=0x7f070031;
-    public static final int abc_list_selector_holo_light=0x7f070032;
-    public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f070033;
-    public static final int abc_popup_background_mtrl_mult=0x7f070034;
-    public static final int abc_ratingbar_indicator_material=0x7f070035;
-    public static final int abc_ratingbar_material=0x7f070036;
-    public static final int abc_ratingbar_small_material=0x7f070037;
-    public static final int abc_scrubber_control_off_mtrl_alpha=0x7f070038;
-    public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f070039;
-    public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f07003a;
-    public static final int abc_scrubber_primary_mtrl_alpha=0x7f07003b;
-    public static final int abc_scrubber_track_mtrl_alpha=0x7f07003c;
-    public static final int abc_seekbar_thumb_material=0x7f07003d;
-    public static final int abc_seekbar_tick_mark_material=0x7f07003e;
-    public static final int abc_seekbar_track_material=0x7f07003f;
-    public static final int abc_spinner_mtrl_am_alpha=0x7f070040;
-    public static final int abc_spinner_textfield_background_material=0x7f070041;
-    public static final int abc_switch_thumb_material=0x7f070042;
-    public static final int abc_switch_track_mtrl_alpha=0x7f070043;
-    public static final int abc_tab_indicator_material=0x7f070044;
-    public static final int abc_tab_indicator_mtrl_alpha=0x7f070045;
-    public static final int abc_text_cursor_material=0x7f070046;
-    public static final int abc_text_select_handle_left_mtrl_dark=0x7f070047;
-    public static final int abc_text_select_handle_left_mtrl_light=0x7f070048;
-    public static final int abc_text_select_handle_middle_mtrl_dark=0x7f070049;
-    public static final int abc_text_select_handle_middle_mtrl_light=0x7f07004a;
-    public static final int abc_text_select_handle_right_mtrl_dark=0x7f07004b;
-    public static final int abc_text_select_handle_right_mtrl_light=0x7f07004c;
-    public static final int abc_textfield_activated_mtrl_alpha=0x7f07004d;
-    public static final int abc_textfield_default_mtrl_alpha=0x7f07004e;
-    public static final int abc_textfield_search_activated_mtrl_alpha=0x7f07004f;
-    public static final int abc_textfield_search_default_mtrl_alpha=0x7f070050;
-    public static final int abc_textfield_search_material=0x7f070051;
-    public static final int abc_vector_test=0x7f070052;
-    public static final int img_badminton=0x7f070053;
-    public static final int img_baseball=0x7f070054;
-    public static final int img_basketball=0x7f070055;
-    public static final int img_bowling=0x7f070056;
-    public static final int img_cycling=0x7f070057;
-    public static final int img_golf=0x7f070058;
-    public static final int img_running=0x7f070059;
-    public static final int img_soccer=0x7f07005a;
-    public static final int img_swimming=0x7f07005b;
-    public static final int img_tabletennis=0x7f07005c;
-    public static final int img_tennis=0x7f07005d;
-    public static final int notification_action_background=0x7f07005e;
-    public static final int notification_bg=0x7f07005f;
-    public static final int notification_bg_low=0x7f070060;
-    public static final int notification_bg_low_normal=0x7f070061;
-    public static final int notification_bg_low_pressed=0x7f070062;
-    public static final int notification_bg_normal=0x7f070063;
-    public static final int notification_bg_normal_pressed=0x7f070064;
-    public static final int notification_icon_background=0x7f070065;
-    public static final int notification_template_icon_bg=0x7f070066;
-    public static final int notification_template_icon_low_bg=0x7f070067;
-    public static final int notification_tile_bg=0x7f070068;
-    public static final int notify_panel_notification_icon_bg=0x7f070069;
-    public static final int tooltip_frame_dark=0x7f07006a;
-    public static final int tooltip_frame_light=0x7f07006b;
+    public static final int abc_list_divider_material=0x7f070028;
+    public static final int abc_list_divider_mtrl_alpha=0x7f070029;
+    public static final int abc_list_focused_holo=0x7f07002a;
+    public static final int abc_list_longpressed_holo=0x7f07002b;
+    public static final int abc_list_pressed_holo_dark=0x7f07002c;
+    public static final int abc_list_pressed_holo_light=0x7f07002d;
+    public static final int abc_list_selector_background_transition_holo_dark=0x7f07002e;
+    public static final int abc_list_selector_background_transition_holo_light=0x7f07002f;
+    public static final int abc_list_selector_disabled_holo_dark=0x7f070030;
+    public static final int abc_list_selector_disabled_holo_light=0x7f070031;
+    public static final int abc_list_selector_holo_dark=0x7f070032;
+    public static final int abc_list_selector_holo_light=0x7f070033;
+    public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f070034;
+    public static final int abc_popup_background_mtrl_mult=0x7f070035;
+    public static final int abc_ratingbar_indicator_material=0x7f070036;
+    public static final int abc_ratingbar_material=0x7f070037;
+    public static final int abc_ratingbar_small_material=0x7f070038;
+    public static final int abc_scrubber_control_off_mtrl_alpha=0x7f070039;
+    public static final int abc_scrubber_control_to_pressed_mtrl_000=0x7f07003a;
+    public static final int abc_scrubber_control_to_pressed_mtrl_005=0x7f07003b;
+    public static final int abc_scrubber_primary_mtrl_alpha=0x7f07003c;
+    public static final int abc_scrubber_track_mtrl_alpha=0x7f07003d;
+    public static final int abc_seekbar_thumb_material=0x7f07003e;
+    public static final int abc_seekbar_tick_mark_material=0x7f07003f;
+    public static final int abc_seekbar_track_material=0x7f070040;
+    public static final int abc_spinner_mtrl_am_alpha=0x7f070041;
+    public static final int abc_spinner_textfield_background_material=0x7f070042;
+    public static final int abc_switch_thumb_material=0x7f070043;
+    public static final int abc_switch_track_mtrl_alpha=0x7f070044;
+    public static final int abc_tab_indicator_material=0x7f070045;
+    public static final int abc_tab_indicator_mtrl_alpha=0x7f070046;
+    public static final int abc_text_cursor_material=0x7f070047;
+    public static final int abc_text_select_handle_left_mtrl_dark=0x7f070048;
+    public static final int abc_text_select_handle_left_mtrl_light=0x7f070049;
+    public static final int abc_text_select_handle_middle_mtrl_dark=0x7f07004a;
+    public static final int abc_text_select_handle_middle_mtrl_light=0x7f07004b;
+    public static final int abc_text_select_handle_right_mtrl_dark=0x7f07004c;
+    public static final int abc_text_select_handle_right_mtrl_light=0x7f07004d;
+    public static final int abc_textfield_activated_mtrl_alpha=0x7f07004e;
+    public static final int abc_textfield_default_mtrl_alpha=0x7f07004f;
+    public static final int abc_textfield_search_activated_mtrl_alpha=0x7f070050;
+    public static final int abc_textfield_search_default_mtrl_alpha=0x7f070051;
+    public static final int abc_textfield_search_material=0x7f070052;
+    public static final int abc_vector_test=0x7f070053;
+    public static final int img_badminton=0x7f070054;
+    public static final int img_baseball=0x7f070055;
+    public static final int img_basketball=0x7f070056;
+    public static final int img_bowling=0x7f070057;
+    public static final int img_cycling=0x7f070058;
+    public static final int img_golf=0x7f070059;
+    public static final int img_running=0x7f07005a;
+    public static final int img_soccer=0x7f07005b;
+    public static final int img_swimming=0x7f07005c;
+    public static final int img_tabletennis=0x7f07005d;
+    public static final int img_tennis=0x7f07005e;
+    public static final int notification_action_background=0x7f07005f;
+    public static final int notification_bg=0x7f070060;
+    public static final int notification_bg_low=0x7f070061;
+    public static final int notification_bg_low_normal=0x7f070062;
+    public static final int notification_bg_low_pressed=0x7f070063;
+    public static final int notification_bg_normal=0x7f070064;
+    public static final int notification_bg_normal_pressed=0x7f070065;
+    public static final int notification_icon_background=0x7f070066;
+    public static final int notification_template_icon_bg=0x7f070067;
+    public static final int notification_template_icon_low_bg=0x7f070068;
+    public static final int notification_tile_bg=0x7f070069;
+    public static final int notify_panel_notification_icon_bg=0x7f07006a;
+    public static final int tooltip_frame_dark=0x7f07006b;
+    public static final int tooltip_frame_light=0x7f07006c;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
     public static final int CTRL=0x7f080001;
     public static final int FUNCTION=0x7f080002;
     public static final int META=0x7f080003;
-    public static final int SHIFT=0x7f080004;
-    public static final int SYM=0x7f080005;
-    public static final int action_bar=0x7f080006;
-    public static final int action_bar_activity_content=0x7f080007;
-    public static final int action_bar_container=0x7f080008;
-    public static final int action_bar_root=0x7f080009;
-    public static final int action_bar_spinner=0x7f08000a;
-    public static final int action_bar_subtitle=0x7f08000b;
-    public static final int action_bar_title=0x7f08000c;
-    public static final int action_container=0x7f08000d;
-    public static final int action_context_bar=0x7f08000e;
-    public static final int action_divider=0x7f08000f;
-    public static final int action_image=0x7f080010;
-    public static final int action_menu_divider=0x7f080011;
-    public static final int action_menu_presenter=0x7f080012;
-    public static final int action_mode_bar=0x7f080013;
-    public static final int action_mode_bar_stub=0x7f080014;
-    public static final int action_mode_close_button=0x7f080015;
-    public static final int action_text=0x7f080016;
-    public static final int actions=0x7f080017;
-    public static final int activity_chooser_view_content=0x7f080018;
-    public static final int add=0x7f080019;
-    public static final int alertTitle=0x7f08001a;
-    public static final int all=0x7f08001b;
-    public static final int always=0x7f08001c;
-    public static final int async=0x7f08001d;
-    public static final int beginning=0x7f08001e;
-    public static final int blocking=0x7f08001f;
-    public static final int bottom=0x7f080020;
-    public static final int buttonPanel=0x7f080021;
-    public static final int center=0x7f080022;
-    public static final int center_horizontal=0x7f080023;
-    public static final int center_vertical=0x7f080024;
-    public static final int checkbox=0x7f080025;
-    public static final int chronometer=0x7f080026;
-    public static final int clip_horizontal=0x7f080027;
-    public static final int clip_vertical=0x7f080028;
-    public static final int collapseActionView=0x7f080029;
-    public static final int contentPanel=0x7f08002a;
-    public static final int custom=0x7f08002b;
-    public static final int customPanel=0x7f08002c;
-    public static final int decor_content_parent=0x7f08002d;
-    public static final int default_activity_button=0x7f08002e;
-    public static final int disableHome=0x7f08002f;
-    public static final int edit_query=0x7f080030;
-    public static final int end=0x7f080031;
-    public static final int expand_activities_button=0x7f080032;
-    public static final int expanded_menu=0x7f080033;
-    public static final int fill=0x7f080034;
-    public static final int fill_horizontal=0x7f080035;
-    public static final int fill_vertical=0x7f080036;
-    public static final int forever=0x7f080037;
-    public static final int home=0x7f080038;
-    public static final int homeAsUp=0x7f080039;
-    public static final int icon=0x7f08003a;
-    public static final int icon_group=0x7f08003b;
-    public static final int ifRoom=0x7f08003c;
-    public static final int image=0x7f08003d;
-    public static final int info=0x7f08003e;
-    public static final int italic=0x7f08003f;
-    public static final int item_touch_helper_previous_elevation=0x7f080040;
-    public static final int left=0x7f080041;
-    public static final int line1=0x7f080042;
-    public static final int line3=0x7f080043;
-    public static final int listMode=0x7f080044;
-    public static final int list_item=0x7f080045;
-    public static final int message=0x7f080046;
-    public static final int middle=0x7f080047;
-    public static final int multiply=0x7f080048;
-    public static final int never=0x7f080049;
-    public static final int newsTitle=0x7f08004a;
-    public static final int none=0x7f08004b;
-    public static final int normal=0x7f08004c;
-    public static final int notification_background=0x7f08004d;
-    public static final int notification_main_column=0x7f08004e;
-    public static final int notification_main_column_container=0x7f08004f;
-    public static final int parentPanel=0x7f080050;
-    public static final int progress_circular=0x7f080051;
-    public static final int progress_horizontal=0x7f080052;
-    public static final int radio=0x7f080053;
-    public static final int recyclerView=0x7f080054;
-    public static final int right=0x7f080055;
-    public static final int right_icon=0x7f080056;
-    public static final int right_side=0x7f080057;
-    public static final int screen=0x7f080058;
-    public static final int scrollIndicatorDown=0x7f080059;
-    public static final int scrollIndicatorUp=0x7f08005a;
-    public static final int scrollView=0x7f08005b;
-    public static final int search_badge=0x7f08005c;
-    public static final int search_bar=0x7f08005d;
-    public static final int search_button=0x7f08005e;
-    public static final int search_close_btn=0x7f08005f;
-    public static final int search_edit_frame=0x7f080060;
-    public static final int search_go_btn=0x7f080061;
-    public static final int search_mag_icon=0x7f080062;
-    public static final int search_plate=0x7f080063;
-    public static final int search_src_text=0x7f080064;
-    public static final int search_voice_btn=0x7f080065;
-    public static final int select_dialog_listview=0x7f080066;
-    public static final int shortcut=0x7f080067;
-    public static final int showCustom=0x7f080068;
-    public static final int showHome=0x7f080069;
-    public static final int showTitle=0x7f08006a;
-    public static final int spacer=0x7f08006b;
-    public static final int split_action_bar=0x7f08006c;
-    public static final int sportsImage=0x7f08006d;
-    public static final int src_atop=0x7f08006e;
-    public static final int src_in=0x7f08006f;
-    public static final int src_over=0x7f080070;
-    public static final int start=0x7f080071;
-    public static final int subTitle=0x7f080072;
-    public static final int submenuarrow=0x7f080073;
-    public static final int submit_area=0x7f080074;
-    public static final int tabMode=0x7f080075;
-    public static final int tag_transition_group=0x7f080076;
-    public static final int text=0x7f080077;
-    public static final int text2=0x7f080078;
-    public static final int textSpacerNoButtons=0x7f080079;
-    public static final int textSpacerNoTitle=0x7f08007a;
-    public static final int time=0x7f08007b;
-    public static final int title=0x7f08007c;
-    public static final int titleDividerNoCustom=0x7f08007d;
-    public static final int title_template=0x7f08007e;
-    public static final int top=0x7f08007f;
-    public static final int topPanel=0x7f080080;
-    public static final int uniform=0x7f080081;
-    public static final int up=0x7f080082;
-    public static final int useLogo=0x7f080083;
-    public static final int withText=0x7f080084;
-    public static final int wrap_content=0x7f080085;
+    public static final int NO_DEBUG=0x7f080004;
+    public static final int SHIFT=0x7f080005;
+    public static final int SHOW_ALL=0x7f080006;
+    public static final int SHOW_PATH=0x7f080007;
+    public static final int SHOW_PROGRESS=0x7f080008;
+    public static final int SYM=0x7f080009;
+    public static final int accelerate=0x7f08000a;
+    public static final int action_bar=0x7f08000b;
+    public static final int action_bar_activity_content=0x7f08000c;
+    public static final int action_bar_container=0x7f08000d;
+    public static final int action_bar_root=0x7f08000e;
+    public static final int action_bar_spinner=0x7f08000f;
+    public static final int action_bar_subtitle=0x7f080010;
+    public static final int action_bar_title=0x7f080011;
+    public static final int action_container=0x7f080012;
+    public static final int action_context_bar=0x7f080013;
+    public static final int action_divider=0x7f080014;
+    public static final int action_image=0x7f080015;
+    public static final int action_menu_divider=0x7f080016;
+    public static final int action_menu_presenter=0x7f080017;
+    public static final int action_mode_bar=0x7f080018;
+    public static final int action_mode_bar_stub=0x7f080019;
+    public static final int action_mode_close_button=0x7f08001a;
+    public static final int action_text=0x7f08001b;
+    public static final int actions=0x7f08001c;
+    public static final int activity_chooser_view_content=0x7f08001d;
+    public static final int add=0x7f08001e;
+    public static final int alertTitle=0x7f08001f;
+    public static final int aligned=0x7f080020;
+    public static final int all=0x7f080021;
+    public static final int always=0x7f080022;
+    public static final int animateToEnd=0x7f080023;
+    public static final int animateToStart=0x7f080024;
+    public static final int asConfigured=0x7f080025;
+    public static final int async=0x7f080026;
+    public static final int autoComplete=0x7f080027;
+    public static final int autoCompleteToEnd=0x7f080028;
+    public static final int autoCompleteToStart=0x7f080029;
+    public static final int barrier=0x7f08002a;
+    public static final int baseline=0x7f08002b;
+    public static final int beginOnFirstDraw=0x7f08002c;
+    public static final int beginning=0x7f08002d;
+    public static final int blocking=0x7f08002e;
+    public static final int bottom=0x7f08002f;
+    public static final int bounce=0x7f080030;
+    public static final int buttonPanel=0x7f080031;
+    public static final int cache_measures=0x7f080032;
+    public static final int center=0x7f080033;
+    public static final int center_horizontal=0x7f080034;
+    public static final int center_vertical=0x7f080035;
+    public static final int chain=0x7f080036;
+    public static final int chains=0x7f080037;
+    public static final int checkbox=0x7f080038;
+    public static final int chronometer=0x7f080039;
+    public static final int clip_horizontal=0x7f08003a;
+    public static final int clip_vertical=0x7f08003b;
+    public static final int collapseActionView=0x7f08003c;
+    public static final int content=0x7f08003d;
+    public static final int contentPanel=0x7f08003e;
+    public static final int cos=0x7f08003f;
+    public static final int custom=0x7f080040;
+    public static final int customPanel=0x7f080041;
+    public static final int decelerate=0x7f080042;
+    public static final int decelerateAndComplete=0x7f080043;
+    public static final int decor_content_parent=0x7f080044;
+    public static final int default_activity_button=0x7f080045;
+    public static final int deltaRelative=0x7f080046;
+    public static final int dependency_ordering=0x7f080047;
+    public static final int dimensions=0x7f080048;
+    public static final int direct=0x7f080049;
+    public static final int disableHome=0x7f08004a;
+    public static final int disablePostScroll=0x7f08004b;
+    public static final int disableScroll=0x7f08004c;
+    public static final int dragDown=0x7f08004d;
+    public static final int dragEnd=0x7f08004e;
+    public static final int dragLeft=0x7f08004f;
+    public static final int dragRight=0x7f080050;
+    public static final int dragStart=0x7f080051;
+    public static final int dragUp=0x7f080052;
+    public static final int easeIn=0x7f080053;
+    public static final int easeInOut=0x7f080054;
+    public static final int easeOut=0x7f080055;
+    public static final int edit_query=0x7f080056;
+    public static final int end=0x7f080057;
+    public static final int expand_activities_button=0x7f080058;
+    public static final int expanded_menu=0x7f080059;
+    public static final int fill=0x7f08005a;
+    public static final int fill_horizontal=0x7f08005b;
+    public static final int fill_vertical=0x7f08005c;
+    public static final int flip=0x7f08005d;
+    public static final int forever=0x7f08005e;
+    public static final int gone=0x7f08005f;
+    public static final int graph=0x7f080060;
+    public static final int graph_wrap=0x7f080061;
+    public static final int group_divider=0x7f080062;
+    public static final int grouping=0x7f080063;
+    public static final int groups=0x7f080064;
+    public static final int home=0x7f080065;
+    public static final int homeAsUp=0x7f080066;
+    public static final int honorRequest=0x7f080067;
+    public static final int icon=0x7f080068;
+    public static final int icon_group=0x7f080069;
+    public static final int ifRoom=0x7f08006a;
+    public static final int ignore=0x7f08006b;
+    public static final int ignoreRequest=0x7f08006c;
+    public static final int image=0x7f08006d;
+    public static final int info=0x7f08006e;
+    public static final int invisible=0x7f08006f;
+    public static final int italic=0x7f080070;
+    public static final int item_touch_helper_previous_elevation=0x7f080071;
+    public static final int jumpToEnd=0x7f080072;
+    public static final int jumpToStart=0x7f080073;
+    public static final int layout=0x7f080074;
+    public static final int left=0x7f080075;
+    public static final int line1=0x7f080076;
+    public static final int line3=0x7f080077;
+    public static final int linear=0x7f080078;
+    public static final int listMode=0x7f080079;
+    public static final int list_item=0x7f08007a;
+    public static final int message=0x7f08007b;
+    public static final int middle=0x7f08007c;
+    public static final int motion_base=0x7f08007d;
+    public static final int multiply=0x7f08007e;
+    public static final int never=0x7f08007f;
+    public static final int newsTitle=0x7f080080;
+    public static final int newsTitleDetail=0x7f080081;
+    public static final int none=0x7f080082;
+    public static final int normal=0x7f080083;
+    public static final int notification_background=0x7f080084;
+    public static final int notification_main_column=0x7f080085;
+    public static final int notification_main_column_container=0x7f080086;
+    public static final int packed=0x7f080087;
+    public static final int parent=0x7f080088;
+    public static final int parentPanel=0x7f080089;
+    public static final int parentRelative=0x7f08008a;
+    public static final int path=0x7f08008b;
+    public static final int pathRelative=0x7f08008c;
+    public static final int percent=0x7f08008d;
+    public static final int position=0x7f08008e;
+    public static final int postLayout=0x7f08008f;
+    public static final int progress_circular=0x7f080090;
+    public static final int progress_horizontal=0x7f080091;
+    public static final int radio=0x7f080092;
+    public static final int ratio=0x7f080093;
+    public static final int rectangles=0x7f080094;
+    public static final int recyclerView=0x7f080095;
+    public static final int reverseSawtooth=0x7f080096;
+    public static final int right=0x7f080097;
+    public static final int right_icon=0x7f080098;
+    public static final int right_side=0x7f080099;
+    public static final int sawtooth=0x7f08009a;
+    public static final int screen=0x7f08009b;
+    public static final int scrollIndicatorDown=0x7f08009c;
+    public static final int scrollIndicatorUp=0x7f08009d;
+    public static final int scrollView=0x7f08009e;
+    public static final int search_badge=0x7f08009f;
+    public static final int search_bar=0x7f0800a0;
+    public static final int search_button=0x7f0800a1;
+    public static final int search_close_btn=0x7f0800a2;
+    public static final int search_edit_frame=0x7f0800a3;
+    public static final int search_go_btn=0x7f0800a4;
+    public static final int search_mag_icon=0x7f0800a5;
+    public static final int search_plate=0x7f0800a6;
+    public static final int search_src_text=0x7f0800a7;
+    public static final int search_voice_btn=0x7f0800a8;
+    public static final int select_dialog_listview=0x7f0800a9;
+    public static final int shortcut=0x7f0800aa;
+    public static final int showCustom=0x7f0800ab;
+    public static final int showHome=0x7f0800ac;
+    public static final int showTitle=0x7f0800ad;
+    public static final int sin=0x7f0800ae;
+    public static final int spacer=0x7f0800af;
+    public static final int spline=0x7f0800b0;
+    public static final int split_action_bar=0x7f0800b1;
+    public static final int sportsImage=0x7f0800b2;
+    public static final int sportsImageDetail=0x7f0800b3;
+    public static final int spread=0x7f0800b4;
+    public static final int spread_inside=0x7f0800b5;
+    public static final int square=0x7f0800b6;
+    public static final int src_atop=0x7f0800b7;
+    public static final int src_in=0x7f0800b8;
+    public static final int src_over=0x7f0800b9;
+    public static final int standard=0x7f0800ba;
+    public static final int start=0x7f0800bb;
+    public static final int startHorizontal=0x7f0800bc;
+    public static final int startVertical=0x7f0800bd;
+    public static final int staticLayout=0x7f0800be;
+    public static final int staticPostLayout=0x7f0800bf;
+    public static final int stop=0x7f0800c0;
+    public static final int subTitle=0x7f0800c1;
+    public static final int subTitleDetail=0x7f0800c2;
+    public static final int submenuarrow=0x7f0800c3;
+    public static final int submit_area=0x7f0800c4;
+    public static final int tabMode=0x7f0800c5;
+    public static final int tag_transition_group=0x7f0800c6;
+    public static final int tag_unhandled_key_event_manager=0x7f0800c7;
+    public static final int tag_unhandled_key_listeners=0x7f0800c8;
+    public static final int text=0x7f0800c9;
+    public static final int text2=0x7f0800ca;
+    public static final int textSpacerNoButtons=0x7f0800cb;
+    public static final int textSpacerNoTitle=0x7f0800cc;
+    public static final int time=0x7f0800cd;
+    public static final int title=0x7f0800ce;
+    public static final int titleDetail=0x7f0800cf;
+    public static final int titleDividerNoCustom=0x7f0800d0;
+    public static final int title_template=0x7f0800d1;
+    public static final int toggle=0x7f0800d2;
+    public static final int top=0x7f0800d3;
+    public static final int topPanel=0x7f0800d4;
+    public static final int transitionToEnd=0x7f0800d5;
+    public static final int transitionToStart=0x7f0800d6;
+    public static final int triangle=0x7f0800d7;
+    public static final int uniform=0x7f0800d8;
+    public static final int up=0x7f0800d9;
+    public static final int useLogo=0x7f0800da;
+    public static final int visible=0x7f0800db;
+    public static final int withText=0x7f0800dc;
+    public static final int wrap=0x7f0800dd;
+    public static final int wrap_content=0x7f0800de;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -2706,34 +4365,36 @@ public final class R {
     public static final int abc_alert_dialog_button_bar_material=0x7f0a0008;
     public static final int abc_alert_dialog_material=0x7f0a0009;
     public static final int abc_alert_dialog_title_material=0x7f0a000a;
-    public static final int abc_dialog_title_material=0x7f0a000b;
-    public static final int abc_expanded_menu_layout=0x7f0a000c;
-    public static final int abc_list_menu_item_checkbox=0x7f0a000d;
-    public static final int abc_list_menu_item_icon=0x7f0a000e;
-    public static final int abc_list_menu_item_layout=0x7f0a000f;
-    public static final int abc_list_menu_item_radio=0x7f0a0010;
-    public static final int abc_popup_menu_header_item_layout=0x7f0a0011;
-    public static final int abc_popup_menu_item_layout=0x7f0a0012;
-    public static final int abc_screen_content_include=0x7f0a0013;
-    public static final int abc_screen_simple=0x7f0a0014;
-    public static final int abc_screen_simple_overlay_action_mode=0x7f0a0015;
-    public static final int abc_screen_toolbar=0x7f0a0016;
-    public static final int abc_search_dropdown_item_icons_2line=0x7f0a0017;
-    public static final int abc_search_view=0x7f0a0018;
-    public static final int abc_select_dialog_material=0x7f0a0019;
-    public static final int abc_tooltip=0x7f0a001a;
-    public static final int activity_main=0x7f0a001b;
-    public static final int list_item=0x7f0a001c;
-    public static final int notification_action=0x7f0a001d;
-    public static final int notification_action_tombstone=0x7f0a001e;
-    public static final int notification_template_custom_big=0x7f0a001f;
-    public static final int notification_template_icon_group=0x7f0a0020;
-    public static final int notification_template_part_chronometer=0x7f0a0021;
-    public static final int notification_template_part_time=0x7f0a0022;
-    public static final int select_dialog_item_material=0x7f0a0023;
-    public static final int select_dialog_multichoice_material=0x7f0a0024;
-    public static final int select_dialog_singlechoice_material=0x7f0a0025;
-    public static final int support_simple_spinner_dropdown_item=0x7f0a0026;
+    public static final int abc_cascading_menu_item_layout=0x7f0a000b;
+    public static final int abc_dialog_title_material=0x7f0a000c;
+    public static final int abc_expanded_menu_layout=0x7f0a000d;
+    public static final int abc_list_menu_item_checkbox=0x7f0a000e;
+    public static final int abc_list_menu_item_icon=0x7f0a000f;
+    public static final int abc_list_menu_item_layout=0x7f0a0010;
+    public static final int abc_list_menu_item_radio=0x7f0a0011;
+    public static final int abc_popup_menu_header_item_layout=0x7f0a0012;
+    public static final int abc_popup_menu_item_layout=0x7f0a0013;
+    public static final int abc_screen_content_include=0x7f0a0014;
+    public static final int abc_screen_simple=0x7f0a0015;
+    public static final int abc_screen_simple_overlay_action_mode=0x7f0a0016;
+    public static final int abc_screen_toolbar=0x7f0a0017;
+    public static final int abc_search_dropdown_item_icons_2line=0x7f0a0018;
+    public static final int abc_search_view=0x7f0a0019;
+    public static final int abc_select_dialog_material=0x7f0a001a;
+    public static final int abc_tooltip=0x7f0a001b;
+    public static final int activity_detail=0x7f0a001c;
+    public static final int activity_main=0x7f0a001d;
+    public static final int list_item=0x7f0a001e;
+    public static final int notification_action=0x7f0a001f;
+    public static final int notification_action_tombstone=0x7f0a0020;
+    public static final int notification_template_custom_big=0x7f0a0021;
+    public static final int notification_template_icon_group=0x7f0a0022;
+    public static final int notification_template_part_chronometer=0x7f0a0023;
+    public static final int notification_template_part_time=0x7f0a0024;
+    public static final int select_dialog_item_material=0x7f0a0025;
+    public static final int select_dialog_multichoice_material=0x7f0a0026;
+    public static final int select_dialog_singlechoice_material=0x7f0a0027;
+    public static final int support_simple_spinner_dropdown_item=0x7f0a0028;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0b0000;
@@ -2759,21 +4420,32 @@ public final class R {
     public static final int abc_font_family_menu_material=0x7f0c0011;
     public static final int abc_font_family_subhead_material=0x7f0c0012;
     public static final int abc_font_family_title_material=0x7f0c0013;
-    public static final int abc_search_hint=0x7f0c0014;
-    public static final int abc_searchview_description_clear=0x7f0c0015;
-    public static final int abc_searchview_description_query=0x7f0c0016;
-    public static final int abc_searchview_description_search=0x7f0c0017;
-    public static final int abc_searchview_description_submit=0x7f0c0018;
-    public static final int abc_searchview_description_voice=0x7f0c0019;
-    public static final int abc_shareactionprovider_share_with=0x7f0c001a;
-    public static final int abc_shareactionprovider_share_with_application=0x7f0c001b;
-    public static final int abc_toolbar_collapse_description=0x7f0c001c;
-    public static final int app_name=0x7f0c001d;
-    public static final int news_placeholder=0x7f0c001e;
-    public static final int search_menu_title=0x7f0c001f;
-    public static final int sports_info_placeholder=0x7f0c0020;
-    public static final int status_bar_notification_info_overflow=0x7f0c0021;
-    public static final int title_placeholder=0x7f0c0022;
+    public static final int abc_menu_alt_shortcut_label=0x7f0c0014;
+    public static final int abc_menu_ctrl_shortcut_label=0x7f0c0015;
+    public static final int abc_menu_delete_shortcut_label=0x7f0c0016;
+    public static final int abc_menu_enter_shortcut_label=0x7f0c0017;
+    public static final int abc_menu_function_shortcut_label=0x7f0c0018;
+    public static final int abc_menu_meta_shortcut_label=0x7f0c0019;
+    public static final int abc_menu_shift_shortcut_label=0x7f0c001a;
+    public static final int abc_menu_space_shortcut_label=0x7f0c001b;
+    public static final int abc_menu_sym_shortcut_label=0x7f0c001c;
+    public static final int abc_prepend_shortcut_label=0x7f0c001d;
+    public static final int abc_search_hint=0x7f0c001e;
+    public static final int abc_searchview_description_clear=0x7f0c001f;
+    public static final int abc_searchview_description_query=0x7f0c0020;
+    public static final int abc_searchview_description_search=0x7f0c0021;
+    public static final int abc_searchview_description_submit=0x7f0c0022;
+    public static final int abc_searchview_description_voice=0x7f0c0023;
+    public static final int abc_shareactionprovider_share_with=0x7f0c0024;
+    public static final int abc_shareactionprovider_share_with_application=0x7f0c0025;
+    public static final int abc_toolbar_collapse_description=0x7f0c0026;
+    public static final int app_name=0x7f0c0027;
+    public static final int lorem_ipsum=0x7f0c0028;
+    public static final int news_placeholder=0x7f0c0029;
+    public static final int search_menu_title=0x7f0c002a;
+    public static final int sports_info_placeholder=0x7f0c002b;
+    public static final int status_bar_notification_info_overflow=0x7f0c002c;
+    public static final int title_placeholder=0x7f0c002d;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0d0000;
@@ -2871,257 +4543,262 @@ public final class R {
     public static final int Base_V26_Theme_AppCompat=0x7f0d005c;
     public static final int Base_V26_Theme_AppCompat_Light=0x7f0d005d;
     public static final int Base_V26_Widget_AppCompat_Toolbar=0x7f0d005e;
-    public static final int Base_V7_Theme_AppCompat=0x7f0d005f;
-    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0d0060;
-    public static final int Base_V7_Theme_AppCompat_Light=0x7f0d0061;
-    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0d0062;
-    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0d0063;
-    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0d0064;
-    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0d0065;
-    public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0d0066;
-    public static final int Base_Widget_AppCompat_ActionBar=0x7f0d0067;
-    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0d0068;
-    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0d0069;
-    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0d006a;
-    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0d006b;
-    public static final int Base_Widget_AppCompat_ActionButton=0x7f0d006c;
-    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0d006d;
-    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0d006e;
-    public static final int Base_Widget_AppCompat_ActionMode=0x7f0d006f;
-    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0d0070;
-    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0d0071;
-    public static final int Base_Widget_AppCompat_Button=0x7f0d0072;
-    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0d0073;
-    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0d0074;
-    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d0075;
-    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0d0076;
-    public static final int Base_Widget_AppCompat_Button_Small=0x7f0d0077;
-    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0d0078;
-    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d0079;
-    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0d007a;
-    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0d007b;
-    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0d007c;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0d007d;
-    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0d007e;
-    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0d007f;
-    public static final int Base_Widget_AppCompat_EditText=0x7f0d0080;
-    public static final int Base_Widget_AppCompat_ImageButton=0x7f0d0081;
-    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0d0082;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0d0083;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d0084;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0d0085;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d0086;
-    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0d0087;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0d0088;
-    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d0089;
-    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0d008a;
-    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0d008b;
-    public static final int Base_Widget_AppCompat_ListView=0x7f0d008c;
-    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0d008d;
-    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0d008e;
-    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0d008f;
-    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0d0090;
-    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0d0091;
-    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0d0092;
-    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0d0093;
-    public static final int Base_Widget_AppCompat_RatingBar=0x7f0d0094;
-    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0d0095;
-    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0d0096;
-    public static final int Base_Widget_AppCompat_SearchView=0x7f0d0097;
-    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0d0098;
-    public static final int Base_Widget_AppCompat_SeekBar=0x7f0d0099;
-    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0d009a;
-    public static final int Base_Widget_AppCompat_Spinner=0x7f0d009b;
-    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0d009c;
-    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0d009d;
-    public static final int Base_Widget_AppCompat_Toolbar=0x7f0d009e;
-    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d009f;
-    public static final int CardView=0x7f0d00a0;
-    public static final int CardView_Dark=0x7f0d00a1;
-    public static final int CardView_Light=0x7f0d00a2;
-    public static final int Platform_AppCompat=0x7f0d00a3;
-    public static final int Platform_AppCompat_Light=0x7f0d00a4;
-    public static final int Platform_ThemeOverlay_AppCompat=0x7f0d00a5;
-    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0d00a6;
-    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0d00a7;
-    public static final int Platform_V21_AppCompat=0x7f0d00a8;
-    public static final int Platform_V21_AppCompat_Light=0x7f0d00a9;
-    public static final int Platform_V25_AppCompat=0x7f0d00aa;
-    public static final int Platform_V25_AppCompat_Light=0x7f0d00ab;
-    public static final int Platform_Widget_AppCompat_Spinner=0x7f0d00ac;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0d00ad;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0d00ae;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0d00af;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0d00b0;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0d00b1;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0d00b2;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0d00b3;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0d00b4;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0d00b5;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0d00b6;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0d00b7;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0d00b8;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0d00b9;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0d00ba;
-    public static final int TextAppearance_AppCompat=0x7f0d00bb;
-    public static final int TextAppearance_AppCompat_Body1=0x7f0d00bc;
-    public static final int TextAppearance_AppCompat_Body2=0x7f0d00bd;
-    public static final int TextAppearance_AppCompat_Button=0x7f0d00be;
-    public static final int TextAppearance_AppCompat_Caption=0x7f0d00bf;
-    public static final int TextAppearance_AppCompat_Display1=0x7f0d00c0;
-    public static final int TextAppearance_AppCompat_Display2=0x7f0d00c1;
-    public static final int TextAppearance_AppCompat_Display3=0x7f0d00c2;
-    public static final int TextAppearance_AppCompat_Display4=0x7f0d00c3;
-    public static final int TextAppearance_AppCompat_Headline=0x7f0d00c4;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f0d00c5;
-    public static final int TextAppearance_AppCompat_Large=0x7f0d00c6;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0d00c7;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0d00c8;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0d00c9;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0d00ca;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0d00cb;
-    public static final int TextAppearance_AppCompat_Medium=0x7f0d00cc;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0d00cd;
-    public static final int TextAppearance_AppCompat_Menu=0x7f0d00ce;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0d00cf;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0d00d0;
-    public static final int TextAppearance_AppCompat_Small=0x7f0d00d1;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0d00d2;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f0d00d3;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0d00d4;
-    public static final int TextAppearance_AppCompat_Title=0x7f0d00d5;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0d00d6;
-    public static final int TextAppearance_AppCompat_Tooltip=0x7f0d00d7;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0d00d8;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0d00d9;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0d00da;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0d00db;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0d00dc;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0d00dd;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0d00de;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0d00df;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0d00e0;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0d00e1;
-    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0d00e2;
-    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0d00e3;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0d00e4;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0d00e5;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0d00e6;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0d00e7;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0d00e8;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0d00e9;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0d00ea;
-    public static final int TextAppearance_Compat_Notification=0x7f0d00eb;
-    public static final int TextAppearance_Compat_Notification_Info=0x7f0d00ec;
-    public static final int TextAppearance_Compat_Notification_Line2=0x7f0d00ed;
-    public static final int TextAppearance_Compat_Notification_Time=0x7f0d00ee;
-    public static final int TextAppearance_Compat_Notification_Title=0x7f0d00ef;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0d00f0;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0d00f1;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0d00f2;
-    public static final int Theme_AppCompat=0x7f0d00f3;
-    public static final int Theme_AppCompat_CompactMenu=0x7f0d00f4;
-    public static final int Theme_AppCompat_DayNight=0x7f0d00f5;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0d00f6;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0d00f7;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0d00f8;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0d00f9;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0d00fa;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0d00fb;
-    public static final int Theme_AppCompat_Dialog=0x7f0d00fc;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f0d00fd;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0d00fe;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0d00ff;
-    public static final int Theme_AppCompat_Light=0x7f0d0100;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0d0101;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f0d0102;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0d0103;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0d0104;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0d0105;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0d0106;
-    public static final int Theme_AppCompat_NoActionBar=0x7f0d0107;
-    public static final int ThemeOverlay_AppCompat=0x7f0d0108;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0d0109;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f0d010a;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0d010b;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0d010c;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0d010d;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f0d010e;
-    public static final int Widget_AppCompat_ActionBar=0x7f0d010f;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0d0110;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0d0111;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0d0112;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0d0113;
-    public static final int Widget_AppCompat_ActionButton=0x7f0d0114;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0d0115;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0d0116;
-    public static final int Widget_AppCompat_ActionMode=0x7f0d0117;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f0d0118;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0d0119;
-    public static final int Widget_AppCompat_Button=0x7f0d011a;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f0d011b;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0d011c;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d011d;
-    public static final int Widget_AppCompat_Button_Colored=0x7f0d011e;
-    public static final int Widget_AppCompat_Button_Small=0x7f0d011f;
-    public static final int Widget_AppCompat_ButtonBar=0x7f0d0120;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d0121;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0d0122;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0d0123;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0d0124;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0d0125;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0d0126;
-    public static final int Widget_AppCompat_EditText=0x7f0d0127;
-    public static final int Widget_AppCompat_ImageButton=0x7f0d0128;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f0d0129;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0d012a;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0d012b;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d012c;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0d012d;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0d012e;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d012f;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0d0130;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0d0131;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f0d0132;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0d0133;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0d0134;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0d0135;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0d0136;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0d0137;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0d0138;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0d0139;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0d013a;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0d013b;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d013c;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f0d013d;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0d013e;
-    public static final int Widget_AppCompat_ListMenuView=0x7f0d013f;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f0d0140;
-    public static final int Widget_AppCompat_ListView=0x7f0d0141;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f0d0142;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f0d0143;
-    public static final int Widget_AppCompat_PopupMenu=0x7f0d0144;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0d0145;
-    public static final int Widget_AppCompat_PopupWindow=0x7f0d0146;
-    public static final int Widget_AppCompat_ProgressBar=0x7f0d0147;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0d0148;
-    public static final int Widget_AppCompat_RatingBar=0x7f0d0149;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0d014a;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f0d014b;
-    public static final int Widget_AppCompat_SearchView=0x7f0d014c;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0d014d;
-    public static final int Widget_AppCompat_SeekBar=0x7f0d014e;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0d014f;
-    public static final int Widget_AppCompat_Spinner=0x7f0d0150;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0d0151;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0d0152;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0d0153;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0d0154;
-    public static final int Widget_AppCompat_Toolbar=0x7f0d0155;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d0156;
-    public static final int Widget_Compat_NotificationActionContainer=0x7f0d0157;
-    public static final int Widget_Compat_NotificationActionText=0x7f0d0158;
-    public static final int Widget_Support_CoordinatorLayout=0x7f0d0159;
+    public static final int Base_V28_Theme_AppCompat=0x7f0d005f;
+    public static final int Base_V28_Theme_AppCompat_Light=0x7f0d0060;
+    public static final int Base_V7_Theme_AppCompat=0x7f0d0061;
+    public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0d0062;
+    public static final int Base_V7_Theme_AppCompat_Light=0x7f0d0063;
+    public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0d0064;
+    public static final int Base_V7_ThemeOverlay_AppCompat_Dialog=0x7f0d0065;
+    public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0d0066;
+    public static final int Base_V7_Widget_AppCompat_EditText=0x7f0d0067;
+    public static final int Base_V7_Widget_AppCompat_Toolbar=0x7f0d0068;
+    public static final int Base_Widget_AppCompat_ActionBar=0x7f0d0069;
+    public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0d006a;
+    public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0d006b;
+    public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0d006c;
+    public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0d006d;
+    public static final int Base_Widget_AppCompat_ActionButton=0x7f0d006e;
+    public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0d006f;
+    public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0d0070;
+    public static final int Base_Widget_AppCompat_ActionMode=0x7f0d0071;
+    public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0d0072;
+    public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0d0073;
+    public static final int Base_Widget_AppCompat_Button=0x7f0d0074;
+    public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0d0075;
+    public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0d0076;
+    public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d0077;
+    public static final int Base_Widget_AppCompat_Button_Colored=0x7f0d0078;
+    public static final int Base_Widget_AppCompat_Button_Small=0x7f0d0079;
+    public static final int Base_Widget_AppCompat_ButtonBar=0x7f0d007a;
+    public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d007b;
+    public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0d007c;
+    public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0d007d;
+    public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0d007e;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0d007f;
+    public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0d0080;
+    public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0d0081;
+    public static final int Base_Widget_AppCompat_EditText=0x7f0d0082;
+    public static final int Base_Widget_AppCompat_ImageButton=0x7f0d0083;
+    public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0d0084;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0d0085;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d0086;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0d0087;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d0088;
+    public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0d0089;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0d008a;
+    public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d008b;
+    public static final int Base_Widget_AppCompat_ListMenuView=0x7f0d008c;
+    public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0d008d;
+    public static final int Base_Widget_AppCompat_ListView=0x7f0d008e;
+    public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0d008f;
+    public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0d0090;
+    public static final int Base_Widget_AppCompat_PopupMenu=0x7f0d0091;
+    public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0d0092;
+    public static final int Base_Widget_AppCompat_PopupWindow=0x7f0d0093;
+    public static final int Base_Widget_AppCompat_ProgressBar=0x7f0d0094;
+    public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0d0095;
+    public static final int Base_Widget_AppCompat_RatingBar=0x7f0d0096;
+    public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0d0097;
+    public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0d0098;
+    public static final int Base_Widget_AppCompat_SearchView=0x7f0d0099;
+    public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0d009a;
+    public static final int Base_Widget_AppCompat_SeekBar=0x7f0d009b;
+    public static final int Base_Widget_AppCompat_SeekBar_Discrete=0x7f0d009c;
+    public static final int Base_Widget_AppCompat_Spinner=0x7f0d009d;
+    public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0d009e;
+    public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0d009f;
+    public static final int Base_Widget_AppCompat_Toolbar=0x7f0d00a0;
+    public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d00a1;
+    public static final int CardView=0x7f0d00a2;
+    public static final int CardView_Dark=0x7f0d00a3;
+    public static final int CardView_Light=0x7f0d00a4;
+    public static final int Platform_AppCompat=0x7f0d00a5;
+    public static final int Platform_AppCompat_Light=0x7f0d00a6;
+    public static final int Platform_ThemeOverlay_AppCompat=0x7f0d00a7;
+    public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0d00a8;
+    public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0d00a9;
+    public static final int Platform_V21_AppCompat=0x7f0d00aa;
+    public static final int Platform_V21_AppCompat_Light=0x7f0d00ab;
+    public static final int Platform_V25_AppCompat=0x7f0d00ac;
+    public static final int Platform_V25_AppCompat_Light=0x7f0d00ad;
+    public static final int Platform_Widget_AppCompat_Spinner=0x7f0d00ae;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0d00af;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0d00b0;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0d00b1;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0d00b2;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0d00b3;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut=0x7f0d00b4;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow=0x7f0d00b5;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0d00b6;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title=0x7f0d00b7;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0d00b8;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0d00b9;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0d00ba;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0d00bb;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0d00bc;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0d00bd;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0d00be;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0d00bf;
+    public static final int TextAppearance_AppCompat=0x7f0d00c0;
+    public static final int TextAppearance_AppCompat_Body1=0x7f0d00c1;
+    public static final int TextAppearance_AppCompat_Body2=0x7f0d00c2;
+    public static final int TextAppearance_AppCompat_Button=0x7f0d00c3;
+    public static final int TextAppearance_AppCompat_Caption=0x7f0d00c4;
+    public static final int TextAppearance_AppCompat_Display1=0x7f0d00c5;
+    public static final int TextAppearance_AppCompat_Display2=0x7f0d00c6;
+    public static final int TextAppearance_AppCompat_Display3=0x7f0d00c7;
+    public static final int TextAppearance_AppCompat_Display4=0x7f0d00c8;
+    public static final int TextAppearance_AppCompat_Headline=0x7f0d00c9;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f0d00ca;
+    public static final int TextAppearance_AppCompat_Large=0x7f0d00cb;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0d00cc;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0d00cd;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0d00ce;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0d00cf;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0d00d0;
+    public static final int TextAppearance_AppCompat_Medium=0x7f0d00d1;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0d00d2;
+    public static final int TextAppearance_AppCompat_Menu=0x7f0d00d3;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0d00d4;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0d00d5;
+    public static final int TextAppearance_AppCompat_Small=0x7f0d00d6;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0d00d7;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f0d00d8;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0d00d9;
+    public static final int TextAppearance_AppCompat_Title=0x7f0d00da;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0d00db;
+    public static final int TextAppearance_AppCompat_Tooltip=0x7f0d00dc;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0d00dd;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0d00de;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0d00df;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0d00e0;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0d00e1;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0d00e2;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0d00e3;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0d00e4;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0d00e5;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f0d00e6;
+    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f0d00e7;
+    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f0d00e8;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0d00e9;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0d00ea;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f0d00eb;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0d00ec;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0d00ed;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0d00ee;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0d00ef;
+    public static final int TextAppearance_Compat_Notification=0x7f0d00f0;
+    public static final int TextAppearance_Compat_Notification_Info=0x7f0d00f1;
+    public static final int TextAppearance_Compat_Notification_Line2=0x7f0d00f2;
+    public static final int TextAppearance_Compat_Notification_Time=0x7f0d00f3;
+    public static final int TextAppearance_Compat_Notification_Title=0x7f0d00f4;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0d00f5;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0d00f6;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0d00f7;
+    public static final int Theme_AppCompat=0x7f0d00f8;
+    public static final int Theme_AppCompat_CompactMenu=0x7f0d00f9;
+    public static final int Theme_AppCompat_DayNight=0x7f0d00fa;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0d00fb;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f0d00fc;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0d00fd;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0d00fe;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0d00ff;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0d0100;
+    public static final int Theme_AppCompat_Dialog=0x7f0d0101;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f0d0102;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0d0103;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f0d0104;
+    public static final int Theme_AppCompat_Light=0x7f0d0105;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0d0106;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f0d0107;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0d0108;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0d0109;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0d010a;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f0d010b;
+    public static final int Theme_AppCompat_NoActionBar=0x7f0d010c;
+    public static final int ThemeOverlay_AppCompat=0x7f0d010d;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0d010e;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f0d010f;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0d0110;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f0d0111;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f0d0112;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f0d0113;
+    public static final int Widget_AppCompat_ActionBar=0x7f0d0114;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f0d0115;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0d0116;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f0d0117;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f0d0118;
+    public static final int Widget_AppCompat_ActionButton=0x7f0d0119;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0d011a;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0d011b;
+    public static final int Widget_AppCompat_ActionMode=0x7f0d011c;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f0d011d;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0d011e;
+    public static final int Widget_AppCompat_Button=0x7f0d011f;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f0d0120;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0d0121;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0d0122;
+    public static final int Widget_AppCompat_Button_Colored=0x7f0d0123;
+    public static final int Widget_AppCompat_Button_Small=0x7f0d0124;
+    public static final int Widget_AppCompat_ButtonBar=0x7f0d0125;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0d0126;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0d0127;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0d0128;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0d0129;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0d012a;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0d012b;
+    public static final int Widget_AppCompat_EditText=0x7f0d012c;
+    public static final int Widget_AppCompat_ImageButton=0x7f0d012d;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f0d012e;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0d012f;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0d0130;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0d0131;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0d0132;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0d0133;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0d0134;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0d0135;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0d0136;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f0d0137;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0d0138;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0d0139;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0d013a;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0d013b;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0d013c;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0d013d;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0d013e;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0d013f;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f0d0140;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0d0141;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f0d0142;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0d0143;
+    public static final int Widget_AppCompat_ListMenuView=0x7f0d0144;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f0d0145;
+    public static final int Widget_AppCompat_ListView=0x7f0d0146;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f0d0147;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f0d0148;
+    public static final int Widget_AppCompat_PopupMenu=0x7f0d0149;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0d014a;
+    public static final int Widget_AppCompat_PopupWindow=0x7f0d014b;
+    public static final int Widget_AppCompat_ProgressBar=0x7f0d014c;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0d014d;
+    public static final int Widget_AppCompat_RatingBar=0x7f0d014e;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0d014f;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f0d0150;
+    public static final int Widget_AppCompat_SearchView=0x7f0d0151;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0d0152;
+    public static final int Widget_AppCompat_SeekBar=0x7f0d0153;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f0d0154;
+    public static final int Widget_AppCompat_Spinner=0x7f0d0155;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f0d0156;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0d0157;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f0d0158;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0d0159;
+    public static final int Widget_AppCompat_Toolbar=0x7f0d015a;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0d015b;
+    public static final int Widget_Compat_NotificationActionContainer=0x7f0d015c;
+    public static final int Widget_Compat_NotificationActionText=0x7f0d015d;
+    public static final int Widget_Support_CoordinatorLayout=0x7f0d015e;
   }
   public static final class styleable {
     /**
@@ -3192,14 +4869,14 @@ public final class R {
      * @see #ActionBar_titleTextStyle
      */
     public static final int[] ActionBar={
-        0x7f030031, 0x7f030032, 0x7f030033, 0x7f03005e, 
-        0x7f03005f, 0x7f030060, 0x7f030061, 0x7f030062, 
-        0x7f030063, 0x7f03006b, 0x7f03006f, 0x7f030070, 
-        0x7f03007b, 0x7f03008e, 0x7f03008f, 0x7f030090, 
-        0x7f030091, 0x7f030092, 0x7f030097, 0x7f03009a, 
-        0x7f0300af, 0x7f0300b6, 0x7f0300c1, 0x7f0300c4, 
-        0x7f0300c5, 0x7f0300e3, 0x7f0300e6, 0x7f030101, 
-        0x7f03010a
+        0x7f030037, 0x7f030038, 0x7f030039, 0x7f030072, 
+        0x7f030073, 0x7f030074, 0x7f030075, 0x7f030076, 
+        0x7f030077, 0x7f030089, 0x7f030095, 0x7f030096, 
+        0x7f0300a6, 0x7f0300cf, 0x7f0300d0, 0x7f0300d1, 
+        0x7f0300d2, 0x7f0300d3, 0x7f0300d8, 0x7f0300db, 
+        0x7f030129, 0x7f030145, 0x7f030161, 0x7f030164, 
+        0x7f030165, 0x7f03018d, 0x7f030190, 0x7f0301af, 
+        0x7f0301b8
       };
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#background}
@@ -3669,8 +5346,8 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-        0x7f030031, 0x7f030032, 0x7f03004e, 0x7f03008e, 
-        0x7f0300e6, 0x7f03010a
+        0x7f030037, 0x7f030038, 0x7f03005b, 0x7f0300cf, 
+        0x7f030190, 0x7f0301b8
       };
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#background}
@@ -3762,7 +5439,7 @@ public final class R {
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-        0x7f03007c, 0x7f030098
+        0x7f0300a7, 0x7f0300d9
       };
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#expandActivityOverflowButtonDrawable}
@@ -3812,8 +5489,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-        0x010100f2, 0x7f03003e, 0x7f03003f, 0x7f0300a6, 
-        0x7f0300a7, 0x7f0300b3, 0x7f0300d6, 0x7f0300d7
+        0x010100f2, 0x7f030048, 0x7f030049, 0x7f030120, 
+        0x7f030121, 0x7f030142, 0x7f03017e, 0x7f03017f
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -3911,6 +5588,195 @@ public final class R {
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
+     * Attributes that can be used with a AnimatedStateListDrawableCompat.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_dither android:dither}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_visible android:visible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_variablePadding android:variablePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_constantSize android:constantSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_enterFadeDuration android:enterFadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableCompat_android_exitFadeDuration android:exitFadeDuration}</code></td><td></td></tr>
+     * </table>
+     * @see #AnimatedStateListDrawableCompat_android_dither
+     * @see #AnimatedStateListDrawableCompat_android_visible
+     * @see #AnimatedStateListDrawableCompat_android_variablePadding
+     * @see #AnimatedStateListDrawableCompat_android_constantSize
+     * @see #AnimatedStateListDrawableCompat_android_enterFadeDuration
+     * @see #AnimatedStateListDrawableCompat_android_exitFadeDuration
+     */
+    public static final int[] AnimatedStateListDrawableCompat={
+        0x0101011c, 0x01010194, 0x01010195, 0x01010196, 
+        0x0101030c, 0x0101030d
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:dither
+     */
+    public static final int AnimatedStateListDrawableCompat_android_dither=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:visible
+     */
+    public static final int AnimatedStateListDrawableCompat_android_visible=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:variablePadding
+     */
+    public static final int AnimatedStateListDrawableCompat_android_variablePadding=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:constantSize
+     */
+    public static final int AnimatedStateListDrawableCompat_android_constantSize=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:enterFadeDuration
+     */
+    public static final int AnimatedStateListDrawableCompat_android_enterFadeDuration=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:exitFadeDuration
+     */
+    public static final int AnimatedStateListDrawableCompat_android_exitFadeDuration=5;
+    /**
+     * Attributes that can be used with a AnimatedStateListDrawableItem.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableItem_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableItem_android_drawable android:drawable}</code></td><td></td></tr>
+     * </table>
+     * @see #AnimatedStateListDrawableItem_android_id
+     * @see #AnimatedStateListDrawableItem_android_drawable
+     */
+    public static final int[] AnimatedStateListDrawableItem={
+        0x010100d0, 0x01010199
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int AnimatedStateListDrawableItem_android_id=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:drawable
+     */
+    public static final int AnimatedStateListDrawableItem_android_drawable=1;
+    /**
+     * Attributes that can be used with a AnimatedStateListDrawableTransition.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableTransition_android_drawable android:drawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableTransition_android_toId android:toId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableTransition_android_fromId android:fromId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AnimatedStateListDrawableTransition_android_reversible android:reversible}</code></td><td></td></tr>
+     * </table>
+     * @see #AnimatedStateListDrawableTransition_android_drawable
+     * @see #AnimatedStateListDrawableTransition_android_toId
+     * @see #AnimatedStateListDrawableTransition_android_fromId
+     * @see #AnimatedStateListDrawableTransition_android_reversible
+     */
+    public static final int[] AnimatedStateListDrawableTransition={
+        0x01010199, 0x01010449, 0x0101044a, 0x0101044b
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:drawable
+     */
+    public static final int AnimatedStateListDrawableTransition_android_drawable=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#toId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:toId
+     */
+    public static final int AnimatedStateListDrawableTransition_android_toId=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#fromId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:fromId
+     */
+    public static final int AnimatedStateListDrawableTransition_android_fromId=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#reversible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:reversible
+     */
+    public static final int AnimatedStateListDrawableTransition_android_reversible=3;
+    /**
      * Attributes that can be used with a AppCompatImageView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -3928,7 +5794,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-        0x01010119, 0x7f0300dd, 0x7f0300ff, 0x7f030100
+        0x01010119, 0x7f030186, 0x7f0301ad, 0x7f0301ae
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -4007,7 +5873,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-        0x01010142, 0x7f0300fc, 0x7f0300fd, 0x7f0300fe
+        0x01010142, 0x7f0301aa, 0x7f0301ab, 0x7f0301ac
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -4207,7 +6073,10 @@ public final class R {
      * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.ngamolsky.android.materialme:autoSizePresetSizes}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.ngamolsky.android.materialme:autoSizeStepGranularity}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.ngamolsky.android.materialme:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.ngamolsky.android.materialme:firstBaselineToTopHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_fontFamily com.ngamolsky.android.materialme:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.ngamolsky.android.materialme:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.ngamolsky.android.materialme:lineHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.ngamolsky.android.materialme:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
@@ -4216,12 +6085,16 @@ public final class R {
      * @see #AppCompatTextView_autoSizePresetSizes
      * @see #AppCompatTextView_autoSizeStepGranularity
      * @see #AppCompatTextView_autoSizeTextType
+     * @see #AppCompatTextView_firstBaselineToTopHeight
      * @see #AppCompatTextView_fontFamily
+     * @see #AppCompatTextView_lastBaselineToBottomHeight
+     * @see #AppCompatTextView_lineHeight
      * @see #AppCompatTextView_textAllCaps
      */
     public static final int[] AppCompatTextView={
-        0x01010034, 0x7f03002c, 0x7f03002d, 0x7f03002e, 
-        0x7f03002f, 0x7f030030, 0x7f030083, 0x7f0300ec
+        0x01010034, 0x7f030031, 0x7f030032, 0x7f030033, 
+        0x7f030034, 0x7f030035, 0x7f0300ad, 0x7f0300c2, 
+        0x7f0300de, 0x7f03011d, 0x7f03019a
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -4304,6 +6177,19 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#firstBaselineToTopHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:firstBaselineToTopHeight
+     */
+    public static final int AppCompatTextView_firstBaselineToTopHeight=6;
+    /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
@@ -4312,7 +6198,33 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:fontFamily
      */
-    public static final int AppCompatTextView_fontFamily=6;
+    public static final int AppCompatTextView_fontFamily=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#lastBaselineToBottomHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:lastBaselineToBottomHeight
+     */
+    public static final int AppCompatTextView_lastBaselineToBottomHeight=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#lineHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:lineHeight
+     */
+    public static final int AppCompatTextView_lineHeight=9;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
@@ -4326,7 +6238,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textAllCaps
      */
-    public static final int AppCompatTextView_textAllCaps=7;
+    public static final int AppCompatTextView_textAllCaps=10;
     /**
      * Attributes that can be used with a AppCompatTheme.
      * <p>Includes the following attributes:</p>
@@ -4393,6 +6305,7 @@ public final class R {
      * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.ngamolsky.android.materialme:colorPrimaryDark}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.ngamolsky.android.materialme:colorSwitchThumbNormal}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_controlBackground com.ngamolsky.android.materialme:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.ngamolsky.android.materialme:dialogCornerRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.ngamolsky.android.materialme:dialogPreferredPadding}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.ngamolsky.android.materialme:dialogTheme}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.ngamolsky.android.materialme:dividerHorizontal}</code></td><td></td></tr>
@@ -4514,6 +6427,7 @@ public final class R {
      * @see #AppCompatTheme_colorPrimaryDark
      * @see #AppCompatTheme_colorSwitchThumbNormal
      * @see #AppCompatTheme_controlBackground
+     * @see #AppCompatTheme_dialogCornerRadius
      * @see #AppCompatTheme_dialogPreferredPadding
      * @see #AppCompatTheme_dialogTheme
      * @see #AppCompatTheme_dividerHorizontal
@@ -4586,27 +6500,28 @@ public final class R {
         0x7f030017, 0x7f030018, 0x7f030019, 0x7f03001a, 
         0x7f03001b, 0x7f03001c, 0x7f03001d, 0x7f03001e, 
         0x7f030021, 0x7f030022, 0x7f030023, 0x7f030024, 
-        0x7f030025, 0x7f03002b, 0x7f030037, 0x7f030038, 
-        0x7f030039, 0x7f03003a, 0x7f03003b, 0x7f03003c, 
-        0x7f030040, 0x7f030041, 0x7f03004b, 0x7f03004c, 
-        0x7f030052, 0x7f030053, 0x7f030054, 0x7f030055, 
-        0x7f030056, 0x7f030057, 0x7f030058, 0x7f030059, 
-        0x7f03005a, 0x7f03005b, 0x7f030069, 0x7f03006d, 
-        0x7f03006e, 0x7f030071, 0x7f030073, 0x7f030076, 
-        0x7f030077, 0x7f030078, 0x7f030079, 0x7f03007a, 
-        0x7f030090, 0x7f030096, 0x7f0300a4, 0x7f0300a5, 
-        0x7f0300a8, 0x7f0300a9, 0x7f0300aa, 0x7f0300ab, 
-        0x7f0300ac, 0x7f0300ad, 0x7f0300ae, 0x7f0300bd, 
-        0x7f0300be, 0x7f0300bf, 0x7f0300c0, 0x7f0300c2, 
-        0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 
-        0x7f0300cf, 0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 
-        0x7f0300da, 0x7f0300db, 0x7f0300ea, 0x7f0300ed, 
-        0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 0x7f0300f1, 
-        0x7f0300f2, 0x7f0300f3, 0x7f0300f4, 0x7f0300f5, 
-        0x7f0300f6, 0x7f03010b, 0x7f03010c, 0x7f03010d, 
-        0x7f03010e, 0x7f030113, 0x7f030115, 0x7f030116, 
-        0x7f030117, 0x7f030118, 0x7f030119, 0x7f03011a, 
-        0x7f03011b, 0x7f03011c, 0x7f03011d, 0x7f03011e
+        0x7f030025, 0x7f030030, 0x7f030040, 0x7f030042, 
+        0x7f030043, 0x7f030044, 0x7f030045, 0x7f030046, 
+        0x7f03004a, 0x7f03004b, 0x7f030056, 0x7f030057, 
+        0x7f03005f, 0x7f030060, 0x7f030061, 0x7f030062, 
+        0x7f030063, 0x7f030064, 0x7f030065, 0x7f030066, 
+        0x7f030067, 0x7f030068, 0x7f03007e, 0x7f030092, 
+        0x7f030093, 0x7f030094, 0x7f030097, 0x7f030099, 
+        0x7f0300a0, 0x7f0300a1, 0x7f0300a3, 0x7f0300a4, 
+        0x7f0300a5, 0x7f0300d1, 0x7f0300d7, 0x7f03011e, 
+        0x7f03011f, 0x7f030122, 0x7f030123, 0x7f030124, 
+        0x7f030125, 0x7f030126, 0x7f030127, 0x7f030128, 
+        0x7f030154, 0x7f030155, 0x7f030156, 0x7f030160, 
+        0x7f030162, 0x7f030168, 0x7f030169, 0x7f03016a, 
+        0x7f03016b, 0x7f030176, 0x7f030177, 0x7f030178, 
+        0x7f030179, 0x7f030183, 0x7f030184, 0x7f030194, 
+        0x7f03019b, 0x7f03019c, 0x7f03019d, 0x7f03019e, 
+        0x7f03019f, 0x7f0301a0, 0x7f0301a1, 0x7f0301a2, 
+        0x7f0301a3, 0x7f0301a4, 0x7f0301b9, 0x7f0301ba, 
+        0x7f0301bb, 0x7f0301bc, 0x7f0301cc, 0x7f0301d5, 
+        0x7f0301d6, 0x7f0301d7, 0x7f0301d8, 0x7f0301d9, 
+        0x7f0301da, 0x7f0301db, 0x7f0301dc, 0x7f0301dd, 
+        0x7f0301de
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -5319,6 +7234,19 @@ public final class R {
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#dialogCornerRadius}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:dialogCornerRadius
+     */
+    public static final int AppCompatTheme_dialogCornerRadius=59;
+    /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
@@ -5330,7 +7258,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:dialogPreferredPadding
      */
-    public static final int AppCompatTheme_dialogPreferredPadding=59;
+    public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5342,7 +7270,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:dialogTheme
      */
-    public static final int AppCompatTheme_dialogTheme=60;
+    public static final int AppCompatTheme_dialogTheme=61;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5354,7 +7282,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:dividerHorizontal
      */
-    public static final int AppCompatTheme_dividerHorizontal=61;
+    public static final int AppCompatTheme_dividerHorizontal=62;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5366,7 +7294,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:dividerVertical
      */
-    public static final int AppCompatTheme_dividerVertical=62;
+    public static final int AppCompatTheme_dividerVertical=63;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5378,7 +7306,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:dropDownListViewStyle
      */
-    public static final int AppCompatTheme_dropDownListViewStyle=63;
+    public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5391,7 +7319,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:dropdownListPreferredItemHeight
      */
-    public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
+    public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5403,7 +7331,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:editTextBackground
      */
-    public static final int AppCompatTheme_editTextBackground=65;
+    public static final int AppCompatTheme_editTextBackground=66;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5418,7 +7346,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:editTextColor
      */
-    public static final int AppCompatTheme_editTextColor=66;
+    public static final int AppCompatTheme_editTextColor=67;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5430,7 +7358,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:editTextStyle
      */
-    public static final int AppCompatTheme_editTextStyle=67;
+    public static final int AppCompatTheme_editTextStyle=68;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5442,7 +7370,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:homeAsUpIndicator
      */
-    public static final int AppCompatTheme_homeAsUpIndicator=68;
+    public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5454,7 +7382,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:imageButtonStyle
      */
-    public static final int AppCompatTheme_imageButtonStyle=69;
+    public static final int AppCompatTheme_imageButtonStyle=70;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5466,7 +7394,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:listChoiceBackgroundIndicator
      */
-    public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
+    public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5478,7 +7406,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:listDividerAlertDialog
      */
-    public static final int AppCompatTheme_listDividerAlertDialog=71;
+    public static final int AppCompatTheme_listDividerAlertDialog=72;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5490,7 +7418,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:listMenuViewStyle
      */
-    public static final int AppCompatTheme_listMenuViewStyle=72;
+    public static final int AppCompatTheme_listMenuViewStyle=73;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5502,7 +7430,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:listPopupWindowStyle
      */
-    public static final int AppCompatTheme_listPopupWindowStyle=73;
+    public static final int AppCompatTheme_listPopupWindowStyle=74;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5515,7 +7443,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:listPreferredItemHeight
      */
-    public static final int AppCompatTheme_listPreferredItemHeight=74;
+    public static final int AppCompatTheme_listPreferredItemHeight=75;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5528,7 +7456,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:listPreferredItemHeightLarge
      */
-    public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
+    public static final int AppCompatTheme_listPreferredItemHeightLarge=76;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5541,7 +7469,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:listPreferredItemHeightSmall
      */
-    public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
+    public static final int AppCompatTheme_listPreferredItemHeightSmall=77;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5554,7 +7482,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:listPreferredItemPaddingLeft
      */
-    public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
+    public static final int AppCompatTheme_listPreferredItemPaddingLeft=78;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5567,7 +7495,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:listPreferredItemPaddingRight
      */
-    public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
+    public static final int AppCompatTheme_listPreferredItemPaddingRight=79;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5579,7 +7507,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:panelBackground
      */
-    public static final int AppCompatTheme_panelBackground=79;
+    public static final int AppCompatTheme_panelBackground=80;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5591,7 +7519,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:panelMenuListTheme
      */
-    public static final int AppCompatTheme_panelMenuListTheme=80;
+    public static final int AppCompatTheme_panelMenuListTheme=81;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5604,7 +7532,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:panelMenuListWidth
      */
-    public static final int AppCompatTheme_panelMenuListWidth=81;
+    public static final int AppCompatTheme_panelMenuListWidth=82;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5616,7 +7544,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:popupMenuStyle
      */
-    public static final int AppCompatTheme_popupMenuStyle=82;
+    public static final int AppCompatTheme_popupMenuStyle=83;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5628,7 +7556,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:popupWindowStyle
      */
-    public static final int AppCompatTheme_popupWindowStyle=83;
+    public static final int AppCompatTheme_popupWindowStyle=84;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5640,7 +7568,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:radioButtonStyle
      */
-    public static final int AppCompatTheme_radioButtonStyle=84;
+    public static final int AppCompatTheme_radioButtonStyle=85;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5652,7 +7580,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:ratingBarStyle
      */
-    public static final int AppCompatTheme_ratingBarStyle=85;
+    public static final int AppCompatTheme_ratingBarStyle=86;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5664,7 +7592,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:ratingBarStyleIndicator
      */
-    public static final int AppCompatTheme_ratingBarStyleIndicator=86;
+    public static final int AppCompatTheme_ratingBarStyleIndicator=87;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5676,7 +7604,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:ratingBarStyleSmall
      */
-    public static final int AppCompatTheme_ratingBarStyleSmall=87;
+    public static final int AppCompatTheme_ratingBarStyleSmall=88;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5688,7 +7616,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:searchViewStyle
      */
-    public static final int AppCompatTheme_searchViewStyle=88;
+    public static final int AppCompatTheme_searchViewStyle=89;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5700,7 +7628,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:seekBarStyle
      */
-    public static final int AppCompatTheme_seekBarStyle=89;
+    public static final int AppCompatTheme_seekBarStyle=90;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5712,7 +7640,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:selectableItemBackground
      */
-    public static final int AppCompatTheme_selectableItemBackground=90;
+    public static final int AppCompatTheme_selectableItemBackground=91;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5724,7 +7652,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:selectableItemBackgroundBorderless
      */
-    public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
+    public static final int AppCompatTheme_selectableItemBackgroundBorderless=92;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5736,7 +7664,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:spinnerDropDownItemStyle
      */
-    public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
+    public static final int AppCompatTheme_spinnerDropDownItemStyle=93;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5748,7 +7676,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:spinnerStyle
      */
-    public static final int AppCompatTheme_spinnerStyle=93;
+    public static final int AppCompatTheme_spinnerStyle=94;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5760,7 +7688,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:switchStyle
      */
-    public static final int AppCompatTheme_switchStyle=94;
+    public static final int AppCompatTheme_switchStyle=95;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5772,7 +7700,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textAppearanceLargePopupMenu
      */
-    public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
+    public static final int AppCompatTheme_textAppearanceLargePopupMenu=96;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5784,7 +7712,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textAppearanceListItem
      */
-    public static final int AppCompatTheme_textAppearanceListItem=96;
+    public static final int AppCompatTheme_textAppearanceListItem=97;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5796,7 +7724,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textAppearanceListItemSecondary
      */
-    public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
+    public static final int AppCompatTheme_textAppearanceListItemSecondary=98;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5808,7 +7736,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textAppearanceListItemSmall
      */
-    public static final int AppCompatTheme_textAppearanceListItemSmall=98;
+    public static final int AppCompatTheme_textAppearanceListItemSmall=99;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5820,7 +7748,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textAppearancePopupMenuHeader
      */
-    public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
+    public static final int AppCompatTheme_textAppearancePopupMenuHeader=100;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5832,7 +7760,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textAppearanceSearchResultSubtitle
      */
-    public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
+    public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=101;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5844,7 +7772,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textAppearanceSearchResultTitle
      */
-    public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
+    public static final int AppCompatTheme_textAppearanceSearchResultTitle=102;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5856,7 +7784,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textAppearanceSmallPopupMenu
      */
-    public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
+    public static final int AppCompatTheme_textAppearanceSmallPopupMenu=103;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5871,7 +7799,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textColorAlertDialogListItem
      */
-    public static final int AppCompatTheme_textColorAlertDialogListItem=103;
+    public static final int AppCompatTheme_textColorAlertDialogListItem=104;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5886,7 +7814,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:textColorSearchUrl
      */
-    public static final int AppCompatTheme_textColorSearchUrl=104;
+    public static final int AppCompatTheme_textColorSearchUrl=105;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5898,7 +7826,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:toolbarNavigationButtonStyle
      */
-    public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
+    public static final int AppCompatTheme_toolbarNavigationButtonStyle=106;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5910,7 +7838,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:toolbarStyle
      */
-    public static final int AppCompatTheme_toolbarStyle=106;
+    public static final int AppCompatTheme_toolbarStyle=107;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5925,7 +7853,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:tooltipForegroundColor
      */
-    public static final int AppCompatTheme_tooltipForegroundColor=107;
+    public static final int AppCompatTheme_tooltipForegroundColor=108;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5937,7 +7865,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:tooltipFrameBackground
      */
-    public static final int AppCompatTheme_tooltipFrameBackground=108;
+    public static final int AppCompatTheme_tooltipFrameBackground=109;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5947,7 +7875,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:viewInflaterClass
      */
-    public static final int AppCompatTheme_viewInflaterClass=109;
+    public static final int AppCompatTheme_viewInflaterClass=110;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5957,7 +7885,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:windowActionBar
      */
-    public static final int AppCompatTheme_windowActionBar=110;
+    public static final int AppCompatTheme_windowActionBar=111;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5967,7 +7895,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:windowActionBarOverlay
      */
-    public static final int AppCompatTheme_windowActionBarOverlay=111;
+    public static final int AppCompatTheme_windowActionBarOverlay=112;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5977,7 +7905,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:windowActionModeOverlay
      */
-    public static final int AppCompatTheme_windowActionModeOverlay=112;
+    public static final int AppCompatTheme_windowActionModeOverlay=113;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -5994,7 +7922,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:windowFixedHeightMajor
      */
-    public static final int AppCompatTheme_windowFixedHeightMajor=113;
+    public static final int AppCompatTheme_windowFixedHeightMajor=114;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6011,7 +7939,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:windowFixedHeightMinor
      */
-    public static final int AppCompatTheme_windowFixedHeightMinor=114;
+    public static final int AppCompatTheme_windowFixedHeightMinor=115;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6028,7 +7956,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:windowFixedWidthMajor
      */
-    public static final int AppCompatTheme_windowFixedWidthMajor=115;
+    public static final int AppCompatTheme_windowFixedWidthMajor=116;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6045,7 +7973,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:windowFixedWidthMinor
      */
-    public static final int AppCompatTheme_windowFixedWidthMinor=116;
+    public static final int AppCompatTheme_windowFixedWidthMinor=117;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6062,7 +7990,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:windowMinWidthMajor
      */
-    public static final int AppCompatTheme_windowMinWidthMajor=117;
+    public static final int AppCompatTheme_windowMinWidthMajor=118;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6079,7 +8007,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:windowMinWidthMinor
      */
-    public static final int AppCompatTheme_windowMinWidthMinor=118;
+    public static final int AppCompatTheme_windowMinWidthMinor=119;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
@@ -6089,7 +8017,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:windowNoTitle
      */
-    public static final int AppCompatTheme_windowNoTitle=119;
+    public static final int AppCompatTheme_windowNoTitle=120;
     /**
      * Attributes that can be used with a ButtonBarLayout.
      * <p>Includes the following attributes:</p>
@@ -6150,10 +8078,10 @@ public final class R {
      * @see #CardView_contentPaddingTop
      */
     public static final int[] CardView={
-        0x0101013f, 0x01010140, 0x7f030044, 0x7f030045, 
-        0x7f030046, 0x7f030047, 0x7f030048, 0x7f030049, 
-        0x7f030064, 0x7f030065, 0x7f030066, 0x7f030067, 
-        0x7f030068
+        0x0101013f, 0x01010140, 0x7f03004e, 0x7f03004f, 
+        0x7f030050, 0x7f030051, 0x7f030052, 0x7f030053, 
+        0x7f030078, 0x7f030079, 0x7f03007a, 0x7f03007b, 
+        0x7f03007c
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
@@ -6379,7 +8307,7 @@ public final class R {
      * @see #CompoundButton_buttonTintMode
      */
     public static final int[] CompoundButton={
-        0x01010107, 0x7f030042, 0x7f030043
+        0x01010107, 0x7f03004c, 0x7f03004d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -6426,6 +8354,5200 @@ public final class R {
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
+     * Attributes that can be used with a Constraint.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Constraint_android_orientation android:orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_visibility android:visibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_layout_width android:layout_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_layout_height android:layout_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_layout_marginLeft android:layout_marginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_minHeight android:minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_alpha android:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_translationX android:translationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_translationY android:translationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_scaleX android:scaleX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_scaleY android:scaleY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_rotation android:rotation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_rotationX android:rotationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_rotationY android:rotationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_layout_marginStart android:layout_marginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_translationZ android:translationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_android_elevation android:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_animate_relativeTo com.ngamolsky.android.materialme:animate_relativeTo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_barrierAllowsGoneWidgets com.ngamolsky.android.materialme:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_barrierDirection com.ngamolsky.android.materialme:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_barrierMargin com.ngamolsky.android.materialme:barrierMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_chainUseRtl com.ngamolsky.android.materialme:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_constraint_referenced_ids com.ngamolsky.android.materialme:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_constraint_referenced_tags com.ngamolsky.android.materialme:constraint_referenced_tags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_drawPath com.ngamolsky.android.materialme:drawPath}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_firstHorizontalBias com.ngamolsky.android.materialme:flow_firstHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_firstHorizontalStyle com.ngamolsky.android.materialme:flow_firstHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_firstVerticalBias com.ngamolsky.android.materialme:flow_firstVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_firstVerticalStyle com.ngamolsky.android.materialme:flow_firstVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_horizontalAlign com.ngamolsky.android.materialme:flow_horizontalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_horizontalBias com.ngamolsky.android.materialme:flow_horizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_horizontalGap com.ngamolsky.android.materialme:flow_horizontalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_horizontalStyle com.ngamolsky.android.materialme:flow_horizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_lastHorizontalBias com.ngamolsky.android.materialme:flow_lastHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_lastHorizontalStyle com.ngamolsky.android.materialme:flow_lastHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_lastVerticalBias com.ngamolsky.android.materialme:flow_lastVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_lastVerticalStyle com.ngamolsky.android.materialme:flow_lastVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_maxElementsWrap com.ngamolsky.android.materialme:flow_maxElementsWrap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_verticalAlign com.ngamolsky.android.materialme:flow_verticalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_verticalBias com.ngamolsky.android.materialme:flow_verticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_verticalGap com.ngamolsky.android.materialme:flow_verticalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_verticalStyle com.ngamolsky.android.materialme:flow_verticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_flow_wrapMode com.ngamolsky.android.materialme:flow_wrapMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constrainedHeight com.ngamolsky.android.materialme:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constrainedWidth com.ngamolsky.android.materialme:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintBaseline_creator com.ngamolsky.android.materialme:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintBaseline_toBaselineOf com.ngamolsky.android.materialme:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintBottom_creator com.ngamolsky.android.materialme:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintBottom_toBottomOf com.ngamolsky.android.materialme:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintBottom_toTopOf com.ngamolsky.android.materialme:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintCircle com.ngamolsky.android.materialme:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintCircleAngle com.ngamolsky.android.materialme:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintCircleRadius com.ngamolsky.android.materialme:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintDimensionRatio com.ngamolsky.android.materialme:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintEnd_toEndOf com.ngamolsky.android.materialme:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintEnd_toStartOf com.ngamolsky.android.materialme:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintGuide_begin com.ngamolsky.android.materialme:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintGuide_end com.ngamolsky.android.materialme:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintGuide_percent com.ngamolsky.android.materialme:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHeight_default com.ngamolsky.android.materialme:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHeight_max com.ngamolsky.android.materialme:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHeight_min com.ngamolsky.android.materialme:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHeight_percent com.ngamolsky.android.materialme:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHorizontal_bias com.ngamolsky.android.materialme:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHorizontal_chainStyle com.ngamolsky.android.materialme:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintHorizontal_weight com.ngamolsky.android.materialme:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintLeft_creator com.ngamolsky.android.materialme:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintLeft_toLeftOf com.ngamolsky.android.materialme:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintLeft_toRightOf com.ngamolsky.android.materialme:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintRight_creator com.ngamolsky.android.materialme:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintRight_toLeftOf com.ngamolsky.android.materialme:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintRight_toRightOf com.ngamolsky.android.materialme:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintStart_toEndOf com.ngamolsky.android.materialme:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintStart_toStartOf com.ngamolsky.android.materialme:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintTag com.ngamolsky.android.materialme:layout_constraintTag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintTop_creator com.ngamolsky.android.materialme:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintTop_toBottomOf com.ngamolsky.android.materialme:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintTop_toTopOf com.ngamolsky.android.materialme:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintVertical_bias com.ngamolsky.android.materialme:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintVertical_chainStyle com.ngamolsky.android.materialme:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintVertical_weight com.ngamolsky.android.materialme:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintWidth_default com.ngamolsky.android.materialme:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintWidth_max com.ngamolsky.android.materialme:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintWidth_min com.ngamolsky.android.materialme:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_constraintWidth_percent com.ngamolsky.android.materialme:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_editor_absoluteX com.ngamolsky.android.materialme:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_editor_absoluteY com.ngamolsky.android.materialme:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginBottom com.ngamolsky.android.materialme:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginEnd com.ngamolsky.android.materialme:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginLeft com.ngamolsky.android.materialme:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginRight com.ngamolsky.android.materialme:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginStart com.ngamolsky.android.materialme:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_layout_goneMarginTop com.ngamolsky.android.materialme:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_motionProgress com.ngamolsky.android.materialme:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_motionStagger com.ngamolsky.android.materialme:motionStagger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_pathMotionArc com.ngamolsky.android.materialme:pathMotionArc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_pivotAnchor com.ngamolsky.android.materialme:pivotAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_transitionEasing com.ngamolsky.android.materialme:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_transitionPathRotate com.ngamolsky.android.materialme:transitionPathRotate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Constraint_visibilityMode com.ngamolsky.android.materialme:visibilityMode}</code></td><td></td></tr>
+     * </table>
+     * @see #Constraint_android_orientation
+     * @see #Constraint_android_id
+     * @see #Constraint_android_visibility
+     * @see #Constraint_android_layout_width
+     * @see #Constraint_android_layout_height
+     * @see #Constraint_android_layout_marginLeft
+     * @see #Constraint_android_layout_marginTop
+     * @see #Constraint_android_layout_marginRight
+     * @see #Constraint_android_layout_marginBottom
+     * @see #Constraint_android_maxWidth
+     * @see #Constraint_android_maxHeight
+     * @see #Constraint_android_minWidth
+     * @see #Constraint_android_minHeight
+     * @see #Constraint_android_alpha
+     * @see #Constraint_android_transformPivotX
+     * @see #Constraint_android_transformPivotY
+     * @see #Constraint_android_translationX
+     * @see #Constraint_android_translationY
+     * @see #Constraint_android_scaleX
+     * @see #Constraint_android_scaleY
+     * @see #Constraint_android_rotation
+     * @see #Constraint_android_rotationX
+     * @see #Constraint_android_rotationY
+     * @see #Constraint_android_layout_marginStart
+     * @see #Constraint_android_layout_marginEnd
+     * @see #Constraint_android_translationZ
+     * @see #Constraint_android_elevation
+     * @see #Constraint_animate_relativeTo
+     * @see #Constraint_barrierAllowsGoneWidgets
+     * @see #Constraint_barrierDirection
+     * @see #Constraint_barrierMargin
+     * @see #Constraint_chainUseRtl
+     * @see #Constraint_constraint_referenced_ids
+     * @see #Constraint_constraint_referenced_tags
+     * @see #Constraint_drawPath
+     * @see #Constraint_flow_firstHorizontalBias
+     * @see #Constraint_flow_firstHorizontalStyle
+     * @see #Constraint_flow_firstVerticalBias
+     * @see #Constraint_flow_firstVerticalStyle
+     * @see #Constraint_flow_horizontalAlign
+     * @see #Constraint_flow_horizontalBias
+     * @see #Constraint_flow_horizontalGap
+     * @see #Constraint_flow_horizontalStyle
+     * @see #Constraint_flow_lastHorizontalBias
+     * @see #Constraint_flow_lastHorizontalStyle
+     * @see #Constraint_flow_lastVerticalBias
+     * @see #Constraint_flow_lastVerticalStyle
+     * @see #Constraint_flow_maxElementsWrap
+     * @see #Constraint_flow_verticalAlign
+     * @see #Constraint_flow_verticalBias
+     * @see #Constraint_flow_verticalGap
+     * @see #Constraint_flow_verticalStyle
+     * @see #Constraint_flow_wrapMode
+     * @see #Constraint_layout_constrainedHeight
+     * @see #Constraint_layout_constrainedWidth
+     * @see #Constraint_layout_constraintBaseline_creator
+     * @see #Constraint_layout_constraintBaseline_toBaselineOf
+     * @see #Constraint_layout_constraintBottom_creator
+     * @see #Constraint_layout_constraintBottom_toBottomOf
+     * @see #Constraint_layout_constraintBottom_toTopOf
+     * @see #Constraint_layout_constraintCircle
+     * @see #Constraint_layout_constraintCircleAngle
+     * @see #Constraint_layout_constraintCircleRadius
+     * @see #Constraint_layout_constraintDimensionRatio
+     * @see #Constraint_layout_constraintEnd_toEndOf
+     * @see #Constraint_layout_constraintEnd_toStartOf
+     * @see #Constraint_layout_constraintGuide_begin
+     * @see #Constraint_layout_constraintGuide_end
+     * @see #Constraint_layout_constraintGuide_percent
+     * @see #Constraint_layout_constraintHeight_default
+     * @see #Constraint_layout_constraintHeight_max
+     * @see #Constraint_layout_constraintHeight_min
+     * @see #Constraint_layout_constraintHeight_percent
+     * @see #Constraint_layout_constraintHorizontal_bias
+     * @see #Constraint_layout_constraintHorizontal_chainStyle
+     * @see #Constraint_layout_constraintHorizontal_weight
+     * @see #Constraint_layout_constraintLeft_creator
+     * @see #Constraint_layout_constraintLeft_toLeftOf
+     * @see #Constraint_layout_constraintLeft_toRightOf
+     * @see #Constraint_layout_constraintRight_creator
+     * @see #Constraint_layout_constraintRight_toLeftOf
+     * @see #Constraint_layout_constraintRight_toRightOf
+     * @see #Constraint_layout_constraintStart_toEndOf
+     * @see #Constraint_layout_constraintStart_toStartOf
+     * @see #Constraint_layout_constraintTag
+     * @see #Constraint_layout_constraintTop_creator
+     * @see #Constraint_layout_constraintTop_toBottomOf
+     * @see #Constraint_layout_constraintTop_toTopOf
+     * @see #Constraint_layout_constraintVertical_bias
+     * @see #Constraint_layout_constraintVertical_chainStyle
+     * @see #Constraint_layout_constraintVertical_weight
+     * @see #Constraint_layout_constraintWidth_default
+     * @see #Constraint_layout_constraintWidth_max
+     * @see #Constraint_layout_constraintWidth_min
+     * @see #Constraint_layout_constraintWidth_percent
+     * @see #Constraint_layout_editor_absoluteX
+     * @see #Constraint_layout_editor_absoluteY
+     * @see #Constraint_layout_goneMarginBottom
+     * @see #Constraint_layout_goneMarginEnd
+     * @see #Constraint_layout_goneMarginLeft
+     * @see #Constraint_layout_goneMarginRight
+     * @see #Constraint_layout_goneMarginStart
+     * @see #Constraint_layout_goneMarginTop
+     * @see #Constraint_motionProgress
+     * @see #Constraint_motionStagger
+     * @see #Constraint_pathMotionArc
+     * @see #Constraint_pivotAnchor
+     * @see #Constraint_transitionEasing
+     * @see #Constraint_transitionPathRotate
+     * @see #Constraint_visibilityMode
+     */
+    public static final int[] Constraint={
+        0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 
+        0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
+        0x010100fa, 0x0101011f, 0x01010120, 0x0101013f, 
+        0x01010140, 0x0101031f, 0x01010320, 0x01010321, 
+        0x01010322, 0x01010323, 0x01010324, 0x01010325, 
+        0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
+        0x010103b6, 0x010103fa, 0x01010440, 0x7f03002a, 
+        0x7f03003d, 0x7f03003e, 0x7f03003f, 0x7f030055, 
+        0x7f03006d, 0x7f03006e, 0x7f03009d, 0x7f0300ae, 
+        0x7f0300af, 0x7f0300b0, 0x7f0300b1, 0x7f0300b2, 
+        0x7f0300b3, 0x7f0300b4, 0x7f0300b5, 0x7f0300b6, 
+        0x7f0300b7, 0x7f0300b8, 0x7f0300b9, 0x7f0300ba, 
+        0x7f0300bc, 0x7f0300bd, 0x7f0300be, 0x7f0300bf, 
+        0x7f0300c0, 0x7f0300e6, 0x7f0300e7, 0x7f0300e8, 
+        0x7f0300e9, 0x7f0300ea, 0x7f0300eb, 0x7f0300ec, 
+        0x7f0300ed, 0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 
+        0x7f0300f1, 0x7f0300f2, 0x7f0300f3, 0x7f0300f4, 
+        0x7f0300f5, 0x7f0300f6, 0x7f0300f7, 0x7f0300f8, 
+        0x7f0300f9, 0x7f0300fa, 0x7f0300fb, 0x7f0300fc, 
+        0x7f0300fd, 0x7f0300fe, 0x7f0300ff, 0x7f030100, 
+        0x7f030101, 0x7f030102, 0x7f030103, 0x7f030104, 
+        0x7f030105, 0x7f030106, 0x7f030107, 0x7f030108, 
+        0x7f030109, 0x7f03010a, 0x7f03010b, 0x7f03010c, 
+        0x7f03010d, 0x7f03010e, 0x7f03010f, 0x7f030111, 
+        0x7f030112, 0x7f030113, 0x7f030114, 0x7f030115, 
+        0x7f030116, 0x7f030117, 0x7f030118, 0x7f03013c, 
+        0x7f03013d, 0x7f030157, 0x7f03015e, 0x7f0301c5, 
+        0x7f0301c7, 0x7f0301cd
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int Constraint_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int Constraint_android_id=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>2</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * <tr><td>visible</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:visibility
+     */
+    public static final int Constraint_android_visibility=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_width
+     */
+    public static final int Constraint_android_layout_width=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_height
+     */
+    public static final int Constraint_android_layout_height=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginLeft
+     */
+    public static final int Constraint_android_layout_marginLeft=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginTop
+     */
+    public static final int Constraint_android_layout_marginTop=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginRight
+     */
+    public static final int Constraint_android_layout_marginRight=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginBottom
+     */
+    public static final int Constraint_android_layout_marginBottom=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int Constraint_android_maxWidth=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int Constraint_android_maxHeight=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int Constraint_android_minWidth=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int Constraint_android_minHeight=12;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:alpha
+     */
+    public static final int Constraint_android_alpha=13;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotX
+     */
+    public static final int Constraint_android_transformPivotX=14;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotY
+     */
+    public static final int Constraint_android_transformPivotY=15;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationX}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationX
+     */
+    public static final int Constraint_android_translationX=16;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationY}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationY
+     */
+    public static final int Constraint_android_translationY=17;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int Constraint_android_scaleX=18;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int Constraint_android_scaleY=19;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotation
+     */
+    public static final int Constraint_android_rotation=20;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int Constraint_android_rotationX=21;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int Constraint_android_rotationY=22;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginStart
+     */
+    public static final int Constraint_android_layout_marginStart=23;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginEnd
+     */
+    public static final int Constraint_android_layout_marginEnd=24;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationZ
+     */
+    public static final int Constraint_android_translationZ=25;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int Constraint_android_elevation=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#animate_relativeTo}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:animate_relativeTo
+     */
+    public static final int Constraint_animate_relativeTo=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierAllowsGoneWidgets}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierAllowsGoneWidgets
+     */
+    public static final int Constraint_barrierAllowsGoneWidgets=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierDirection}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierDirection
+     */
+    public static final int Constraint_barrierDirection=29;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierMargin}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierMargin
+     */
+    public static final int Constraint_barrierMargin=30;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#chainUseRtl}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:chainUseRtl
+     */
+    public static final int Constraint_chainUseRtl=31;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraint_referenced_ids}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:constraint_referenced_ids
+     */
+    public static final int Constraint_constraint_referenced_ids=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraint_referenced_tags}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:constraint_referenced_tags
+     */
+    public static final int Constraint_constraint_referenced_tags=33;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#drawPath}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>asConfigured</td><td>4</td><td></td></tr>
+     * <tr><td>deltaRelative</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>path</td><td>1</td><td></td></tr>
+     * <tr><td>pathRelative</td><td>2</td><td></td></tr>
+     * <tr><td>rectangles</td><td>5</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:drawPath
+     */
+    public static final int Constraint_drawPath=34;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstHorizontalBias}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstHorizontalBias
+     */
+    public static final int Constraint_flow_firstHorizontalBias=35;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstHorizontalStyle}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstHorizontalStyle
+     */
+    public static final int Constraint_flow_firstHorizontalStyle=36;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstVerticalBias}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstVerticalBias
+     */
+    public static final int Constraint_flow_firstVerticalBias=37;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstVerticalStyle}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstVerticalStyle
+     */
+    public static final int Constraint_flow_firstVerticalStyle=38;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalAlign}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>center</td><td>2</td><td></td></tr>
+     * <tr><td>end</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalAlign
+     */
+    public static final int Constraint_flow_horizontalAlign=39;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalBias}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalBias
+     */
+    public static final int Constraint_flow_horizontalBias=40;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalGap}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalGap
+     */
+    public static final int Constraint_flow_horizontalGap=41;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalStyle}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalStyle
+     */
+    public static final int Constraint_flow_horizontalStyle=42;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastHorizontalBias}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastHorizontalBias
+     */
+    public static final int Constraint_flow_lastHorizontalBias=43;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastHorizontalStyle}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastHorizontalStyle
+     */
+    public static final int Constraint_flow_lastHorizontalStyle=44;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastVerticalBias}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastVerticalBias
+     */
+    public static final int Constraint_flow_lastVerticalBias=45;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastVerticalStyle}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastVerticalStyle
+     */
+    public static final int Constraint_flow_lastVerticalStyle=46;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_maxElementsWrap}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_maxElementsWrap
+     */
+    public static final int Constraint_flow_maxElementsWrap=47;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalAlign}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>baseline</td><td>3</td><td></td></tr>
+     * <tr><td>bottom</td><td>1</td><td></td></tr>
+     * <tr><td>center</td><td>2</td><td></td></tr>
+     * <tr><td>top</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalAlign
+     */
+    public static final int Constraint_flow_verticalAlign=48;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalBias}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalBias
+     */
+    public static final int Constraint_flow_verticalBias=49;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalGap}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalGap
+     */
+    public static final int Constraint_flow_verticalGap=50;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalStyle}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalStyle
+     */
+    public static final int Constraint_flow_verticalStyle=51;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_wrapMode}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>aligned</td><td>2</td><td></td></tr>
+     * <tr><td>chain</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_wrapMode
+     */
+    public static final int Constraint_flow_wrapMode=52;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constrainedHeight
+     */
+    public static final int Constraint_layout_constrainedHeight=53;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constrainedWidth
+     */
+    public static final int Constraint_layout_constrainedWidth=54;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBaseline_creator
+     */
+    public static final int Constraint_layout_constraintBaseline_creator=55;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBaseline_toBaselineOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBaseline_toBaselineOf
+     */
+    public static final int Constraint_layout_constraintBaseline_toBaselineOf=56;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_creator
+     */
+    public static final int Constraint_layout_constraintBottom_creator=57;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_toBottomOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_toBottomOf
+     */
+    public static final int Constraint_layout_constraintBottom_toBottomOf=58;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_toTopOf
+     */
+    public static final int Constraint_layout_constraintBottom_toTopOf=59;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircle
+     */
+    public static final int Constraint_layout_constraintCircle=60;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircleAngle
+     */
+    public static final int Constraint_layout_constraintCircleAngle=61;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircleRadius}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircleRadius
+     */
+    public static final int Constraint_layout_constraintCircleRadius=62;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintDimensionRatio
+     */
+    public static final int Constraint_layout_constraintDimensionRatio=63;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintEnd_toEndOf
+     */
+    public static final int Constraint_layout_constraintEnd_toEndOf=64;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintEnd_toStartOf
+     */
+    public static final int Constraint_layout_constraintEnd_toStartOf=65;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_begin}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_begin
+     */
+    public static final int Constraint_layout_constraintGuide_begin=66;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_end
+     */
+    public static final int Constraint_layout_constraintGuide_end=67;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_percent}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_percent
+     */
+    public static final int Constraint_layout_constraintGuide_percent=68;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_default}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_default
+     */
+    public static final int Constraint_layout_constraintHeight_default=69;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_max}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_max
+     */
+    public static final int Constraint_layout_constraintHeight_max=70;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_min}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_min
+     */
+    public static final int Constraint_layout_constraintHeight_min=71;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_percent}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_percent
+     */
+    public static final int Constraint_layout_constraintHeight_percent=72;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_bias
+     */
+    public static final int Constraint_layout_constraintHorizontal_bias=73;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_chainStyle}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_chainStyle
+     */
+    public static final int Constraint_layout_constraintHorizontal_chainStyle=74;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_weight}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_weight
+     */
+    public static final int Constraint_layout_constraintHorizontal_weight=75;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_creator}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_creator
+     */
+    public static final int Constraint_layout_constraintLeft_creator=76;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_toLeftOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_toLeftOf
+     */
+    public static final int Constraint_layout_constraintLeft_toLeftOf=77;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_toRightOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_toRightOf
+     */
+    public static final int Constraint_layout_constraintLeft_toRightOf=78;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_creator}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_creator
+     */
+    public static final int Constraint_layout_constraintRight_creator=79;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_toLeftOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_toLeftOf
+     */
+    public static final int Constraint_layout_constraintRight_toLeftOf=80;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_toRightOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_toRightOf
+     */
+    public static final int Constraint_layout_constraintRight_toRightOf=81;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintStart_toEndOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintStart_toEndOf
+     */
+    public static final int Constraint_layout_constraintStart_toEndOf=82;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintStart_toStartOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintStart_toStartOf
+     */
+    public static final int Constraint_layout_constraintStart_toStartOf=83;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTag}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTag
+     */
+    public static final int Constraint_layout_constraintTag=84;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_creator}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_creator
+     */
+    public static final int Constraint_layout_constraintTop_creator=85;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_toBottomOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_toBottomOf
+     */
+    public static final int Constraint_layout_constraintTop_toBottomOf=86;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_toTopOf}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_toTopOf
+     */
+    public static final int Constraint_layout_constraintTop_toTopOf=87;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_bias}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_bias
+     */
+    public static final int Constraint_layout_constraintVertical_bias=88;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_chainStyle}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_chainStyle
+     */
+    public static final int Constraint_layout_constraintVertical_chainStyle=89;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_weight}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_weight
+     */
+    public static final int Constraint_layout_constraintVertical_weight=90;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_default}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_default
+     */
+    public static final int Constraint_layout_constraintWidth_default=91;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_max}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_max
+     */
+    public static final int Constraint_layout_constraintWidth_max=92;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_min}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_min
+     */
+    public static final int Constraint_layout_constraintWidth_min=93;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_percent}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_percent
+     */
+    public static final int Constraint_layout_constraintWidth_percent=94;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_editor_absoluteX}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_editor_absoluteX
+     */
+    public static final int Constraint_layout_editor_absoluteX=95;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_editor_absoluteY}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_editor_absoluteY
+     */
+    public static final int Constraint_layout_editor_absoluteY=96;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginBottom}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginBottom
+     */
+    public static final int Constraint_layout_goneMarginBottom=97;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginEnd}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginEnd
+     */
+    public static final int Constraint_layout_goneMarginEnd=98;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginLeft}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginLeft
+     */
+    public static final int Constraint_layout_goneMarginLeft=99;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginRight}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginRight
+     */
+    public static final int Constraint_layout_goneMarginRight=100;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginStart}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginStart
+     */
+    public static final int Constraint_layout_goneMarginStart=101;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginTop}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginTop
+     */
+    public static final int Constraint_layout_goneMarginTop=102;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionProgress}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionProgress
+     */
+    public static final int Constraint_motionProgress=103;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionStagger}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionStagger
+     */
+    public static final int Constraint_motionStagger=104;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#pathMotionArc}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>flip</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>startHorizontal</td><td>2</td><td></td></tr>
+     * <tr><td>startVertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:pathMotionArc
+     */
+    public static final int Constraint_pathMotionArc=105;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#pivotAnchor}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:pivotAnchor
+     */
+    public static final int Constraint_pivotAnchor=106;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionEasing}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>accelerate</td><td>1</td><td></td></tr>
+     * <tr><td>decelerate</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionEasing
+     */
+    public static final int Constraint_transitionEasing=107;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionPathRotate}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionPathRotate
+     */
+    public static final int Constraint_transitionPathRotate=108;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#visibilityMode}
+     * attribute's value can be found in the {@link #Constraint} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>ignore</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:visibilityMode
+     */
+    public static final int Constraint_visibilityMode=109;
+    /**
+     * Attributes that can be used with a ConstraintLayout_Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_orientation android:orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_padding android:padding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_paddingLeft android:paddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_paddingTop android:paddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_paddingRight android:paddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_paddingBottom android:paddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_visibility android:visibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_paddingStart android:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_paddingEnd android:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_android_elevation android:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.ngamolsky.android.materialme:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.ngamolsky.android.materialme:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierMargin com.ngamolsky.android.materialme:barrierMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.ngamolsky.android.materialme:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.ngamolsky.android.materialme:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.ngamolsky.android.materialme:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_tags com.ngamolsky.android.materialme:constraint_referenced_tags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstHorizontalBias com.ngamolsky.android.materialme:flow_firstHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstHorizontalStyle com.ngamolsky.android.materialme:flow_firstHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstVerticalBias com.ngamolsky.android.materialme:flow_firstVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_firstVerticalStyle com.ngamolsky.android.materialme:flow_firstVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalAlign com.ngamolsky.android.materialme:flow_horizontalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalBias com.ngamolsky.android.materialme:flow_horizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalGap com.ngamolsky.android.materialme:flow_horizontalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_horizontalStyle com.ngamolsky.android.materialme:flow_horizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastHorizontalBias com.ngamolsky.android.materialme:flow_lastHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastHorizontalStyle com.ngamolsky.android.materialme:flow_lastHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastVerticalBias com.ngamolsky.android.materialme:flow_lastVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_lastVerticalStyle com.ngamolsky.android.materialme:flow_lastVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_maxElementsWrap com.ngamolsky.android.materialme:flow_maxElementsWrap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalAlign com.ngamolsky.android.materialme:flow_verticalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalBias com.ngamolsky.android.materialme:flow_verticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalGap com.ngamolsky.android.materialme:flow_verticalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_verticalStyle com.ngamolsky.android.materialme:flow_verticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_flow_wrapMode com.ngamolsky.android.materialme:flow_wrapMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layoutDescription com.ngamolsky.android.materialme:layoutDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.ngamolsky.android.materialme:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.ngamolsky.android.materialme:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.ngamolsky.android.materialme:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.ngamolsky.android.materialme:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.ngamolsky.android.materialme:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.ngamolsky.android.materialme:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.ngamolsky.android.materialme:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.ngamolsky.android.materialme:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.ngamolsky.android.materialme:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.ngamolsky.android.materialme:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.ngamolsky.android.materialme:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.ngamolsky.android.materialme:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.ngamolsky.android.materialme:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.ngamolsky.android.materialme:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.ngamolsky.android.materialme:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.ngamolsky.android.materialme:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.ngamolsky.android.materialme:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.ngamolsky.android.materialme:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.ngamolsky.android.materialme:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.ngamolsky.android.materialme:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.ngamolsky.android.materialme:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.ngamolsky.android.materialme:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.ngamolsky.android.materialme:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.ngamolsky.android.materialme:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.ngamolsky.android.materialme:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.ngamolsky.android.materialme:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.ngamolsky.android.materialme:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.ngamolsky.android.materialme:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.ngamolsky.android.materialme:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.ngamolsky.android.materialme:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.ngamolsky.android.materialme:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTag com.ngamolsky.android.materialme:layout_constraintTag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.ngamolsky.android.materialme:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.ngamolsky.android.materialme:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.ngamolsky.android.materialme:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.ngamolsky.android.materialme:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.ngamolsky.android.materialme:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.ngamolsky.android.materialme:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.ngamolsky.android.materialme:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.ngamolsky.android.materialme:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.ngamolsky.android.materialme:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.ngamolsky.android.materialme:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.ngamolsky.android.materialme:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.ngamolsky.android.materialme:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.ngamolsky.android.materialme:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.ngamolsky.android.materialme:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.ngamolsky.android.materialme:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.ngamolsky.android.materialme:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.ngamolsky.android.materialme:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.ngamolsky.android.materialme:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.ngamolsky.android.materialme:layout_optimizationLevel}</code></td><td></td></tr>
+     * </table>
+     * @see #ConstraintLayout_Layout_android_orientation
+     * @see #ConstraintLayout_Layout_android_padding
+     * @see #ConstraintLayout_Layout_android_paddingLeft
+     * @see #ConstraintLayout_Layout_android_paddingTop
+     * @see #ConstraintLayout_Layout_android_paddingRight
+     * @see #ConstraintLayout_Layout_android_paddingBottom
+     * @see #ConstraintLayout_Layout_android_visibility
+     * @see #ConstraintLayout_Layout_android_maxWidth
+     * @see #ConstraintLayout_Layout_android_maxHeight
+     * @see #ConstraintLayout_Layout_android_minWidth
+     * @see #ConstraintLayout_Layout_android_minHeight
+     * @see #ConstraintLayout_Layout_android_paddingStart
+     * @see #ConstraintLayout_Layout_android_paddingEnd
+     * @see #ConstraintLayout_Layout_android_elevation
+     * @see #ConstraintLayout_Layout_barrierAllowsGoneWidgets
+     * @see #ConstraintLayout_Layout_barrierDirection
+     * @see #ConstraintLayout_Layout_barrierMargin
+     * @see #ConstraintLayout_Layout_chainUseRtl
+     * @see #ConstraintLayout_Layout_constraintSet
+     * @see #ConstraintLayout_Layout_constraint_referenced_ids
+     * @see #ConstraintLayout_Layout_constraint_referenced_tags
+     * @see #ConstraintLayout_Layout_flow_firstHorizontalBias
+     * @see #ConstraintLayout_Layout_flow_firstHorizontalStyle
+     * @see #ConstraintLayout_Layout_flow_firstVerticalBias
+     * @see #ConstraintLayout_Layout_flow_firstVerticalStyle
+     * @see #ConstraintLayout_Layout_flow_horizontalAlign
+     * @see #ConstraintLayout_Layout_flow_horizontalBias
+     * @see #ConstraintLayout_Layout_flow_horizontalGap
+     * @see #ConstraintLayout_Layout_flow_horizontalStyle
+     * @see #ConstraintLayout_Layout_flow_lastHorizontalBias
+     * @see #ConstraintLayout_Layout_flow_lastHorizontalStyle
+     * @see #ConstraintLayout_Layout_flow_lastVerticalBias
+     * @see #ConstraintLayout_Layout_flow_lastVerticalStyle
+     * @see #ConstraintLayout_Layout_flow_maxElementsWrap
+     * @see #ConstraintLayout_Layout_flow_verticalAlign
+     * @see #ConstraintLayout_Layout_flow_verticalBias
+     * @see #ConstraintLayout_Layout_flow_verticalGap
+     * @see #ConstraintLayout_Layout_flow_verticalStyle
+     * @see #ConstraintLayout_Layout_flow_wrapMode
+     * @see #ConstraintLayout_Layout_layoutDescription
+     * @see #ConstraintLayout_Layout_layout_constrainedHeight
+     * @see #ConstraintLayout_Layout_layout_constrainedWidth
+     * @see #ConstraintLayout_Layout_layout_constraintBaseline_creator
+     * @see #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf
+     * @see #ConstraintLayout_Layout_layout_constraintBottom_creator
+     * @see #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf
+     * @see #ConstraintLayout_Layout_layout_constraintBottom_toTopOf
+     * @see #ConstraintLayout_Layout_layout_constraintCircle
+     * @see #ConstraintLayout_Layout_layout_constraintCircleAngle
+     * @see #ConstraintLayout_Layout_layout_constraintCircleRadius
+     * @see #ConstraintLayout_Layout_layout_constraintDimensionRatio
+     * @see #ConstraintLayout_Layout_layout_constraintEnd_toEndOf
+     * @see #ConstraintLayout_Layout_layout_constraintEnd_toStartOf
+     * @see #ConstraintLayout_Layout_layout_constraintGuide_begin
+     * @see #ConstraintLayout_Layout_layout_constraintGuide_end
+     * @see #ConstraintLayout_Layout_layout_constraintGuide_percent
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_default
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_max
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_min
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_percent
+     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_bias
+     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle
+     * @see #ConstraintLayout_Layout_layout_constraintHorizontal_weight
+     * @see #ConstraintLayout_Layout_layout_constraintLeft_creator
+     * @see #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf
+     * @see #ConstraintLayout_Layout_layout_constraintLeft_toRightOf
+     * @see #ConstraintLayout_Layout_layout_constraintRight_creator
+     * @see #ConstraintLayout_Layout_layout_constraintRight_toLeftOf
+     * @see #ConstraintLayout_Layout_layout_constraintRight_toRightOf
+     * @see #ConstraintLayout_Layout_layout_constraintStart_toEndOf
+     * @see #ConstraintLayout_Layout_layout_constraintStart_toStartOf
+     * @see #ConstraintLayout_Layout_layout_constraintTag
+     * @see #ConstraintLayout_Layout_layout_constraintTop_creator
+     * @see #ConstraintLayout_Layout_layout_constraintTop_toBottomOf
+     * @see #ConstraintLayout_Layout_layout_constraintTop_toTopOf
+     * @see #ConstraintLayout_Layout_layout_constraintVertical_bias
+     * @see #ConstraintLayout_Layout_layout_constraintVertical_chainStyle
+     * @see #ConstraintLayout_Layout_layout_constraintVertical_weight
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_default
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_max
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_min
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_percent
+     * @see #ConstraintLayout_Layout_layout_editor_absoluteX
+     * @see #ConstraintLayout_Layout_layout_editor_absoluteY
+     * @see #ConstraintLayout_Layout_layout_goneMarginBottom
+     * @see #ConstraintLayout_Layout_layout_goneMarginEnd
+     * @see #ConstraintLayout_Layout_layout_goneMarginLeft
+     * @see #ConstraintLayout_Layout_layout_goneMarginRight
+     * @see #ConstraintLayout_Layout_layout_goneMarginStart
+     * @see #ConstraintLayout_Layout_layout_goneMarginTop
+     * @see #ConstraintLayout_Layout_layout_optimizationLevel
+     */
+    public static final int[] ConstraintLayout_Layout={
+        0x010100c4, 0x010100d5, 0x010100d6, 0x010100d7, 
+        0x010100d8, 0x010100d9, 0x010100dc, 0x0101011f, 
+        0x01010120, 0x0101013f, 0x01010140, 0x010103b3, 
+        0x010103b4, 0x01010440, 0x7f03003d, 0x7f03003e, 
+        0x7f03003f, 0x7f030055, 0x7f03006a, 0x7f03006d, 
+        0x7f03006e, 0x7f0300ae, 0x7f0300af, 0x7f0300b0, 
+        0x7f0300b1, 0x7f0300b2, 0x7f0300b3, 0x7f0300b4, 
+        0x7f0300b5, 0x7f0300b6, 0x7f0300b7, 0x7f0300b8, 
+        0x7f0300b9, 0x7f0300ba, 0x7f0300bc, 0x7f0300bd, 
+        0x7f0300be, 0x7f0300bf, 0x7f0300c0, 0x7f0300e0, 
+        0x7f0300e6, 0x7f0300e7, 0x7f0300e8, 0x7f0300e9, 
+        0x7f0300ea, 0x7f0300eb, 0x7f0300ec, 0x7f0300ed, 
+        0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 0x7f0300f1, 
+        0x7f0300f2, 0x7f0300f3, 0x7f0300f4, 0x7f0300f5, 
+        0x7f0300f6, 0x7f0300f7, 0x7f0300f8, 0x7f0300f9, 
+        0x7f0300fa, 0x7f0300fb, 0x7f0300fc, 0x7f0300fd, 
+        0x7f0300fe, 0x7f0300ff, 0x7f030100, 0x7f030101, 
+        0x7f030102, 0x7f030103, 0x7f030104, 0x7f030105, 
+        0x7f030106, 0x7f030107, 0x7f030108, 0x7f030109, 
+        0x7f03010a, 0x7f03010b, 0x7f03010c, 0x7f03010d, 
+        0x7f03010e, 0x7f03010f, 0x7f030111, 0x7f030112, 
+        0x7f030113, 0x7f030114, 0x7f030115, 0x7f030116, 
+        0x7f030117, 0x7f030118, 0x7f03011b
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int ConstraintLayout_Layout_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#padding}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:padding
+     */
+    public static final int ConstraintLayout_Layout_android_padding=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#paddingLeft}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:paddingLeft
+     */
+    public static final int ConstraintLayout_Layout_android_paddingLeft=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#paddingTop}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:paddingTop
+     */
+    public static final int ConstraintLayout_Layout_android_paddingTop=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#paddingRight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:paddingRight
+     */
+    public static final int ConstraintLayout_Layout_android_paddingRight=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#paddingBottom}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:paddingBottom
+     */
+    public static final int ConstraintLayout_Layout_android_paddingBottom=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>2</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * <tr><td>visible</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:visibility
+     */
+    public static final int ConstraintLayout_Layout_android_visibility=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintLayout_Layout_android_maxWidth=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintLayout_Layout_android_maxHeight=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintLayout_Layout_android_minWidth=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintLayout_Layout_android_minHeight=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#paddingStart}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:paddingStart
+     */
+    public static final int ConstraintLayout_Layout_android_paddingStart=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#paddingEnd}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:paddingEnd
+     */
+    public static final int ConstraintLayout_Layout_android_paddingEnd=12;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int ConstraintLayout_Layout_android_elevation=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierAllowsGoneWidgets}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierAllowsGoneWidgets
+     */
+    public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierDirection}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierDirection
+     */
+    public static final int ConstraintLayout_Layout_barrierDirection=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierMargin}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierMargin
+     */
+    public static final int ConstraintLayout_Layout_barrierMargin=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#chainUseRtl}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:chainUseRtl
+     */
+    public static final int ConstraintLayout_Layout_chainUseRtl=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraintSet}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:constraintSet
+     */
+    public static final int ConstraintLayout_Layout_constraintSet=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraint_referenced_ids}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:constraint_referenced_ids
+     */
+    public static final int ConstraintLayout_Layout_constraint_referenced_ids=19;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraint_referenced_tags}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:constraint_referenced_tags
+     */
+    public static final int ConstraintLayout_Layout_constraint_referenced_tags=20;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstHorizontalBias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstHorizontalBias
+     */
+    public static final int ConstraintLayout_Layout_flow_firstHorizontalBias=21;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstHorizontalStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstHorizontalStyle
+     */
+    public static final int ConstraintLayout_Layout_flow_firstHorizontalStyle=22;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstVerticalBias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstVerticalBias
+     */
+    public static final int ConstraintLayout_Layout_flow_firstVerticalBias=23;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstVerticalStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstVerticalStyle
+     */
+    public static final int ConstraintLayout_Layout_flow_firstVerticalStyle=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalAlign}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>center</td><td>2</td><td></td></tr>
+     * <tr><td>end</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalAlign
+     */
+    public static final int ConstraintLayout_Layout_flow_horizontalAlign=25;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalBias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalBias
+     */
+    public static final int ConstraintLayout_Layout_flow_horizontalBias=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalGap}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalGap
+     */
+    public static final int ConstraintLayout_Layout_flow_horizontalGap=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalStyle
+     */
+    public static final int ConstraintLayout_Layout_flow_horizontalStyle=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastHorizontalBias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastHorizontalBias
+     */
+    public static final int ConstraintLayout_Layout_flow_lastHorizontalBias=29;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastHorizontalStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastHorizontalStyle
+     */
+    public static final int ConstraintLayout_Layout_flow_lastHorizontalStyle=30;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastVerticalBias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastVerticalBias
+     */
+    public static final int ConstraintLayout_Layout_flow_lastVerticalBias=31;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastVerticalStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastVerticalStyle
+     */
+    public static final int ConstraintLayout_Layout_flow_lastVerticalStyle=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_maxElementsWrap}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_maxElementsWrap
+     */
+    public static final int ConstraintLayout_Layout_flow_maxElementsWrap=33;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalAlign}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>baseline</td><td>3</td><td></td></tr>
+     * <tr><td>bottom</td><td>1</td><td></td></tr>
+     * <tr><td>center</td><td>2</td><td></td></tr>
+     * <tr><td>top</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalAlign
+     */
+    public static final int ConstraintLayout_Layout_flow_verticalAlign=34;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalBias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalBias
+     */
+    public static final int ConstraintLayout_Layout_flow_verticalBias=35;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalGap}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalGap
+     */
+    public static final int ConstraintLayout_Layout_flow_verticalGap=36;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalStyle
+     */
+    public static final int ConstraintLayout_Layout_flow_verticalStyle=37;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_wrapMode}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>aligned</td><td>2</td><td></td></tr>
+     * <tr><td>chain</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_wrapMode
+     */
+    public static final int ConstraintLayout_Layout_flow_wrapMode=38;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layoutDescription}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layoutDescription
+     */
+    public static final int ConstraintLayout_Layout_layoutDescription=39;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constrainedHeight
+     */
+    public static final int ConstraintLayout_Layout_layout_constrainedHeight=40;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constrainedWidth
+     */
+    public static final int ConstraintLayout_Layout_layout_constrainedWidth=41;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBaseline_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=42;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBaseline_toBaselineOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBaseline_toBaselineOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=43;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=44;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_toBottomOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=45;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_toTopOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=46;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintCircle=47;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircleAngle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=48;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircleRadius}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircleRadius
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=49;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintDimensionRatio
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=50;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=51;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=52;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_begin}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_begin
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=53;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_end
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_end=54;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_percent}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_percent
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=55;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_default}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_default
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_default=56;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_max}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_max
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_max=57;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_min}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_min
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_min=58;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_percent}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_percent
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=59;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_bias
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=60;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_chainStyle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=61;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_weight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_weight
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=62;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=63;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_toLeftOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=64;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_toRightOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=65;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintRight_creator=66;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_toLeftOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=67;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_toRightOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=68;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintStart_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintStart_toEndOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=69;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintStart_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintStart_toStartOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=70;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTag}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTag
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintTag=71;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintTop_creator=72;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_toBottomOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=73;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_toTopOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=74;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_bias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_bias
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=75;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_chainStyle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=76;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_weight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_weight
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=77;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_default}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_default
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_default=78;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_max}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_max
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_max=79;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_min}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_min
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_min=80;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_percent}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_percent
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=81;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_editor_absoluteX}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_editor_absoluteX
+     */
+    public static final int ConstraintLayout_Layout_layout_editor_absoluteX=82;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_editor_absoluteY}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_editor_absoluteY
+     */
+    public static final int ConstraintLayout_Layout_layout_editor_absoluteY=83;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginBottom}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginBottom
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginBottom=84;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginEnd}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginEnd
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginEnd=85;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginLeft}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginLeft
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginLeft=86;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginRight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginRight
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginRight=87;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginStart}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginStart
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginStart=88;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginTop}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginTop
+     */
+    public static final int ConstraintLayout_Layout_layout_goneMarginTop=89;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_optimizationLevel}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>barrier</td><td>2</td><td></td></tr>
+     * <tr><td>cache_measures</td><td>100</td><td></td></tr>
+     * <tr><td>chains</td><td>4</td><td></td></tr>
+     * <tr><td>dependency_ordering</td><td>200</td><td></td></tr>
+     * <tr><td>dimensions</td><td>8</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, measure caches</td></tr>
+     * <tr><td>graph</td><td>40</td><td></td></tr>
+     * <tr><td>graph_wrap</td><td>80</td><td></td></tr>
+     * <tr><td>grouping</td><td>400</td><td></td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>ratio</td><td>10</td><td></td></tr>
+     * <tr><td>standard</td><td>101</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_optimizationLevel
+     */
+    public static final int ConstraintLayout_Layout_layout_optimizationLevel=90;
+    /**
+     * Attributes that can be used with a ConstraintLayout_placeholder.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.ngamolsky.android.materialme:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_placeholder_emptyVisibility com.ngamolsky.android.materialme:placeholder_emptyVisibility}</code></td><td></td></tr>
+     * </table>
+     * @see #ConstraintLayout_placeholder_content
+     * @see #ConstraintLayout_placeholder_placeholder_emptyVisibility
+     */
+    public static final int[] ConstraintLayout_placeholder={
+        0x7f030070, 0x7f03015f
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#content}
+     * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:content
+     */
+    public static final int ConstraintLayout_placeholder_content=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#placeholder_emptyVisibility}
+     * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>8</td><td></td></tr>
+     * <tr><td>invisible</td><td>4</td><td></td></tr>
+     * <tr><td>visible</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:placeholder_emptyVisibility
+     */
+    public static final int ConstraintLayout_placeholder_placeholder_emptyVisibility=1;
+    /**
+     * Attributes that can be used with a ConstraintSet.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_orientation android:orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_visibility android:visibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_width android:layout_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_height android:layout_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginLeft android:layout_marginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minHeight android:minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_pivotX android:pivotX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_pivotY android:pivotY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_alpha android:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_translationX android:translationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_translationY android:translationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_scaleX android:scaleX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_scaleY android:scaleY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_rotation android:rotation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_rotationX android:rotationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_rotationY android:rotationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginStart android:layout_marginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_animate_relativeTo com.ngamolsky.android.materialme:animate_relativeTo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.ngamolsky.android.materialme:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.ngamolsky.android.materialme:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierMargin com.ngamolsky.android.materialme:barrierMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.ngamolsky.android.materialme:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.ngamolsky.android.materialme:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_tags com.ngamolsky.android.materialme:constraint_referenced_tags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_deriveConstraintsFrom com.ngamolsky.android.materialme:deriveConstraintsFrom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_drawPath com.ngamolsky.android.materialme:drawPath}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_firstHorizontalBias com.ngamolsky.android.materialme:flow_firstHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_firstHorizontalStyle com.ngamolsky.android.materialme:flow_firstHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_firstVerticalBias com.ngamolsky.android.materialme:flow_firstVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_firstVerticalStyle com.ngamolsky.android.materialme:flow_firstVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_horizontalAlign com.ngamolsky.android.materialme:flow_horizontalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_horizontalBias com.ngamolsky.android.materialme:flow_horizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_horizontalGap com.ngamolsky.android.materialme:flow_horizontalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_horizontalStyle com.ngamolsky.android.materialme:flow_horizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_lastHorizontalBias com.ngamolsky.android.materialme:flow_lastHorizontalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_lastHorizontalStyle com.ngamolsky.android.materialme:flow_lastHorizontalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_lastVerticalBias com.ngamolsky.android.materialme:flow_lastVerticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_lastVerticalStyle com.ngamolsky.android.materialme:flow_lastVerticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_maxElementsWrap com.ngamolsky.android.materialme:flow_maxElementsWrap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_verticalAlign com.ngamolsky.android.materialme:flow_verticalAlign}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_verticalBias com.ngamolsky.android.materialme:flow_verticalBias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_verticalGap com.ngamolsky.android.materialme:flow_verticalGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_verticalStyle com.ngamolsky.android.materialme:flow_verticalStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_flow_wrapMode com.ngamolsky.android.materialme:flow_wrapMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.ngamolsky.android.materialme:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.ngamolsky.android.materialme:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.ngamolsky.android.materialme:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.ngamolsky.android.materialme:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.ngamolsky.android.materialme:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.ngamolsky.android.materialme:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.ngamolsky.android.materialme:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.ngamolsky.android.materialme:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.ngamolsky.android.materialme:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.ngamolsky.android.materialme:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.ngamolsky.android.materialme:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.ngamolsky.android.materialme:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.ngamolsky.android.materialme:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.ngamolsky.android.materialme:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.ngamolsky.android.materialme:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.ngamolsky.android.materialme:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.ngamolsky.android.materialme:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.ngamolsky.android.materialme:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.ngamolsky.android.materialme:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.ngamolsky.android.materialme:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.ngamolsky.android.materialme:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.ngamolsky.android.materialme:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.ngamolsky.android.materialme:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.ngamolsky.android.materialme:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.ngamolsky.android.materialme:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.ngamolsky.android.materialme:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.ngamolsky.android.materialme:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.ngamolsky.android.materialme:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.ngamolsky.android.materialme:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.ngamolsky.android.materialme:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.ngamolsky.android.materialme:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTag com.ngamolsky.android.materialme:layout_constraintTag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.ngamolsky.android.materialme:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.ngamolsky.android.materialme:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.ngamolsky.android.materialme:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.ngamolsky.android.materialme:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.ngamolsky.android.materialme:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.ngamolsky.android.materialme:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.ngamolsky.android.materialme:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.ngamolsky.android.materialme:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.ngamolsky.android.materialme:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.ngamolsky.android.materialme:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.ngamolsky.android.materialme:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.ngamolsky.android.materialme:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.ngamolsky.android.materialme:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.ngamolsky.android.materialme:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.ngamolsky.android.materialme:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.ngamolsky.android.materialme:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.ngamolsky.android.materialme:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.ngamolsky.android.materialme:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_motionProgress com.ngamolsky.android.materialme:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_motionStagger com.ngamolsky.android.materialme:motionStagger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_pathMotionArc com.ngamolsky.android.materialme:pathMotionArc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_pivotAnchor com.ngamolsky.android.materialme:pivotAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_transitionEasing com.ngamolsky.android.materialme:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_transitionPathRotate com.ngamolsky.android.materialme:transitionPathRotate}</code></td><td></td></tr>
+     * </table>
+     * @see #ConstraintSet_android_orientation
+     * @see #ConstraintSet_android_id
+     * @see #ConstraintSet_android_visibility
+     * @see #ConstraintSet_android_layout_width
+     * @see #ConstraintSet_android_layout_height
+     * @see #ConstraintSet_android_layout_marginLeft
+     * @see #ConstraintSet_android_layout_marginTop
+     * @see #ConstraintSet_android_layout_marginRight
+     * @see #ConstraintSet_android_layout_marginBottom
+     * @see #ConstraintSet_android_maxWidth
+     * @see #ConstraintSet_android_maxHeight
+     * @see #ConstraintSet_android_minWidth
+     * @see #ConstraintSet_android_minHeight
+     * @see #ConstraintSet_android_pivotX
+     * @see #ConstraintSet_android_pivotY
+     * @see #ConstraintSet_android_alpha
+     * @see #ConstraintSet_android_transformPivotX
+     * @see #ConstraintSet_android_transformPivotY
+     * @see #ConstraintSet_android_translationX
+     * @see #ConstraintSet_android_translationY
+     * @see #ConstraintSet_android_scaleX
+     * @see #ConstraintSet_android_scaleY
+     * @see #ConstraintSet_android_rotation
+     * @see #ConstraintSet_android_rotationX
+     * @see #ConstraintSet_android_rotationY
+     * @see #ConstraintSet_android_layout_marginStart
+     * @see #ConstraintSet_android_layout_marginEnd
+     * @see #ConstraintSet_android_translationZ
+     * @see #ConstraintSet_android_elevation
+     * @see #ConstraintSet_animate_relativeTo
+     * @see #ConstraintSet_barrierAllowsGoneWidgets
+     * @see #ConstraintSet_barrierDirection
+     * @see #ConstraintSet_barrierMargin
+     * @see #ConstraintSet_chainUseRtl
+     * @see #ConstraintSet_constraint_referenced_ids
+     * @see #ConstraintSet_constraint_referenced_tags
+     * @see #ConstraintSet_deriveConstraintsFrom
+     * @see #ConstraintSet_drawPath
+     * @see #ConstraintSet_flow_firstHorizontalBias
+     * @see #ConstraintSet_flow_firstHorizontalStyle
+     * @see #ConstraintSet_flow_firstVerticalBias
+     * @see #ConstraintSet_flow_firstVerticalStyle
+     * @see #ConstraintSet_flow_horizontalAlign
+     * @see #ConstraintSet_flow_horizontalBias
+     * @see #ConstraintSet_flow_horizontalGap
+     * @see #ConstraintSet_flow_horizontalStyle
+     * @see #ConstraintSet_flow_lastHorizontalBias
+     * @see #ConstraintSet_flow_lastHorizontalStyle
+     * @see #ConstraintSet_flow_lastVerticalBias
+     * @see #ConstraintSet_flow_lastVerticalStyle
+     * @see #ConstraintSet_flow_maxElementsWrap
+     * @see #ConstraintSet_flow_verticalAlign
+     * @see #ConstraintSet_flow_verticalBias
+     * @see #ConstraintSet_flow_verticalGap
+     * @see #ConstraintSet_flow_verticalStyle
+     * @see #ConstraintSet_flow_wrapMode
+     * @see #ConstraintSet_layout_constrainedHeight
+     * @see #ConstraintSet_layout_constrainedWidth
+     * @see #ConstraintSet_layout_constraintBaseline_creator
+     * @see #ConstraintSet_layout_constraintBaseline_toBaselineOf
+     * @see #ConstraintSet_layout_constraintBottom_creator
+     * @see #ConstraintSet_layout_constraintBottom_toBottomOf
+     * @see #ConstraintSet_layout_constraintBottom_toTopOf
+     * @see #ConstraintSet_layout_constraintCircle
+     * @see #ConstraintSet_layout_constraintCircleAngle
+     * @see #ConstraintSet_layout_constraintCircleRadius
+     * @see #ConstraintSet_layout_constraintDimensionRatio
+     * @see #ConstraintSet_layout_constraintEnd_toEndOf
+     * @see #ConstraintSet_layout_constraintEnd_toStartOf
+     * @see #ConstraintSet_layout_constraintGuide_begin
+     * @see #ConstraintSet_layout_constraintGuide_end
+     * @see #ConstraintSet_layout_constraintGuide_percent
+     * @see #ConstraintSet_layout_constraintHeight_default
+     * @see #ConstraintSet_layout_constraintHeight_max
+     * @see #ConstraintSet_layout_constraintHeight_min
+     * @see #ConstraintSet_layout_constraintHeight_percent
+     * @see #ConstraintSet_layout_constraintHorizontal_bias
+     * @see #ConstraintSet_layout_constraintHorizontal_chainStyle
+     * @see #ConstraintSet_layout_constraintHorizontal_weight
+     * @see #ConstraintSet_layout_constraintLeft_creator
+     * @see #ConstraintSet_layout_constraintLeft_toLeftOf
+     * @see #ConstraintSet_layout_constraintLeft_toRightOf
+     * @see #ConstraintSet_layout_constraintRight_creator
+     * @see #ConstraintSet_layout_constraintRight_toLeftOf
+     * @see #ConstraintSet_layout_constraintRight_toRightOf
+     * @see #ConstraintSet_layout_constraintStart_toEndOf
+     * @see #ConstraintSet_layout_constraintStart_toStartOf
+     * @see #ConstraintSet_layout_constraintTag
+     * @see #ConstraintSet_layout_constraintTop_creator
+     * @see #ConstraintSet_layout_constraintTop_toBottomOf
+     * @see #ConstraintSet_layout_constraintTop_toTopOf
+     * @see #ConstraintSet_layout_constraintVertical_bias
+     * @see #ConstraintSet_layout_constraintVertical_chainStyle
+     * @see #ConstraintSet_layout_constraintVertical_weight
+     * @see #ConstraintSet_layout_constraintWidth_default
+     * @see #ConstraintSet_layout_constraintWidth_max
+     * @see #ConstraintSet_layout_constraintWidth_min
+     * @see #ConstraintSet_layout_constraintWidth_percent
+     * @see #ConstraintSet_layout_editor_absoluteX
+     * @see #ConstraintSet_layout_editor_absoluteY
+     * @see #ConstraintSet_layout_goneMarginBottom
+     * @see #ConstraintSet_layout_goneMarginEnd
+     * @see #ConstraintSet_layout_goneMarginLeft
+     * @see #ConstraintSet_layout_goneMarginRight
+     * @see #ConstraintSet_layout_goneMarginStart
+     * @see #ConstraintSet_layout_goneMarginTop
+     * @see #ConstraintSet_motionProgress
+     * @see #ConstraintSet_motionStagger
+     * @see #ConstraintSet_pathMotionArc
+     * @see #ConstraintSet_pivotAnchor
+     * @see #ConstraintSet_transitionEasing
+     * @see #ConstraintSet_transitionPathRotate
+     */
+    public static final int[] ConstraintSet={
+        0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 
+        0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
+        0x010100fa, 0x0101011f, 0x01010120, 0x0101013f, 
+        0x01010140, 0x010101b5, 0x010101b6, 0x0101031f, 
+        0x01010320, 0x01010321, 0x01010322, 0x01010323, 
+        0x01010324, 0x01010325, 0x01010326, 0x01010327, 
+        0x01010328, 0x010103b5, 0x010103b6, 0x010103fa, 
+        0x01010440, 0x7f03002a, 0x7f03003d, 0x7f03003e, 
+        0x7f03003f, 0x7f030055, 0x7f03006d, 0x7f03006e, 
+        0x7f030091, 0x7f03009d, 0x7f0300ae, 0x7f0300af, 
+        0x7f0300b0, 0x7f0300b1, 0x7f0300b2, 0x7f0300b3, 
+        0x7f0300b4, 0x7f0300b5, 0x7f0300b6, 0x7f0300b7, 
+        0x7f0300b8, 0x7f0300b9, 0x7f0300ba, 0x7f0300bc, 
+        0x7f0300bd, 0x7f0300be, 0x7f0300bf, 0x7f0300c0, 
+        0x7f0300e6, 0x7f0300e7, 0x7f0300e8, 0x7f0300e9, 
+        0x7f0300ea, 0x7f0300eb, 0x7f0300ec, 0x7f0300ed, 
+        0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 0x7f0300f1, 
+        0x7f0300f2, 0x7f0300f3, 0x7f0300f4, 0x7f0300f5, 
+        0x7f0300f6, 0x7f0300f7, 0x7f0300f8, 0x7f0300f9, 
+        0x7f0300fa, 0x7f0300fb, 0x7f0300fc, 0x7f0300fd, 
+        0x7f0300fe, 0x7f0300ff, 0x7f030100, 0x7f030101, 
+        0x7f030102, 0x7f030103, 0x7f030104, 0x7f030105, 
+        0x7f030106, 0x7f030107, 0x7f030108, 0x7f030109, 
+        0x7f03010a, 0x7f03010b, 0x7f03010c, 0x7f03010d, 
+        0x7f03010e, 0x7f03010f, 0x7f030111, 0x7f030112, 
+        0x7f030113, 0x7f030114, 0x7f030115, 0x7f030116, 
+        0x7f030117, 0x7f030118, 0x7f03013c, 0x7f03013d, 
+        0x7f030157, 0x7f03015e, 0x7f0301c5, 0x7f0301c7
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int ConstraintSet_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int ConstraintSet_android_id=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>2</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * <tr><td>visible</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:visibility
+     */
+    public static final int ConstraintSet_android_visibility=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_width
+     */
+    public static final int ConstraintSet_android_layout_width=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_height
+     */
+    public static final int ConstraintSet_android_layout_height=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginLeft
+     */
+    public static final int ConstraintSet_android_layout_marginLeft=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginTop
+     */
+    public static final int ConstraintSet_android_layout_marginTop=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginRight
+     */
+    public static final int ConstraintSet_android_layout_marginRight=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginBottom
+     */
+    public static final int ConstraintSet_android_layout_marginBottom=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintSet_android_maxWidth=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintSet_android_maxHeight=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintSet_android_minWidth=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintSet_android_minHeight=12;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#pivotX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name android:pivotX
+     */
+    public static final int ConstraintSet_android_pivotX=13;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#pivotY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name android:pivotY
+     */
+    public static final int ConstraintSet_android_pivotY=14;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:alpha
+     */
+    public static final int ConstraintSet_android_alpha=15;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotX
+     */
+    public static final int ConstraintSet_android_transformPivotX=16;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotY
+     */
+    public static final int ConstraintSet_android_transformPivotY=17;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationX
+     */
+    public static final int ConstraintSet_android_translationX=18;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationY
+     */
+    public static final int ConstraintSet_android_translationY=19;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int ConstraintSet_android_scaleX=20;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int ConstraintSet_android_scaleY=21;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotation
+     */
+    public static final int ConstraintSet_android_rotation=22;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int ConstraintSet_android_rotationX=23;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int ConstraintSet_android_rotationY=24;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginStart
+     */
+    public static final int ConstraintSet_android_layout_marginStart=25;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginEnd
+     */
+    public static final int ConstraintSet_android_layout_marginEnd=26;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationZ
+     */
+    public static final int ConstraintSet_android_translationZ=27;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int ConstraintSet_android_elevation=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#animate_relativeTo}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:animate_relativeTo
+     */
+    public static final int ConstraintSet_animate_relativeTo=29;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierAllowsGoneWidgets}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierAllowsGoneWidgets
+     */
+    public static final int ConstraintSet_barrierAllowsGoneWidgets=30;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierDirection}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierDirection
+     */
+    public static final int ConstraintSet_barrierDirection=31;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierMargin}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierMargin
+     */
+    public static final int ConstraintSet_barrierMargin=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#chainUseRtl}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:chainUseRtl
+     */
+    public static final int ConstraintSet_chainUseRtl=33;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraint_referenced_ids}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:constraint_referenced_ids
+     */
+    public static final int ConstraintSet_constraint_referenced_ids=34;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraint_referenced_tags}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:constraint_referenced_tags
+     */
+    public static final int ConstraintSet_constraint_referenced_tags=35;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#deriveConstraintsFrom}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:deriveConstraintsFrom
+     */
+    public static final int ConstraintSet_deriveConstraintsFrom=36;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#drawPath}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>asConfigured</td><td>4</td><td></td></tr>
+     * <tr><td>deltaRelative</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>path</td><td>1</td><td></td></tr>
+     * <tr><td>pathRelative</td><td>2</td><td></td></tr>
+     * <tr><td>rectangles</td><td>5</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:drawPath
+     */
+    public static final int ConstraintSet_drawPath=37;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstHorizontalBias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstHorizontalBias
+     */
+    public static final int ConstraintSet_flow_firstHorizontalBias=38;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstHorizontalStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstHorizontalStyle
+     */
+    public static final int ConstraintSet_flow_firstHorizontalStyle=39;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstVerticalBias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstVerticalBias
+     */
+    public static final int ConstraintSet_flow_firstVerticalBias=40;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_firstVerticalStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_firstVerticalStyle
+     */
+    public static final int ConstraintSet_flow_firstVerticalStyle=41;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalAlign}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>center</td><td>2</td><td></td></tr>
+     * <tr><td>end</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalAlign
+     */
+    public static final int ConstraintSet_flow_horizontalAlign=42;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalBias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalBias
+     */
+    public static final int ConstraintSet_flow_horizontalBias=43;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalGap}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalGap
+     */
+    public static final int ConstraintSet_flow_horizontalGap=44;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_horizontalStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_horizontalStyle
+     */
+    public static final int ConstraintSet_flow_horizontalStyle=45;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastHorizontalBias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastHorizontalBias
+     */
+    public static final int ConstraintSet_flow_lastHorizontalBias=46;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastHorizontalStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastHorizontalStyle
+     */
+    public static final int ConstraintSet_flow_lastHorizontalStyle=47;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastVerticalBias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastVerticalBias
+     */
+    public static final int ConstraintSet_flow_lastVerticalBias=48;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_lastVerticalStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_lastVerticalStyle
+     */
+    public static final int ConstraintSet_flow_lastVerticalStyle=49;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_maxElementsWrap}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_maxElementsWrap
+     */
+    public static final int ConstraintSet_flow_maxElementsWrap=50;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalAlign}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>baseline</td><td>3</td><td></td></tr>
+     * <tr><td>bottom</td><td>1</td><td></td></tr>
+     * <tr><td>center</td><td>2</td><td></td></tr>
+     * <tr><td>top</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalAlign
+     */
+    public static final int ConstraintSet_flow_verticalAlign=51;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalBias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalBias
+     */
+    public static final int ConstraintSet_flow_verticalBias=52;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalGap}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalGap
+     */
+    public static final int ConstraintSet_flow_verticalGap=53;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_verticalStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_verticalStyle
+     */
+    public static final int ConstraintSet_flow_verticalStyle=54;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#flow_wrapMode}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>aligned</td><td>2</td><td></td></tr>
+     * <tr><td>chain</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:flow_wrapMode
+     */
+    public static final int ConstraintSet_flow_wrapMode=55;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constrainedHeight
+     */
+    public static final int ConstraintSet_layout_constrainedHeight=56;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constrainedWidth
+     */
+    public static final int ConstraintSet_layout_constrainedWidth=57;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBaseline_creator
+     */
+    public static final int ConstraintSet_layout_constraintBaseline_creator=58;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBaseline_toBaselineOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBaseline_toBaselineOf
+     */
+    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=59;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_creator
+     */
+    public static final int ConstraintSet_layout_constraintBottom_creator=60;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_toBottomOf
+     */
+    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=61;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_toTopOf
+     */
+    public static final int ConstraintSet_layout_constraintBottom_toTopOf=62;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircle
+     */
+    public static final int ConstraintSet_layout_constraintCircle=63;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircleAngle
+     */
+    public static final int ConstraintSet_layout_constraintCircleAngle=64;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircleRadius}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircleRadius
+     */
+    public static final int ConstraintSet_layout_constraintCircleRadius=65;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintDimensionRatio
+     */
+    public static final int ConstraintSet_layout_constraintDimensionRatio=66;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toEndOf=67;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toStartOf=68;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_begin}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_begin
+     */
+    public static final int ConstraintSet_layout_constraintGuide_begin=69;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_end
+     */
+    public static final int ConstraintSet_layout_constraintGuide_end=70;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_percent}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_percent
+     */
+    public static final int ConstraintSet_layout_constraintGuide_percent=71;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_default}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_default
+     */
+    public static final int ConstraintSet_layout_constraintHeight_default=72;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_max}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_max
+     */
+    public static final int ConstraintSet_layout_constraintHeight_max=73;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_min}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_min
+     */
+    public static final int ConstraintSet_layout_constraintHeight_min=74;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_percent}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_percent
+     */
+    public static final int ConstraintSet_layout_constraintHeight_percent=75;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_bias
+     */
+    public static final int ConstraintSet_layout_constraintHorizontal_bias=76;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_chainStyle
+     */
+    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=77;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_weight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_weight
+     */
+    public static final int ConstraintSet_layout_constraintHorizontal_weight=78;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_creator
+     */
+    public static final int ConstraintSet_layout_constraintLeft_creator=79;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_toLeftOf
+     */
+    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=80;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_toRightOf
+     */
+    public static final int ConstraintSet_layout_constraintLeft_toRightOf=81;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_creator
+     */
+    public static final int ConstraintSet_layout_constraintRight_creator=82;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_toLeftOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_toLeftOf
+     */
+    public static final int ConstraintSet_layout_constraintRight_toLeftOf=83;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_toRightOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_toRightOf
+     */
+    public static final int ConstraintSet_layout_constraintRight_toRightOf=84;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintStart_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintStart_toEndOf
+     */
+    public static final int ConstraintSet_layout_constraintStart_toEndOf=85;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintStart_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintStart_toStartOf
+     */
+    public static final int ConstraintSet_layout_constraintStart_toStartOf=86;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTag}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTag
+     */
+    public static final int ConstraintSet_layout_constraintTag=87;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_creator
+     */
+    public static final int ConstraintSet_layout_constraintTop_creator=88;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_toBottomOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_toBottomOf
+     */
+    public static final int ConstraintSet_layout_constraintTop_toBottomOf=89;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_toTopOf
+     */
+    public static final int ConstraintSet_layout_constraintTop_toTopOf=90;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_bias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_bias
+     */
+    public static final int ConstraintSet_layout_constraintVertical_bias=91;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_chainStyle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_chainStyle
+     */
+    public static final int ConstraintSet_layout_constraintVertical_chainStyle=92;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_weight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_weight
+     */
+    public static final int ConstraintSet_layout_constraintVertical_weight=93;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_default}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_default
+     */
+    public static final int ConstraintSet_layout_constraintWidth_default=94;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_max}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_max
+     */
+    public static final int ConstraintSet_layout_constraintWidth_max=95;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_min}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_min
+     */
+    public static final int ConstraintSet_layout_constraintWidth_min=96;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_percent}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_percent
+     */
+    public static final int ConstraintSet_layout_constraintWidth_percent=97;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_editor_absoluteX}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_editor_absoluteX
+     */
+    public static final int ConstraintSet_layout_editor_absoluteX=98;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_editor_absoluteY}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_editor_absoluteY
+     */
+    public static final int ConstraintSet_layout_editor_absoluteY=99;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginBottom}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginBottom
+     */
+    public static final int ConstraintSet_layout_goneMarginBottom=100;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginEnd}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginEnd
+     */
+    public static final int ConstraintSet_layout_goneMarginEnd=101;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginLeft}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginLeft
+     */
+    public static final int ConstraintSet_layout_goneMarginLeft=102;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginRight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginRight
+     */
+    public static final int ConstraintSet_layout_goneMarginRight=103;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginStart}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginStart
+     */
+    public static final int ConstraintSet_layout_goneMarginStart=104;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginTop}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginTop
+     */
+    public static final int ConstraintSet_layout_goneMarginTop=105;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionProgress}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionProgress
+     */
+    public static final int ConstraintSet_motionProgress=106;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionStagger}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionStagger
+     */
+    public static final int ConstraintSet_motionStagger=107;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#pathMotionArc}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>flip</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>startHorizontal</td><td>2</td><td></td></tr>
+     * <tr><td>startVertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:pathMotionArc
+     */
+    public static final int ConstraintSet_pathMotionArc=108;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#pivotAnchor}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:pivotAnchor
+     */
+    public static final int ConstraintSet_pivotAnchor=109;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionEasing}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>accelerate</td><td>1</td><td></td></tr>
+     * <tr><td>decelerate</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionEasing
+     */
+    public static final int ConstraintSet_transitionEasing=110;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionPathRotate}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionPathRotate
+     */
+    public static final int ConstraintSet_transitionPathRotate=111;
+    /**
      * Attributes that can be used with a CoordinatorLayout.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -6439,7 +13561,7 @@ public final class R {
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-        0x7f03009b, 0x7f0300e0
+        0x7f0300dd, 0x7f03018a
       };
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#keylines}
@@ -6492,8 +13614,8 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-        0x010100b3, 0x7f03009e, 0x7f03009f, 0x7f0300a0, 
-        0x7f0300a1, 0x7f0300a2, 0x7f0300a3
+        0x010100b3, 0x7f0300e3, 0x7f0300e4, 0x7f0300e5, 
+        0x7f030110, 0x7f030119, 0x7f03011a
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -6630,6 +13752,134 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
+     * Attributes that can be used with a CustomAttribute.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #CustomAttribute_attributeName com.ngamolsky.android.materialme:attributeName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customBoolean com.ngamolsky.android.materialme:customBoolean}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customColorDrawableValue com.ngamolsky.android.materialme:customColorDrawableValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customColorValue com.ngamolsky.android.materialme:customColorValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customDimension com.ngamolsky.android.materialme:customDimension}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customFloatValue com.ngamolsky.android.materialme:customFloatValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customIntegerValue com.ngamolsky.android.materialme:customIntegerValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customPixelDimension com.ngamolsky.android.materialme:customPixelDimension}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomAttribute_customStringValue com.ngamolsky.android.materialme:customStringValue}</code></td><td></td></tr>
+     * </table>
+     * @see #CustomAttribute_attributeName
+     * @see #CustomAttribute_customBoolean
+     * @see #CustomAttribute_customColorDrawableValue
+     * @see #CustomAttribute_customColorValue
+     * @see #CustomAttribute_customDimension
+     * @see #CustomAttribute_customFloatValue
+     * @see #CustomAttribute_customIntegerValue
+     * @see #CustomAttribute_customPixelDimension
+     * @see #CustomAttribute_customStringValue
+     */
+    public static final int[] CustomAttribute={
+        0x7f03002f, 0x7f030083, 0x7f030084, 0x7f030085, 
+        0x7f030086, 0x7f030087, 0x7f030088, 0x7f03008a, 
+        0x7f03008b
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#attributeName}
+     * attribute's value can be found in the {@link #CustomAttribute} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:attributeName
+     */
+    public static final int CustomAttribute_attributeName=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#customBoolean}
+     * attribute's value can be found in the {@link #CustomAttribute} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:customBoolean
+     */
+    public static final int CustomAttribute_customBoolean=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#customColorDrawableValue}
+     * attribute's value can be found in the {@link #CustomAttribute} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:customColorDrawableValue
+     */
+    public static final int CustomAttribute_customColorDrawableValue=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#customColorValue}
+     * attribute's value can be found in the {@link #CustomAttribute} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:customColorValue
+     */
+    public static final int CustomAttribute_customColorValue=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#customDimension}
+     * attribute's value can be found in the {@link #CustomAttribute} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:customDimension
+     */
+    public static final int CustomAttribute_customDimension=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#customFloatValue}
+     * attribute's value can be found in the {@link #CustomAttribute} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:customFloatValue
+     */
+    public static final int CustomAttribute_customFloatValue=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#customIntegerValue}
+     * attribute's value can be found in the {@link #CustomAttribute} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:customIntegerValue
+     */
+    public static final int CustomAttribute_customIntegerValue=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#customPixelDimension}
+     * attribute's value can be found in the {@link #CustomAttribute} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:customPixelDimension
+     */
+    public static final int CustomAttribute_customPixelDimension=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#customStringValue}
+     * attribute's value can be found in the {@link #CustomAttribute} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:customStringValue
+     */
+    public static final int CustomAttribute_customStringValue=8;
+    /**
      * Attributes that can be used with a DrawerArrowToggle.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -6655,8 +13905,8 @@ public final class R {
      * @see #DrawerArrowToggle_thickness
      */
     public static final int[] DrawerArrowToggle={
-        0x7f030029, 0x7f03002a, 0x7f030036, 0x7f030051, 
-        0x7f030074, 0x7f03008c, 0x7f0300d9, 0x7f0300f8
+        0x7f03002d, 0x7f03002e, 0x7f03003c, 0x7f03005e, 
+        0x7f03009e, 0x7f0300cd, 0x7f030182, 0x7f0301a6
       };
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#arrowHeadLength}
@@ -6779,8 +14029,8 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-        0x7f030084, 0x7f030085, 0x7f030086, 0x7f030087, 
-        0x7f030088, 0x7f030089
+        0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 
+        0x7f0300c7, 0x7f0300c8
       };
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#fontProviderAuthority}
@@ -6868,20 +14118,29 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_font com.ngamolsky.android.materialme:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_fontStyle com.ngamolsky.android.materialme:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.ngamolsky.android.materialme:fontVariationSettings}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_fontWeight com.ngamolsky.android.materialme:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.ngamolsky.android.materialme:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
      * @see #FontFamilyFont_android_fontStyle
+     * @see #FontFamilyFont_android_ttcIndex
+     * @see #FontFamilyFont_android_fontVariationSettings
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
+     * @see #FontFamilyFont_fontVariationSettings
      * @see #FontFamilyFont_fontWeight
+     * @see #FontFamilyFont_ttcIndex
      */
     public static final int[] FontFamilyFont={
-        0x01010532, 0x01010533, 0x0101053f, 0x7f030082, 
-        0x7f03008a, 0x7f03008b
+        0x01010532, 0x01010533, 0x0101053f, 0x0101056f, 
+        0x01010570, 0x7f0300c1, 0x7f0300c9, 0x7f0300ca, 
+        0x7f0300cb, 0x7f0301cb
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -6922,6 +14181,25 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#ttcIndex}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:ttcIndex
+     */
+    public static final int FontFamilyFont_android_ttcIndex=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name android:fontVariationSettings
+     */
+    public static final int FontFamilyFont_android_fontVariationSettings=4;
+    /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
@@ -6932,7 +14210,7 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:font
      */
-    public static final int FontFamilyFont_font=3;
+    public static final int FontFamilyFont_font=5;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -6949,7 +14227,17 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:fontStyle
      */
-    public static final int FontFamilyFont_fontStyle=4;
+    public static final int FontFamilyFont_fontStyle=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:fontVariationSettings
+     */
+    public static final int FontFamilyFont_fontVariationSettings=7;
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
@@ -6958,7 +14246,2721 @@ public final class R {
      *
      * @attr name com.ngamolsky.android.materialme:fontWeight
      */
-    public static final int FontFamilyFont_fontWeight=5;
+    public static final int FontFamilyFont_fontWeight=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#ttcIndex}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:ttcIndex
+     */
+    public static final int FontFamilyFont_ttcIndex=9;
+    /**
+     * Attributes that can be used with a GradientColor.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #GradientColor_android_startColor android:startColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_endColor android:endColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_type android:type}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_centerX android:centerX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_centerY android:centerY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_gradientRadius android:gradientRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_tileMode android:tileMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_centerColor android:centerColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_startX android:startX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_startY android:startY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_endX android:endX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColor_android_endY android:endY}</code></td><td></td></tr>
+     * </table>
+     * @see #GradientColor_android_startColor
+     * @see #GradientColor_android_endColor
+     * @see #GradientColor_android_type
+     * @see #GradientColor_android_centerX
+     * @see #GradientColor_android_centerY
+     * @see #GradientColor_android_gradientRadius
+     * @see #GradientColor_android_tileMode
+     * @see #GradientColor_android_centerColor
+     * @see #GradientColor_android_startX
+     * @see #GradientColor_android_startY
+     * @see #GradientColor_android_endX
+     * @see #GradientColor_android_endY
+     */
+    public static final int[] GradientColor={
+        0x0101019d, 0x0101019e, 0x010101a1, 0x010101a2, 
+        0x010101a3, 0x010101a4, 0x01010201, 0x0101020b, 
+        0x01010510, 0x01010511, 0x01010512, 0x01010513
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#startColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:startColor
+     */
+    public static final int GradientColor_android_startColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#endColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:endColor
+     */
+    public static final int GradientColor_android_endColor=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#type}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>linear</td><td>0</td><td></td></tr>
+     * <tr><td>radial</td><td>1</td><td></td></tr>
+     * <tr><td>sweep</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:type
+     */
+    public static final int GradientColor_android_type=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#centerX}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name android:centerX
+     */
+    public static final int GradientColor_android_centerX=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#centerY}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name android:centerY
+     */
+    public static final int GradientColor_android_centerY=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#gradientRadius}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name android:gradientRadius
+     */
+    public static final int GradientColor_android_gradientRadius=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#tileMode}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>clamp</td><td>0</td><td></td></tr>
+     * <tr><td>disabled</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>mirror</td><td>2</td><td></td></tr>
+     * <tr><td>repeat</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:tileMode
+     */
+    public static final int GradientColor_android_tileMode=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#centerColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:centerColor
+     */
+    public static final int GradientColor_android_centerColor=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#startX}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:startX
+     */
+    public static final int GradientColor_android_startX=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#startY}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:startY
+     */
+    public static final int GradientColor_android_startY=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#endX}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:endX
+     */
+    public static final int GradientColor_android_endX=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#endY}
+     * attribute's value can be found in the {@link #GradientColor} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:endY
+     */
+    public static final int GradientColor_android_endY=11;
+    /**
+     * Attributes that can be used with a GradientColorItem.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #GradientColorItem_android_color android:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GradientColorItem_android_offset android:offset}</code></td><td></td></tr>
+     * </table>
+     * @see #GradientColorItem_android_color
+     * @see #GradientColorItem_android_offset
+     */
+    public static final int[] GradientColorItem={
+        0x010101a5, 0x01010514
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name android:color
+     */
+    public static final int GradientColorItem_android_color=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#offset}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:offset
+     */
+    public static final int GradientColorItem_android_offset=1;
+    /**
+     * Attributes that can be used with a ImageFilterView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ImageFilterView_altSrc com.ngamolsky.android.materialme:altSrc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_brightness com.ngamolsky.android.materialme:brightness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_contrast com.ngamolsky.android.materialme:contrast}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_crossfade com.ngamolsky.android.materialme:crossfade}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_overlay com.ngamolsky.android.materialme:overlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_round com.ngamolsky.android.materialme:round}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_roundPercent com.ngamolsky.android.materialme:roundPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_saturation com.ngamolsky.android.materialme:saturation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageFilterView_warmth com.ngamolsky.android.materialme:warmth}</code></td><td></td></tr>
+     * </table>
+     * @see #ImageFilterView_altSrc
+     * @see #ImageFilterView_brightness
+     * @see #ImageFilterView_contrast
+     * @see #ImageFilterView_crossfade
+     * @see #ImageFilterView_overlay
+     * @see #ImageFilterView_round
+     * @see #ImageFilterView_roundPercent
+     * @see #ImageFilterView_saturation
+     * @see #ImageFilterView_warmth
+     */
+    public static final int[] ImageFilterView={
+        0x7f030029, 0x7f030041, 0x7f03007d, 0x7f030080, 
+        0x7f03014f, 0x7f030171, 0x7f030172, 0x7f030173, 
+        0x7f0301cf
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#altSrc}
+     * attribute's value can be found in the {@link #ImageFilterView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:altSrc
+     */
+    public static final int ImageFilterView_altSrc=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#brightness}
+     * attribute's value can be found in the {@link #ImageFilterView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:brightness
+     */
+    public static final int ImageFilterView_brightness=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#contrast}
+     * attribute's value can be found in the {@link #ImageFilterView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:contrast
+     */
+    public static final int ImageFilterView_contrast=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#crossfade}
+     * attribute's value can be found in the {@link #ImageFilterView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:crossfade
+     */
+    public static final int ImageFilterView_crossfade=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#overlay}
+     * attribute's value can be found in the {@link #ImageFilterView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:overlay
+     */
+    public static final int ImageFilterView_overlay=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#round}
+     * attribute's value can be found in the {@link #ImageFilterView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:round
+     */
+    public static final int ImageFilterView_round=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#roundPercent}
+     * attribute's value can be found in the {@link #ImageFilterView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:roundPercent
+     */
+    public static final int ImageFilterView_roundPercent=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#saturation}
+     * attribute's value can be found in the {@link #ImageFilterView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:saturation
+     */
+    public static final int ImageFilterView_saturation=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#warmth}
+     * attribute's value can be found in the {@link #ImageFilterView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:warmth
+     */
+    public static final int ImageFilterView_warmth=8;
+    /**
+     * Attributes that can be used with a KeyAttribute.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_alpha android:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_translationX android:translationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_translationY android:translationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_scaleX android:scaleX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_scaleY android:scaleY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_rotation android:rotation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_rotationX android:rotationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_rotationY android:rotationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_translationZ android:translationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_android_elevation android:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_curveFit com.ngamolsky.android.materialme:curveFit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_framePosition com.ngamolsky.android.materialme:framePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_motionProgress com.ngamolsky.android.materialme:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_motionTarget com.ngamolsky.android.materialme:motionTarget}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_transitionEasing com.ngamolsky.android.materialme:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyAttribute_transitionPathRotate com.ngamolsky.android.materialme:transitionPathRotate}</code></td><td></td></tr>
+     * </table>
+     * @see #KeyAttribute_android_alpha
+     * @see #KeyAttribute_android_transformPivotX
+     * @see #KeyAttribute_android_transformPivotY
+     * @see #KeyAttribute_android_translationX
+     * @see #KeyAttribute_android_translationY
+     * @see #KeyAttribute_android_scaleX
+     * @see #KeyAttribute_android_scaleY
+     * @see #KeyAttribute_android_rotation
+     * @see #KeyAttribute_android_rotationX
+     * @see #KeyAttribute_android_rotationY
+     * @see #KeyAttribute_android_translationZ
+     * @see #KeyAttribute_android_elevation
+     * @see #KeyAttribute_curveFit
+     * @see #KeyAttribute_framePosition
+     * @see #KeyAttribute_motionProgress
+     * @see #KeyAttribute_motionTarget
+     * @see #KeyAttribute_transitionEasing
+     * @see #KeyAttribute_transitionPathRotate
+     */
+    public static final int[] KeyAttribute={
+        0x0101031f, 0x01010320, 0x01010321, 0x01010322, 
+        0x01010323, 0x01010324, 0x01010325, 0x01010326, 
+        0x01010327, 0x01010328, 0x010103fa, 0x01010440, 
+        0x7f030082, 0x7f0300cc, 0x7f03013c, 0x7f03013e, 
+        0x7f0301c5, 0x7f0301c7
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:alpha
+     */
+    public static final int KeyAttribute_android_alpha=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotX
+     */
+    public static final int KeyAttribute_android_transformPivotX=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotY
+     */
+    public static final int KeyAttribute_android_transformPivotY=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationX}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationX
+     */
+    public static final int KeyAttribute_android_translationX=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationY}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationY
+     */
+    public static final int KeyAttribute_android_translationY=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int KeyAttribute_android_scaleX=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int KeyAttribute_android_scaleY=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotation
+     */
+    public static final int KeyAttribute_android_rotation=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int KeyAttribute_android_rotationX=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int KeyAttribute_android_rotationY=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationZ
+     */
+    public static final int KeyAttribute_android_translationZ=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int KeyAttribute_android_elevation=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#curveFit}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>linear</td><td>1</td><td></td></tr>
+     * <tr><td>spline</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:curveFit
+     */
+    public static final int KeyAttribute_curveFit=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#framePosition}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:framePosition
+     */
+    public static final int KeyAttribute_framePosition=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionProgress}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionProgress
+     */
+    public static final int KeyAttribute_motionProgress=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionTarget}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:motionTarget
+     */
+    public static final int KeyAttribute_motionTarget=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionEasing}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>accelerate</td><td>1</td><td></td></tr>
+     * <tr><td>decelerate</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionEasing
+     */
+    public static final int KeyAttribute_transitionEasing=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionPathRotate}
+     * attribute's value can be found in the {@link #KeyAttribute} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionPathRotate
+     */
+    public static final int KeyAttribute_transitionPathRotate=17;
+    /**
+     * Attributes that can be used with a KeyCycle.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #KeyCycle_android_alpha android:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_android_translationX android:translationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_android_translationY android:translationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_android_scaleX android:scaleX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_android_scaleY android:scaleY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_android_rotation android:rotation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_android_rotationX android:rotationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_android_rotationY android:rotationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_android_translationZ android:translationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_android_elevation android:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_curveFit com.ngamolsky.android.materialme:curveFit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_framePosition com.ngamolsky.android.materialme:framePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_motionProgress com.ngamolsky.android.materialme:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_motionTarget com.ngamolsky.android.materialme:motionTarget}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_transitionEasing com.ngamolsky.android.materialme:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_transitionPathRotate com.ngamolsky.android.materialme:transitionPathRotate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_waveOffset com.ngamolsky.android.materialme:waveOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_wavePeriod com.ngamolsky.android.materialme:wavePeriod}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_waveShape com.ngamolsky.android.materialme:waveShape}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyCycle_waveVariesBy com.ngamolsky.android.materialme:waveVariesBy}</code></td><td></td></tr>
+     * </table>
+     * @see #KeyCycle_android_alpha
+     * @see #KeyCycle_android_translationX
+     * @see #KeyCycle_android_translationY
+     * @see #KeyCycle_android_scaleX
+     * @see #KeyCycle_android_scaleY
+     * @see #KeyCycle_android_rotation
+     * @see #KeyCycle_android_rotationX
+     * @see #KeyCycle_android_rotationY
+     * @see #KeyCycle_android_translationZ
+     * @see #KeyCycle_android_elevation
+     * @see #KeyCycle_curveFit
+     * @see #KeyCycle_framePosition
+     * @see #KeyCycle_motionProgress
+     * @see #KeyCycle_motionTarget
+     * @see #KeyCycle_transitionEasing
+     * @see #KeyCycle_transitionPathRotate
+     * @see #KeyCycle_waveOffset
+     * @see #KeyCycle_wavePeriod
+     * @see #KeyCycle_waveShape
+     * @see #KeyCycle_waveVariesBy
+     */
+    public static final int[] KeyCycle={
+        0x0101031f, 0x01010322, 0x01010323, 0x01010324, 
+        0x01010325, 0x01010326, 0x01010327, 0x01010328, 
+        0x010103fa, 0x01010440, 0x7f030082, 0x7f0300cc, 
+        0x7f03013c, 0x7f03013e, 0x7f0301c5, 0x7f0301c7, 
+        0x7f0301d1, 0x7f0301d2, 0x7f0301d3, 0x7f0301d4
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:alpha
+     */
+    public static final int KeyCycle_android_alpha=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationX}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationX
+     */
+    public static final int KeyCycle_android_translationX=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationY}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationY
+     */
+    public static final int KeyCycle_android_translationY=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int KeyCycle_android_scaleX=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int KeyCycle_android_scaleY=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotation
+     */
+    public static final int KeyCycle_android_rotation=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int KeyCycle_android_rotationX=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int KeyCycle_android_rotationY=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationZ
+     */
+    public static final int KeyCycle_android_translationZ=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int KeyCycle_android_elevation=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#curveFit}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>linear</td><td>1</td><td></td></tr>
+     * <tr><td>spline</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:curveFit
+     */
+    public static final int KeyCycle_curveFit=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#framePosition}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:framePosition
+     */
+    public static final int KeyCycle_framePosition=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionProgress}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionProgress
+     */
+    public static final int KeyCycle_motionProgress=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionTarget}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:motionTarget
+     */
+    public static final int KeyCycle_motionTarget=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionEasing}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>accelerate</td><td>1</td><td></td></tr>
+     * <tr><td>decelerate</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionEasing
+     */
+    public static final int KeyCycle_transitionEasing=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionPathRotate}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionPathRotate
+     */
+    public static final int KeyCycle_transitionPathRotate=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#waveOffset}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:waveOffset
+     */
+    public static final int KeyCycle_waveOffset=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#wavePeriod}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:wavePeriod
+     */
+    public static final int KeyCycle_wavePeriod=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#waveShape}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bounce</td><td>6</td><td></td></tr>
+     * <tr><td>cos</td><td>5</td><td></td></tr>
+     * <tr><td>reverseSawtooth</td><td>4</td><td></td></tr>
+     * <tr><td>sawtooth</td><td>3</td><td></td></tr>
+     * <tr><td>sin</td><td>0</td><td></td></tr>
+     * <tr><td>square</td><td>1</td><td></td></tr>
+     * <tr><td>triangle</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:waveShape
+     */
+    public static final int KeyCycle_waveShape=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#waveVariesBy}
+     * attribute's value can be found in the {@link #KeyCycle} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>path</td><td>1</td><td></td></tr>
+     * <tr><td>position</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:waveVariesBy
+     */
+    public static final int KeyCycle_waveVariesBy=19;
+    public static final int[] KeyFrame={
+      };
+    public static final int[] KeyFramesAcceleration={
+      };
+    public static final int[] KeyFramesVelocity={
+      };
+    /**
+     * Attributes that can be used with a KeyPosition.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #KeyPosition_curveFit com.ngamolsky.android.materialme:curveFit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_drawPath com.ngamolsky.android.materialme:drawPath}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_framePosition com.ngamolsky.android.materialme:framePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_keyPositionType com.ngamolsky.android.materialme:keyPositionType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_motionTarget com.ngamolsky.android.materialme:motionTarget}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_pathMotionArc com.ngamolsky.android.materialme:pathMotionArc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_percentHeight com.ngamolsky.android.materialme:percentHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_percentWidth com.ngamolsky.android.materialme:percentWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_percentX com.ngamolsky.android.materialme:percentX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_percentY com.ngamolsky.android.materialme:percentY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_sizePercent com.ngamolsky.android.materialme:sizePercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyPosition_transitionEasing com.ngamolsky.android.materialme:transitionEasing}</code></td><td></td></tr>
+     * </table>
+     * @see #KeyPosition_curveFit
+     * @see #KeyPosition_drawPath
+     * @see #KeyPosition_framePosition
+     * @see #KeyPosition_keyPositionType
+     * @see #KeyPosition_motionTarget
+     * @see #KeyPosition_pathMotionArc
+     * @see #KeyPosition_percentHeight
+     * @see #KeyPosition_percentWidth
+     * @see #KeyPosition_percentX
+     * @see #KeyPosition_percentY
+     * @see #KeyPosition_sizePercent
+     * @see #KeyPosition_transitionEasing
+     */
+    public static final int[] KeyPosition={
+        0x7f030082, 0x7f03009d, 0x7f0300cc, 0x7f0300dc, 
+        0x7f03013e, 0x7f030157, 0x7f030159, 0x7f03015a, 
+        0x7f03015b, 0x7f03015c, 0x7f030180, 0x7f0301c5
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#curveFit}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>linear</td><td>1</td><td></td></tr>
+     * <tr><td>spline</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:curveFit
+     */
+    public static final int KeyPosition_curveFit=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#drawPath}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>asConfigured</td><td>4</td><td></td></tr>
+     * <tr><td>deltaRelative</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>path</td><td>1</td><td></td></tr>
+     * <tr><td>pathRelative</td><td>2</td><td></td></tr>
+     * <tr><td>rectangles</td><td>5</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:drawPath
+     */
+    public static final int KeyPosition_drawPath=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#framePosition}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:framePosition
+     */
+    public static final int KeyPosition_framePosition=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#keyPositionType}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>deltaRelative</td><td>0</td><td></td></tr>
+     * <tr><td>parentRelative</td><td>2</td><td></td></tr>
+     * <tr><td>pathRelative</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:keyPositionType
+     */
+    public static final int KeyPosition_keyPositionType=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionTarget}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:motionTarget
+     */
+    public static final int KeyPosition_motionTarget=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#pathMotionArc}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>flip</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>startHorizontal</td><td>2</td><td></td></tr>
+     * <tr><td>startVertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:pathMotionArc
+     */
+    public static final int KeyPosition_pathMotionArc=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#percentHeight}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:percentHeight
+     */
+    public static final int KeyPosition_percentHeight=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#percentWidth}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:percentWidth
+     */
+    public static final int KeyPosition_percentWidth=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#percentX}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:percentX
+     */
+    public static final int KeyPosition_percentX=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#percentY}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:percentY
+     */
+    public static final int KeyPosition_percentY=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#sizePercent}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:sizePercent
+     */
+    public static final int KeyPosition_sizePercent=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionEasing}
+     * attribute's value can be found in the {@link #KeyPosition} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>accelerate</td><td>1</td><td></td></tr>
+     * <tr><td>decelerate</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionEasing
+     */
+    public static final int KeyPosition_transitionEasing=11;
+    /**
+     * Attributes that can be used with a KeyTimeCycle.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_android_alpha android:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_android_translationX android:translationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_android_translationY android:translationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_android_scaleX android:scaleX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_android_scaleY android:scaleY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_android_rotation android:rotation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_android_rotationX android:rotationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_android_rotationY android:rotationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_android_translationZ android:translationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_android_elevation android:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_curveFit com.ngamolsky.android.materialme:curveFit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_framePosition com.ngamolsky.android.materialme:framePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_motionProgress com.ngamolsky.android.materialme:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_motionTarget com.ngamolsky.android.materialme:motionTarget}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_transitionEasing com.ngamolsky.android.materialme:transitionEasing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_transitionPathRotate com.ngamolsky.android.materialme:transitionPathRotate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_waveDecay com.ngamolsky.android.materialme:waveDecay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_waveOffset com.ngamolsky.android.materialme:waveOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_wavePeriod com.ngamolsky.android.materialme:wavePeriod}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTimeCycle_waveShape com.ngamolsky.android.materialme:waveShape}</code></td><td></td></tr>
+     * </table>
+     * @see #KeyTimeCycle_android_alpha
+     * @see #KeyTimeCycle_android_translationX
+     * @see #KeyTimeCycle_android_translationY
+     * @see #KeyTimeCycle_android_scaleX
+     * @see #KeyTimeCycle_android_scaleY
+     * @see #KeyTimeCycle_android_rotation
+     * @see #KeyTimeCycle_android_rotationX
+     * @see #KeyTimeCycle_android_rotationY
+     * @see #KeyTimeCycle_android_translationZ
+     * @see #KeyTimeCycle_android_elevation
+     * @see #KeyTimeCycle_curveFit
+     * @see #KeyTimeCycle_framePosition
+     * @see #KeyTimeCycle_motionProgress
+     * @see #KeyTimeCycle_motionTarget
+     * @see #KeyTimeCycle_transitionEasing
+     * @see #KeyTimeCycle_transitionPathRotate
+     * @see #KeyTimeCycle_waveDecay
+     * @see #KeyTimeCycle_waveOffset
+     * @see #KeyTimeCycle_wavePeriod
+     * @see #KeyTimeCycle_waveShape
+     */
+    public static final int[] KeyTimeCycle={
+        0x0101031f, 0x01010322, 0x01010323, 0x01010324, 
+        0x01010325, 0x01010326, 0x01010327, 0x01010328, 
+        0x010103fa, 0x01010440, 0x7f030082, 0x7f0300cc, 
+        0x7f03013c, 0x7f03013e, 0x7f0301c5, 0x7f0301c7, 
+        0x7f0301d0, 0x7f0301d1, 0x7f0301d2, 0x7f0301d3
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:alpha
+     */
+    public static final int KeyTimeCycle_android_alpha=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationX}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationX
+     */
+    public static final int KeyTimeCycle_android_translationX=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationY}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationY
+     */
+    public static final int KeyTimeCycle_android_translationY=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int KeyTimeCycle_android_scaleX=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int KeyTimeCycle_android_scaleY=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotation
+     */
+    public static final int KeyTimeCycle_android_rotation=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int KeyTimeCycle_android_rotationX=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int KeyTimeCycle_android_rotationY=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationZ
+     */
+    public static final int KeyTimeCycle_android_translationZ=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int KeyTimeCycle_android_elevation=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#curveFit}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>linear</td><td>1</td><td></td></tr>
+     * <tr><td>spline</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:curveFit
+     */
+    public static final int KeyTimeCycle_curveFit=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#framePosition}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:framePosition
+     */
+    public static final int KeyTimeCycle_framePosition=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionProgress}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionProgress
+     */
+    public static final int KeyTimeCycle_motionProgress=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionTarget}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:motionTarget
+     */
+    public static final int KeyTimeCycle_motionTarget=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionEasing}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>accelerate</td><td>1</td><td></td></tr>
+     * <tr><td>decelerate</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionEasing
+     */
+    public static final int KeyTimeCycle_transitionEasing=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionPathRotate}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionPathRotate
+     */
+    public static final int KeyTimeCycle_transitionPathRotate=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#waveDecay}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:waveDecay
+     */
+    public static final int KeyTimeCycle_waveDecay=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#waveOffset}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:waveOffset
+     */
+    public static final int KeyTimeCycle_waveOffset=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#wavePeriod}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:wavePeriod
+     */
+    public static final int KeyTimeCycle_wavePeriod=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#waveShape}
+     * attribute's value can be found in the {@link #KeyTimeCycle} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bounce</td><td>6</td><td></td></tr>
+     * <tr><td>cos</td><td>5</td><td></td></tr>
+     * <tr><td>reverseSawtooth</td><td>4</td><td></td></tr>
+     * <tr><td>sawtooth</td><td>3</td><td></td></tr>
+     * <tr><td>sin</td><td>0</td><td></td></tr>
+     * <tr><td>square</td><td>1</td><td></td></tr>
+     * <tr><td>triangle</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:waveShape
+     */
+    public static final int KeyTimeCycle_waveShape=19;
+    /**
+     * Attributes that can be used with a KeyTrigger.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #KeyTrigger_framePosition com.ngamolsky.android.materialme:framePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_motionTarget com.ngamolsky.android.materialme:motionTarget}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_motion_postLayoutCollision com.ngamolsky.android.materialme:motion_postLayoutCollision}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_motion_triggerOnCollision com.ngamolsky.android.materialme:motion_triggerOnCollision}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_onCross com.ngamolsky.android.materialme:onCross}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_onNegativeCross com.ngamolsky.android.materialme:onNegativeCross}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_onPositiveCross com.ngamolsky.android.materialme:onPositiveCross}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_triggerId com.ngamolsky.android.materialme:triggerId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_triggerReceiver com.ngamolsky.android.materialme:triggerReceiver}</code></td><td></td></tr>
+     * <tr><td><code>{@link #KeyTrigger_triggerSlack com.ngamolsky.android.materialme:triggerSlack}</code></td><td></td></tr>
+     * </table>
+     * @see #KeyTrigger_framePosition
+     * @see #KeyTrigger_motionTarget
+     * @see #KeyTrigger_motion_postLayoutCollision
+     * @see #KeyTrigger_motion_triggerOnCollision
+     * @see #KeyTrigger_onCross
+     * @see #KeyTrigger_onNegativeCross
+     * @see #KeyTrigger_onPositiveCross
+     * @see #KeyTrigger_triggerId
+     * @see #KeyTrigger_triggerReceiver
+     * @see #KeyTrigger_triggerSlack
+     */
+    public static final int[] KeyTrigger={
+        0x7f0300cc, 0x7f03013e, 0x7f03013f, 0x7f030140, 
+        0x7f030148, 0x7f03014a, 0x7f03014b, 0x7f0301c8, 
+        0x7f0301c9, 0x7f0301ca
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#framePosition}
+     * attribute's value can be found in the {@link #KeyTrigger} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:framePosition
+     */
+    public static final int KeyTrigger_framePosition=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionTarget}
+     * attribute's value can be found in the {@link #KeyTrigger} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:motionTarget
+     */
+    public static final int KeyTrigger_motionTarget=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motion_postLayoutCollision}
+     * attribute's value can be found in the {@link #KeyTrigger} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motion_postLayoutCollision
+     */
+    public static final int KeyTrigger_motion_postLayoutCollision=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motion_triggerOnCollision}
+     * attribute's value can be found in the {@link #KeyTrigger} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motion_triggerOnCollision
+     */
+    public static final int KeyTrigger_motion_triggerOnCollision=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#onCross}
+     * attribute's value can be found in the {@link #KeyTrigger} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:onCross
+     */
+    public static final int KeyTrigger_onCross=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#onNegativeCross}
+     * attribute's value can be found in the {@link #KeyTrigger} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:onNegativeCross
+     */
+    public static final int KeyTrigger_onNegativeCross=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#onPositiveCross}
+     * attribute's value can be found in the {@link #KeyTrigger} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:onPositiveCross
+     */
+    public static final int KeyTrigger_onPositiveCross=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#triggerId}
+     * attribute's value can be found in the {@link #KeyTrigger} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:triggerId
+     */
+    public static final int KeyTrigger_triggerId=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#triggerReceiver}
+     * attribute's value can be found in the {@link #KeyTrigger} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:triggerReceiver
+     */
+    public static final int KeyTrigger_triggerReceiver=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#triggerSlack}
+     * attribute's value can be found in the {@link #KeyTrigger} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:triggerSlack
+     */
+    public static final int KeyTrigger_triggerSlack=9;
+    /**
+     * Attributes that can be used with a Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Layout_android_orientation android:orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_android_layout_width android:layout_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_android_layout_height android:layout_height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_android_layout_marginLeft android:layout_marginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_android_layout_marginStart android:layout_marginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_barrierAllowsGoneWidgets com.ngamolsky.android.materialme:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_barrierDirection com.ngamolsky.android.materialme:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_barrierMargin com.ngamolsky.android.materialme:barrierMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_chainUseRtl com.ngamolsky.android.materialme:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_constraint_referenced_ids com.ngamolsky.android.materialme:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_constraint_referenced_tags com.ngamolsky.android.materialme:constraint_referenced_tags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constrainedHeight com.ngamolsky.android.materialme:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constrainedWidth com.ngamolsky.android.materialme:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintBaseline_creator com.ngamolsky.android.materialme:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintBaseline_toBaselineOf com.ngamolsky.android.materialme:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintBottom_creator com.ngamolsky.android.materialme:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintBottom_toBottomOf com.ngamolsky.android.materialme:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintBottom_toTopOf com.ngamolsky.android.materialme:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintCircle com.ngamolsky.android.materialme:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintCircleAngle com.ngamolsky.android.materialme:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintCircleRadius com.ngamolsky.android.materialme:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintDimensionRatio com.ngamolsky.android.materialme:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintEnd_toEndOf com.ngamolsky.android.materialme:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintEnd_toStartOf com.ngamolsky.android.materialme:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintGuide_begin com.ngamolsky.android.materialme:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintGuide_end com.ngamolsky.android.materialme:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintGuide_percent com.ngamolsky.android.materialme:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHeight_default com.ngamolsky.android.materialme:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHeight_max com.ngamolsky.android.materialme:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHeight_min com.ngamolsky.android.materialme:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHeight_percent com.ngamolsky.android.materialme:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHorizontal_bias com.ngamolsky.android.materialme:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHorizontal_chainStyle com.ngamolsky.android.materialme:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintHorizontal_weight com.ngamolsky.android.materialme:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintLeft_creator com.ngamolsky.android.materialme:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintLeft_toLeftOf com.ngamolsky.android.materialme:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintLeft_toRightOf com.ngamolsky.android.materialme:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintRight_creator com.ngamolsky.android.materialme:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintRight_toLeftOf com.ngamolsky.android.materialme:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintRight_toRightOf com.ngamolsky.android.materialme:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintStart_toEndOf com.ngamolsky.android.materialme:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintStart_toStartOf com.ngamolsky.android.materialme:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintTop_creator com.ngamolsky.android.materialme:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintTop_toBottomOf com.ngamolsky.android.materialme:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintTop_toTopOf com.ngamolsky.android.materialme:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintVertical_bias com.ngamolsky.android.materialme:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintVertical_chainStyle com.ngamolsky.android.materialme:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintVertical_weight com.ngamolsky.android.materialme:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintWidth_default com.ngamolsky.android.materialme:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintWidth_max com.ngamolsky.android.materialme:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintWidth_min com.ngamolsky.android.materialme:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_constraintWidth_percent com.ngamolsky.android.materialme:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_editor_absoluteX com.ngamolsky.android.materialme:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_editor_absoluteY com.ngamolsky.android.materialme:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginBottom com.ngamolsky.android.materialme:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginEnd com.ngamolsky.android.materialme:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginLeft com.ngamolsky.android.materialme:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginRight com.ngamolsky.android.materialme:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginStart com.ngamolsky.android.materialme:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_layout_goneMarginTop com.ngamolsky.android.materialme:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_maxHeight com.ngamolsky.android.materialme:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_maxWidth com.ngamolsky.android.materialme:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_minHeight com.ngamolsky.android.materialme:minHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Layout_minWidth com.ngamolsky.android.materialme:minWidth}</code></td><td></td></tr>
+     * </table>
+     * @see #Layout_android_orientation
+     * @see #Layout_android_layout_width
+     * @see #Layout_android_layout_height
+     * @see #Layout_android_layout_marginLeft
+     * @see #Layout_android_layout_marginTop
+     * @see #Layout_android_layout_marginRight
+     * @see #Layout_android_layout_marginBottom
+     * @see #Layout_android_layout_marginStart
+     * @see #Layout_android_layout_marginEnd
+     * @see #Layout_barrierAllowsGoneWidgets
+     * @see #Layout_barrierDirection
+     * @see #Layout_barrierMargin
+     * @see #Layout_chainUseRtl
+     * @see #Layout_constraint_referenced_ids
+     * @see #Layout_constraint_referenced_tags
+     * @see #Layout_layout_constrainedHeight
+     * @see #Layout_layout_constrainedWidth
+     * @see #Layout_layout_constraintBaseline_creator
+     * @see #Layout_layout_constraintBaseline_toBaselineOf
+     * @see #Layout_layout_constraintBottom_creator
+     * @see #Layout_layout_constraintBottom_toBottomOf
+     * @see #Layout_layout_constraintBottom_toTopOf
+     * @see #Layout_layout_constraintCircle
+     * @see #Layout_layout_constraintCircleAngle
+     * @see #Layout_layout_constraintCircleRadius
+     * @see #Layout_layout_constraintDimensionRatio
+     * @see #Layout_layout_constraintEnd_toEndOf
+     * @see #Layout_layout_constraintEnd_toStartOf
+     * @see #Layout_layout_constraintGuide_begin
+     * @see #Layout_layout_constraintGuide_end
+     * @see #Layout_layout_constraintGuide_percent
+     * @see #Layout_layout_constraintHeight_default
+     * @see #Layout_layout_constraintHeight_max
+     * @see #Layout_layout_constraintHeight_min
+     * @see #Layout_layout_constraintHeight_percent
+     * @see #Layout_layout_constraintHorizontal_bias
+     * @see #Layout_layout_constraintHorizontal_chainStyle
+     * @see #Layout_layout_constraintHorizontal_weight
+     * @see #Layout_layout_constraintLeft_creator
+     * @see #Layout_layout_constraintLeft_toLeftOf
+     * @see #Layout_layout_constraintLeft_toRightOf
+     * @see #Layout_layout_constraintRight_creator
+     * @see #Layout_layout_constraintRight_toLeftOf
+     * @see #Layout_layout_constraintRight_toRightOf
+     * @see #Layout_layout_constraintStart_toEndOf
+     * @see #Layout_layout_constraintStart_toStartOf
+     * @see #Layout_layout_constraintTop_creator
+     * @see #Layout_layout_constraintTop_toBottomOf
+     * @see #Layout_layout_constraintTop_toTopOf
+     * @see #Layout_layout_constraintVertical_bias
+     * @see #Layout_layout_constraintVertical_chainStyle
+     * @see #Layout_layout_constraintVertical_weight
+     * @see #Layout_layout_constraintWidth_default
+     * @see #Layout_layout_constraintWidth_max
+     * @see #Layout_layout_constraintWidth_min
+     * @see #Layout_layout_constraintWidth_percent
+     * @see #Layout_layout_editor_absoluteX
+     * @see #Layout_layout_editor_absoluteY
+     * @see #Layout_layout_goneMarginBottom
+     * @see #Layout_layout_goneMarginEnd
+     * @see #Layout_layout_goneMarginLeft
+     * @see #Layout_layout_goneMarginRight
+     * @see #Layout_layout_goneMarginStart
+     * @see #Layout_layout_goneMarginTop
+     * @see #Layout_maxHeight
+     * @see #Layout_maxWidth
+     * @see #Layout_minHeight
+     * @see #Layout_minWidth
+     */
+    public static final int[] Layout={
+        0x010100c4, 0x010100f4, 0x010100f5, 0x010100f7, 
+        0x010100f8, 0x010100f9, 0x010100fa, 0x010103b5, 
+        0x010103b6, 0x7f03003d, 0x7f03003e, 0x7f03003f, 
+        0x7f030055, 0x7f03006d, 0x7f03006e, 0x7f0300e6, 
+        0x7f0300e7, 0x7f0300e8, 0x7f0300e9, 0x7f0300ea, 
+        0x7f0300eb, 0x7f0300ec, 0x7f0300ed, 0x7f0300ee, 
+        0x7f0300ef, 0x7f0300f0, 0x7f0300f1, 0x7f0300f2, 
+        0x7f0300f3, 0x7f0300f4, 0x7f0300f5, 0x7f0300f6, 
+        0x7f0300f7, 0x7f0300f8, 0x7f0300f9, 0x7f0300fa, 
+        0x7f0300fb, 0x7f0300fc, 0x7f0300fd, 0x7f0300fe, 
+        0x7f0300ff, 0x7f030100, 0x7f030101, 0x7f030102, 
+        0x7f030103, 0x7f030104, 0x7f030106, 0x7f030107, 
+        0x7f030108, 0x7f030109, 0x7f03010a, 0x7f03010b, 
+        0x7f03010c, 0x7f03010d, 0x7f03010e, 0x7f03010f, 
+        0x7f030111, 0x7f030112, 0x7f030113, 0x7f030114, 
+        0x7f030115, 0x7f030116, 0x7f030117, 0x7f030118, 
+        0x7f03012d, 0x7f03012f, 0x7f030131, 0x7f030132
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int Layout_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_width}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_width
+     */
+    public static final int Layout_android_layout_width=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_height}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>fill_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>match_parent</td><td>ffffffff</td><td></td></tr>
+     * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:layout_height
+     */
+    public static final int Layout_android_layout_height=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginLeft}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginLeft
+     */
+    public static final int Layout_android_layout_marginLeft=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginTop}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginTop
+     */
+    public static final int Layout_android_layout_marginTop=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginRight}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginRight
+     */
+    public static final int Layout_android_layout_marginRight=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginBottom}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginBottom
+     */
+    public static final int Layout_android_layout_marginBottom=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginStart
+     */
+    public static final int Layout_android_layout_marginStart=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:layout_marginEnd
+     */
+    public static final int Layout_android_layout_marginEnd=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierAllowsGoneWidgets}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierAllowsGoneWidgets
+     */
+    public static final int Layout_barrierAllowsGoneWidgets=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierDirection}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierDirection
+     */
+    public static final int Layout_barrierDirection=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#barrierMargin}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:barrierMargin
+     */
+    public static final int Layout_barrierMargin=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#chainUseRtl}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:chainUseRtl
+     */
+    public static final int Layout_chainUseRtl=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraint_referenced_ids}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:constraint_referenced_ids
+     */
+    public static final int Layout_constraint_referenced_ids=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraint_referenced_tags}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:constraint_referenced_tags
+     */
+    public static final int Layout_constraint_referenced_tags=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constrainedHeight
+     */
+    public static final int Layout_layout_constrainedHeight=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constrainedWidth
+     */
+    public static final int Layout_layout_constrainedWidth=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBaseline_creator
+     */
+    public static final int Layout_layout_constraintBaseline_creator=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBaseline_toBaselineOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBaseline_toBaselineOf
+     */
+    public static final int Layout_layout_constraintBaseline_toBaselineOf=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_creator
+     */
+    public static final int Layout_layout_constraintBottom_creator=19;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_toBottomOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_toBottomOf
+     */
+    public static final int Layout_layout_constraintBottom_toBottomOf=20;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintBottom_toTopOf
+     */
+    public static final int Layout_layout_constraintBottom_toTopOf=21;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircle
+     */
+    public static final int Layout_layout_constraintCircle=22;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircleAngle
+     */
+    public static final int Layout_layout_constraintCircleAngle=23;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintCircleRadius}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintCircleRadius
+     */
+    public static final int Layout_layout_constraintCircleRadius=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintDimensionRatio
+     */
+    public static final int Layout_layout_constraintDimensionRatio=25;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintEnd_toEndOf
+     */
+    public static final int Layout_layout_constraintEnd_toEndOf=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintEnd_toStartOf
+     */
+    public static final int Layout_layout_constraintEnd_toStartOf=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_begin}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_begin
+     */
+    public static final int Layout_layout_constraintGuide_begin=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_end
+     */
+    public static final int Layout_layout_constraintGuide_end=29;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintGuide_percent}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintGuide_percent
+     */
+    public static final int Layout_layout_constraintGuide_percent=30;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_default}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_default
+     */
+    public static final int Layout_layout_constraintHeight_default=31;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_max}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_max
+     */
+    public static final int Layout_layout_constraintHeight_max=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_min}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_min
+     */
+    public static final int Layout_layout_constraintHeight_min=33;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHeight_percent}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHeight_percent
+     */
+    public static final int Layout_layout_constraintHeight_percent=34;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_bias
+     */
+    public static final int Layout_layout_constraintHorizontal_bias=35;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_chainStyle}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_chainStyle
+     */
+    public static final int Layout_layout_constraintHorizontal_chainStyle=36;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintHorizontal_weight}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintHorizontal_weight
+     */
+    public static final int Layout_layout_constraintHorizontal_weight=37;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_creator}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_creator
+     */
+    public static final int Layout_layout_constraintLeft_creator=38;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_toLeftOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_toLeftOf
+     */
+    public static final int Layout_layout_constraintLeft_toLeftOf=39;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintLeft_toRightOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintLeft_toRightOf
+     */
+    public static final int Layout_layout_constraintLeft_toRightOf=40;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_creator}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_creator
+     */
+    public static final int Layout_layout_constraintRight_creator=41;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_toLeftOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_toLeftOf
+     */
+    public static final int Layout_layout_constraintRight_toLeftOf=42;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintRight_toRightOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintRight_toRightOf
+     */
+    public static final int Layout_layout_constraintRight_toRightOf=43;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintStart_toEndOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintStart_toEndOf
+     */
+    public static final int Layout_layout_constraintStart_toEndOf=44;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintStart_toStartOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintStart_toStartOf
+     */
+    public static final int Layout_layout_constraintStart_toStartOf=45;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_creator}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_creator
+     */
+    public static final int Layout_layout_constraintTop_creator=46;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_toBottomOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_toBottomOf
+     */
+    public static final int Layout_layout_constraintTop_toBottomOf=47;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTop_toTopOf}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTop_toTopOf
+     */
+    public static final int Layout_layout_constraintTop_toTopOf=48;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_bias}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_bias
+     */
+    public static final int Layout_layout_constraintVertical_bias=49;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_chainStyle}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>packed</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>spread_inside</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_chainStyle
+     */
+    public static final int Layout_layout_constraintVertical_chainStyle=50;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintVertical_weight}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintVertical_weight
+     */
+    public static final int Layout_layout_constraintVertical_weight=51;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_default}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
+     * <tr><td>spread</td><td>0</td><td></td></tr>
+     * <tr><td>wrap</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_default
+     */
+    public static final int Layout_layout_constraintWidth_default=52;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_max}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_max
+     */
+    public static final int Layout_layout_constraintWidth_max=53;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_min}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_min
+     */
+    public static final int Layout_layout_constraintWidth_min=54;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintWidth_percent}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintWidth_percent
+     */
+    public static final int Layout_layout_constraintWidth_percent=55;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_editor_absoluteX}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_editor_absoluteX
+     */
+    public static final int Layout_layout_editor_absoluteX=56;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_editor_absoluteY}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_editor_absoluteY
+     */
+    public static final int Layout_layout_editor_absoluteY=57;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginBottom}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginBottom
+     */
+    public static final int Layout_layout_goneMarginBottom=58;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginEnd}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginEnd
+     */
+    public static final int Layout_layout_goneMarginEnd=59;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginLeft}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginLeft
+     */
+    public static final int Layout_layout_goneMarginLeft=60;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginRight}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginRight
+     */
+    public static final int Layout_layout_goneMarginRight=61;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginStart}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginStart
+     */
+    public static final int Layout_layout_goneMarginStart=62;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_goneMarginTop}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_goneMarginTop
+     */
+    public static final int Layout_layout_goneMarginTop=63;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:maxHeight
+     */
+    public static final int Layout_maxHeight=64;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:maxWidth
+     */
+    public static final int Layout_maxWidth=65;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#minHeight}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:minHeight
+     */
+    public static final int Layout_minHeight=66;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#minWidth}
+     * attribute's value can be found in the {@link #Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:minWidth
+     */
+    public static final int Layout_minWidth=67;
     /**
      * Attributes that can be used with a LinearLayoutCompat.
      * <p>Includes the following attributes:</p>
@@ -6988,8 +16990,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-        0x01010128, 0x7f030070, 0x7f030072, 0x7f0300b2, 
-        0x7f0300d4
+        0x01010128, 0x7f030096, 0x7f030098, 0x7f030130, 
+        0x7f03017b
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -7428,8 +17430,8 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f03000d, 0x7f03001f, 0x7f030020, 
-        0x7f030028, 0x7f03005d, 0x7f030093, 0x7f030094, 
-        0x7f0300b7, 0x7f0300d3, 0x7f03010f
+        0x7f030028, 0x7f030071, 0x7f0300d4, 0x7f0300d5, 
+        0x7f030147, 0x7f03017a, 0x7f0301bd
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -7748,8 +17750,8 @@ public final class R {
      */
     public static final int[] MenuView={
         0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-        0x0101012f, 0x01010130, 0x01010131, 0x7f0300c3, 
-        0x7f0300e1
+        0x0101012f, 0x01010130, 0x01010131, 0x7f030163, 
+        0x7f03018b
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -7861,6 +17863,692 @@ public final class R {
      */
     public static final int MenuView_subMenuArrow=8;
     /**
+     * Attributes that can be used with a MockView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #MockView_mock_diagonalsColor com.ngamolsky.android.materialme:mock_diagonalsColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_label com.ngamolsky.android.materialme:mock_label}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_labelBackgroundColor com.ngamolsky.android.materialme:mock_labelBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_labelColor com.ngamolsky.android.materialme:mock_labelColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_showDiagonals com.ngamolsky.android.materialme:mock_showDiagonals}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MockView_mock_showLabel com.ngamolsky.android.materialme:mock_showLabel}</code></td><td></td></tr>
+     * </table>
+     * @see #MockView_mock_diagonalsColor
+     * @see #MockView_mock_label
+     * @see #MockView_mock_labelBackgroundColor
+     * @see #MockView_mock_labelColor
+     * @see #MockView_mock_showDiagonals
+     * @see #MockView_mock_showLabel
+     */
+    public static final int[] MockView={
+        0x7f030133, 0x7f030134, 0x7f030135, 0x7f030136, 
+        0x7f030137, 0x7f030138
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#mock_diagonalsColor}
+     * attribute's value can be found in the {@link #MockView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:mock_diagonalsColor
+     */
+    public static final int MockView_mock_diagonalsColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#mock_label}
+     * attribute's value can be found in the {@link #MockView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:mock_label
+     */
+    public static final int MockView_mock_label=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#mock_labelBackgroundColor}
+     * attribute's value can be found in the {@link #MockView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:mock_labelBackgroundColor
+     */
+    public static final int MockView_mock_labelBackgroundColor=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#mock_labelColor}
+     * attribute's value can be found in the {@link #MockView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:mock_labelColor
+     */
+    public static final int MockView_mock_labelColor=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#mock_showDiagonals}
+     * attribute's value can be found in the {@link #MockView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:mock_showDiagonals
+     */
+    public static final int MockView_mock_showDiagonals=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#mock_showLabel}
+     * attribute's value can be found in the {@link #MockView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:mock_showLabel
+     */
+    public static final int MockView_mock_showLabel=5;
+    /**
+     * Attributes that can be used with a Motion.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Motion_animate_relativeTo com.ngamolsky.android.materialme:animate_relativeTo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_drawPath com.ngamolsky.android.materialme:drawPath}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_motionPathRotate com.ngamolsky.android.materialme:motionPathRotate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_motionStagger com.ngamolsky.android.materialme:motionStagger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_pathMotionArc com.ngamolsky.android.materialme:pathMotionArc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Motion_transitionEasing com.ngamolsky.android.materialme:transitionEasing}</code></td><td></td></tr>
+     * </table>
+     * @see #Motion_animate_relativeTo
+     * @see #Motion_drawPath
+     * @see #Motion_motionPathRotate
+     * @see #Motion_motionStagger
+     * @see #Motion_pathMotionArc
+     * @see #Motion_transitionEasing
+     */
+    public static final int[] Motion={
+        0x7f03002a, 0x7f03009d, 0x7f03013b, 0x7f03013d, 
+        0x7f030157, 0x7f0301c5
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#animate_relativeTo}
+     * attribute's value can be found in the {@link #Motion} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:animate_relativeTo
+     */
+    public static final int Motion_animate_relativeTo=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#drawPath}
+     * attribute's value can be found in the {@link #Motion} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>asConfigured</td><td>4</td><td></td></tr>
+     * <tr><td>deltaRelative</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>path</td><td>1</td><td></td></tr>
+     * <tr><td>pathRelative</td><td>2</td><td></td></tr>
+     * <tr><td>rectangles</td><td>5</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:drawPath
+     */
+    public static final int Motion_drawPath=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionPathRotate}
+     * attribute's value can be found in the {@link #Motion} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionPathRotate
+     */
+    public static final int Motion_motionPathRotate=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionStagger}
+     * attribute's value can be found in the {@link #Motion} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionStagger
+     */
+    public static final int Motion_motionStagger=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#pathMotionArc}
+     * attribute's value can be found in the {@link #Motion} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>flip</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>startHorizontal</td><td>2</td><td></td></tr>
+     * <tr><td>startVertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:pathMotionArc
+     */
+    public static final int Motion_pathMotionArc=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionEasing}
+     * attribute's value can be found in the {@link #Motion} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>accelerate</td><td>1</td><td></td></tr>
+     * <tr><td>decelerate</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionEasing
+     */
+    public static final int Motion_transitionEasing=5;
+    /**
+     * Attributes that can be used with a MotionHelper.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #MotionHelper_onHide com.ngamolsky.android.materialme:onHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionHelper_onShow com.ngamolsky.android.materialme:onShow}</code></td><td></td></tr>
+     * </table>
+     * @see #MotionHelper_onHide
+     * @see #MotionHelper_onShow
+     */
+    public static final int[] MotionHelper={
+        0x7f030149, 0x7f03014c
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#onHide}
+     * attribute's value can be found in the {@link #MotionHelper} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:onHide
+     */
+    public static final int MotionHelper_onHide=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#onShow}
+     * attribute's value can be found in the {@link #MotionHelper} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:onShow
+     */
+    public static final int MotionHelper_onShow=1;
+    /**
+     * Attributes that can be used with a MotionLayout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #MotionLayout_applyMotionScene com.ngamolsky.android.materialme:applyMotionScene}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_currentState com.ngamolsky.android.materialme:currentState}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_layoutDescription com.ngamolsky.android.materialme:layoutDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_motionDebug com.ngamolsky.android.materialme:motionDebug}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_motionProgress com.ngamolsky.android.materialme:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionLayout_showPaths com.ngamolsky.android.materialme:showPaths}</code></td><td></td></tr>
+     * </table>
+     * @see #MotionLayout_applyMotionScene
+     * @see #MotionLayout_currentState
+     * @see #MotionLayout_layoutDescription
+     * @see #MotionLayout_motionDebug
+     * @see #MotionLayout_motionProgress
+     * @see #MotionLayout_showPaths
+     */
+    public static final int[] MotionLayout={
+        0x7f03002b, 0x7f030081, 0x7f0300e0, 0x7f030139, 
+        0x7f03013c, 0x7f03017c
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#applyMotionScene}
+     * attribute's value can be found in the {@link #MotionLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:applyMotionScene
+     */
+    public static final int MotionLayout_applyMotionScene=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#currentState}
+     * attribute's value can be found in the {@link #MotionLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:currentState
+     */
+    public static final int MotionLayout_currentState=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layoutDescription}
+     * attribute's value can be found in the {@link #MotionLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:layoutDescription
+     */
+    public static final int MotionLayout_layoutDescription=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionDebug}
+     * attribute's value can be found in the {@link #MotionLayout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>NO_DEBUG</td><td>0</td><td></td></tr>
+     * <tr><td>SHOW_ALL</td><td>3</td><td></td></tr>
+     * <tr><td>SHOW_PATH</td><td>2</td><td></td></tr>
+     * <tr><td>SHOW_PROGRESS</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:motionDebug
+     */
+    public static final int MotionLayout_motionDebug=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionProgress}
+     * attribute's value can be found in the {@link #MotionLayout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionProgress
+     */
+    public static final int MotionLayout_motionProgress=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#showPaths}
+     * attribute's value can be found in the {@link #MotionLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:showPaths
+     */
+    public static final int MotionLayout_showPaths=5;
+    /**
+     * Attributes that can be used with a MotionScene.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #MotionScene_defaultDuration com.ngamolsky.android.materialme:defaultDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionScene_layoutDuringTransition com.ngamolsky.android.materialme:layoutDuringTransition}</code></td><td></td></tr>
+     * </table>
+     * @see #MotionScene_defaultDuration
+     * @see #MotionScene_layoutDuringTransition
+     */
+    public static final int[] MotionScene={
+        0x7f03008c, 0x7f0300e1
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#defaultDuration}
+     * attribute's value can be found in the {@link #MotionScene} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:defaultDuration
+     */
+    public static final int MotionScene_defaultDuration=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layoutDuringTransition}
+     * attribute's value can be found in the {@link #MotionScene} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>honorRequest</td><td>1</td><td></td></tr>
+     * <tr><td>ignoreRequest</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layoutDuringTransition
+     */
+    public static final int MotionScene_layoutDuringTransition=1;
+    /**
+     * Attributes that can be used with a MotionTelltales.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #MotionTelltales_telltales_tailColor com.ngamolsky.android.materialme:telltales_tailColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionTelltales_telltales_tailScale com.ngamolsky.android.materialme:telltales_tailScale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MotionTelltales_telltales_velocityMode com.ngamolsky.android.materialme:telltales_velocityMode}</code></td><td></td></tr>
+     * </table>
+     * @see #MotionTelltales_telltales_tailColor
+     * @see #MotionTelltales_telltales_tailScale
+     * @see #MotionTelltales_telltales_velocityMode
+     */
+    public static final int[] MotionTelltales={
+        0x7f030197, 0x7f030198, 0x7f030199
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#telltales_tailColor}
+     * attribute's value can be found in the {@link #MotionTelltales} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:telltales_tailColor
+     */
+    public static final int MotionTelltales_telltales_tailColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#telltales_tailScale}
+     * attribute's value can be found in the {@link #MotionTelltales} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:telltales_tailScale
+     */
+    public static final int MotionTelltales_telltales_tailScale=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#telltales_velocityMode}
+     * attribute's value can be found in the {@link #MotionTelltales} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>layout</td><td>0</td><td></td></tr>
+     * <tr><td>postLayout</td><td>1</td><td></td></tr>
+     * <tr><td>staticLayout</td><td>3</td><td></td></tr>
+     * <tr><td>staticPostLayout</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:telltales_velocityMode
+     */
+    public static final int MotionTelltales_telltales_velocityMode=2;
+    /**
+     * Attributes that can be used with a OnClick.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #OnClick_clickAction com.ngamolsky.android.materialme:clickAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnClick_targetId com.ngamolsky.android.materialme:targetId}</code></td><td></td></tr>
+     * </table>
+     * @see #OnClick_clickAction
+     * @see #OnClick_targetId
+     */
+    public static final int[] OnClick={
+        0x7f030059, 0x7f030196
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#clickAction}
+     * attribute's value can be found in the {@link #OnClick} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>jumpToEnd</td><td>100</td><td></td></tr>
+     * <tr><td>jumpToStart</td><td>1000</td><td></td></tr>
+     * <tr><td>toggle</td><td>11</td><td></td></tr>
+     * <tr><td>transitionToEnd</td><td>1</td><td></td></tr>
+     * <tr><td>transitionToStart</td><td>10</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:clickAction
+     */
+    public static final int OnClick_clickAction=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#targetId}
+     * attribute's value can be found in the {@link #OnClick} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:targetId
+     */
+    public static final int OnClick_targetId=1;
+    /**
+     * Attributes that can be used with a OnSwipe.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #OnSwipe_dragDirection com.ngamolsky.android.materialme:dragDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_dragScale com.ngamolsky.android.materialme:dragScale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_dragThreshold com.ngamolsky.android.materialme:dragThreshold}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_limitBoundsTo com.ngamolsky.android.materialme:limitBoundsTo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_maxAcceleration com.ngamolsky.android.materialme:maxAcceleration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_maxVelocity com.ngamolsky.android.materialme:maxVelocity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_moveWhenScrollAtTop com.ngamolsky.android.materialme:moveWhenScrollAtTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_nestedScrollFlags com.ngamolsky.android.materialme:nestedScrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_onTouchUp com.ngamolsky.android.materialme:onTouchUp}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_touchAnchorId com.ngamolsky.android.materialme:touchAnchorId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_touchAnchorSide com.ngamolsky.android.materialme:touchAnchorSide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #OnSwipe_touchRegionId com.ngamolsky.android.materialme:touchRegionId}</code></td><td></td></tr>
+     * </table>
+     * @see #OnSwipe_dragDirection
+     * @see #OnSwipe_dragScale
+     * @see #OnSwipe_dragThreshold
+     * @see #OnSwipe_limitBoundsTo
+     * @see #OnSwipe_maxAcceleration
+     * @see #OnSwipe_maxVelocity
+     * @see #OnSwipe_moveWhenScrollAtTop
+     * @see #OnSwipe_nestedScrollFlags
+     * @see #OnSwipe_onTouchUp
+     * @see #OnSwipe_touchAnchorId
+     * @see #OnSwipe_touchAnchorSide
+     * @see #OnSwipe_touchRegionId
+     */
+    public static final int[] OnSwipe={
+        0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f03011c, 
+        0x7f03012b, 0x7f03012e, 0x7f030141, 0x7f030146, 
+        0x7f03014d, 0x7f0301be, 0x7f0301bf, 0x7f0301c0
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#dragDirection}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>dragDown</td><td>1</td><td></td></tr>
+     * <tr><td>dragEnd</td><td>5</td><td></td></tr>
+     * <tr><td>dragLeft</td><td>2</td><td></td></tr>
+     * <tr><td>dragRight</td><td>3</td><td></td></tr>
+     * <tr><td>dragStart</td><td>4</td><td></td></tr>
+     * <tr><td>dragUp</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:dragDirection
+     */
+    public static final int OnSwipe_dragDirection=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#dragScale}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:dragScale
+     */
+    public static final int OnSwipe_dragScale=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#dragThreshold}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:dragThreshold
+     */
+    public static final int OnSwipe_dragThreshold=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#limitBoundsTo}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:limitBoundsTo
+     */
+    public static final int OnSwipe_limitBoundsTo=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#maxAcceleration}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:maxAcceleration
+     */
+    public static final int OnSwipe_maxAcceleration=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#maxVelocity}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:maxVelocity
+     */
+    public static final int OnSwipe_maxVelocity=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#moveWhenScrollAtTop}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:moveWhenScrollAtTop
+     */
+    public static final int OnSwipe_moveWhenScrollAtTop=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#nestedScrollFlags}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>disablePostScroll</td><td>1</td><td></td></tr>
+     * <tr><td>disableScroll</td><td>2</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:nestedScrollFlags
+     */
+    public static final int OnSwipe_nestedScrollFlags=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#onTouchUp}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>autoComplete</td><td>0</td><td></td></tr>
+     * <tr><td>autoCompleteToEnd</td><td>2</td><td></td></tr>
+     * <tr><td>autoCompleteToStart</td><td>1</td><td></td></tr>
+     * <tr><td>decelerate</td><td>4</td><td></td></tr>
+     * <tr><td>decelerateAndComplete</td><td>5</td><td></td></tr>
+     * <tr><td>stop</td><td>3</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:onTouchUp
+     */
+    public static final int OnSwipe_onTouchUp=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#touchAnchorId}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:touchAnchorId
+     */
+    public static final int OnSwipe_touchAnchorId=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#touchAnchorSide}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>1</td><td></td></tr>
+     * <tr><td>middle</td><td>4</td><td></td></tr>
+     * <tr><td>right</td><td>2</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:touchAnchorSide
+     */
+    public static final int OnSwipe_touchAnchorSide=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#touchRegionId}
+     * attribute's value can be found in the {@link #OnSwipe} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:touchRegionId
+     */
+    public static final int OnSwipe_touchRegionId=11;
+    /**
      * Attributes that can be used with a PopupWindow.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -7876,7 +18564,7 @@ public final class R {
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-        0x01010176, 0x010102c9, 0x7f0300b8
+        0x01010176, 0x010102c9, 0x7f03014e
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -7927,7 +18615,7 @@ public final class R {
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f0300df
+        0x7f030189
       };
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#state_above_anchor}
@@ -7939,6 +18627,92 @@ public final class R {
      * @attr name com.ngamolsky.android.materialme:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
+    /**
+     * Attributes that can be used with a PropertySet.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #PropertySet_android_visibility android:visibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PropertySet_android_alpha android:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PropertySet_layout_constraintTag com.ngamolsky.android.materialme:layout_constraintTag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PropertySet_motionProgress com.ngamolsky.android.materialme:motionProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PropertySet_visibilityMode com.ngamolsky.android.materialme:visibilityMode}</code></td><td></td></tr>
+     * </table>
+     * @see #PropertySet_android_visibility
+     * @see #PropertySet_android_alpha
+     * @see #PropertySet_layout_constraintTag
+     * @see #PropertySet_motionProgress
+     * @see #PropertySet_visibilityMode
+     */
+    public static final int[] PropertySet={
+        0x010100dc, 0x0101031f, 0x7f030105, 0x7f03013c, 
+        0x7f0301cd
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visibility}
+     * attribute's value can be found in the {@link #PropertySet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>2</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * <tr><td>visible</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:visibility
+     */
+    public static final int PropertySet_android_visibility=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#alpha}
+     * attribute's value can be found in the {@link #PropertySet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:alpha
+     */
+    public static final int PropertySet_android_alpha=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layout_constraintTag}
+     * attribute's value can be found in the {@link #PropertySet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.ngamolsky.android.materialme:layout_constraintTag
+     */
+    public static final int PropertySet_layout_constraintTag=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionProgress}
+     * attribute's value can be found in the {@link #PropertySet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:motionProgress
+     */
+    public static final int PropertySet_motionProgress=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#visibilityMode}
+     * attribute's value can be found in the {@link #PropertySet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>ignore</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:visibilityMode
+     */
+    public static final int PropertySet_visibilityMode=4;
     /**
      * Attributes that can be used with a RecycleListView.
      * <p>Includes the following attributes:</p>
@@ -7953,7 +18727,7 @@ public final class R {
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-        0x7f0300b9, 0x7f0300bc
+        0x7f030150, 0x7f030153
       };
     /**
      * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#paddingBottomNoButtons}
@@ -8013,9 +18787,9 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-        0x010100c4, 0x010100f1, 0x7f03007d, 0x7f03007e, 
-        0x7f03007f, 0x7f030080, 0x7f030081, 0x7f03009d, 
-        0x7f0300cc, 0x7f0300d8, 0x7f0300de
+        0x010100c4, 0x010100f1, 0x7f0300a8, 0x7f0300a9, 
+        0x7f0300aa, 0x7f0300ab, 0x7f0300ac, 0x7f0300e2, 
+        0x7f030170, 0x7f030181, 0x7f030187
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -8194,10 +18968,10 @@ public final class R {
      */
     public static final int[] SearchView={
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-        0x7f03004d, 0x7f03005c, 0x7f03006c, 0x7f03008d, 
-        0x7f030095, 0x7f03009c, 0x7f0300c6, 0x7f0300c7, 
-        0x7f0300cd, 0x7f0300ce, 0x7f0300e2, 0x7f0300e7, 
-        0x7f030114
+        0x7f03005a, 0x7f030069, 0x7f03008d, 0x7f0300ce, 
+        0x7f0300d6, 0x7f0300df, 0x7f030166, 0x7f030167, 
+        0x7f030174, 0x7f030175, 0x7f03018c, 0x7f030191, 
+        0x7f0301ce
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -8480,7 +19254,7 @@ public final class R {
      */
     public static final int[] Spinner={
         0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-        0x7f0300c1
+        0x7f030161
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -8557,6 +19331,181 @@ public final class R {
      */
     public static final int Spinner_popupTheme=4;
     /**
+     * Attributes that can be used with a State.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #State_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #State_constraints com.ngamolsky.android.materialme:constraints}</code></td><td></td></tr>
+     * </table>
+     * @see #State_android_id
+     * @see #State_constraints
+     */
+    public static final int[] State={
+        0x010100d0, 0x7f03006f
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #State} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int State_android_id=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraints}
+     * attribute's value can be found in the {@link #State} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:constraints
+     */
+    public static final int State_constraints=1;
+    /**
+     * Attributes that can be used with a StateListDrawable.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_dither android:dither}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_visible android:visible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_variablePadding android:variablePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_constantSize android:constantSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_enterFadeDuration android:enterFadeDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StateListDrawable_android_exitFadeDuration android:exitFadeDuration}</code></td><td></td></tr>
+     * </table>
+     * @see #StateListDrawable_android_dither
+     * @see #StateListDrawable_android_visible
+     * @see #StateListDrawable_android_variablePadding
+     * @see #StateListDrawable_android_constantSize
+     * @see #StateListDrawable_android_enterFadeDuration
+     * @see #StateListDrawable_android_exitFadeDuration
+     */
+    public static final int[] StateListDrawable={
+        0x0101011c, 0x01010194, 0x01010195, 0x01010196, 
+        0x0101030c, 0x0101030d
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:dither
+     */
+    public static final int StateListDrawable_android_dither=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:visible
+     */
+    public static final int StateListDrawable_android_visible=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:variablePadding
+     */
+    public static final int StateListDrawable_android_variablePadding=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:constantSize
+     */
+    public static final int StateListDrawable_android_constantSize=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:enterFadeDuration
+     */
+    public static final int StateListDrawable_android_enterFadeDuration=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:exitFadeDuration
+     */
+    public static final int StateListDrawable_android_exitFadeDuration=5;
+    /**
+     * Attributes that can be used with a StateListDrawableItem.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #StateListDrawableItem_android_drawable android:drawable}</code></td><td></td></tr>
+     * </table>
+     * @see #StateListDrawableItem_android_drawable
+     */
+    public static final int[] StateListDrawableItem={
+        0x01010199
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #StateListDrawableItem} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:drawable
+     */
+    public static final int StateListDrawableItem_android_drawable=0;
+    /**
+     * Attributes that can be used with a StateSet.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #StateSet_defaultState com.ngamolsky.android.materialme:defaultState}</code></td><td></td></tr>
+     * </table>
+     * @see #StateSet_defaultState
+     */
+    public static final int[] StateSet={
+        0x7f03008e
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#defaultState}
+     * attribute's value can be found in the {@link #StateSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:defaultState
+     */
+    public static final int StateSet_defaultState=0;
+    /**
      * Attributes that can be used with a SwitchCompat.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -8594,10 +19543,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f0300d5, 
-        0x7f0300dc, 0x7f0300e8, 0x7f0300e9, 0x7f0300eb, 
-        0x7f0300f9, 0x7f0300fa, 0x7f0300fb, 0x7f030110, 
-        0x7f030111, 0x7f030112
+        0x01010124, 0x01010125, 0x01010142, 0x7f03017d, 
+        0x7f030185, 0x7f030192, 0x7f030193, 0x7f030195, 
+        0x7f0301a7, 0x7f0301a8, 0x7f0301a9, 0x7f0301c1, 
+        0x7f0301c2, 0x7f0301c3
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -8816,8 +19765,8 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
-        0x01010163, 0x01010164, 0x010103ac, 0x7f030083, 
-        0x7f0300ec
+        0x01010163, 0x01010164, 0x010103ac, 0x7f0300c2, 
+        0x7f03019a
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -9054,14 +20003,14 @@ public final class R {
      * @see #Toolbar_titleTextColor
      */
     public static final int[] Toolbar={
-        0x010100af, 0x01010140, 0x7f03003d, 0x7f03004f, 
-        0x7f030050, 0x7f03005e, 0x7f03005f, 0x7f030060, 
-        0x7f030061, 0x7f030062, 0x7f030063, 0x7f0300af, 
-        0x7f0300b0, 0x7f0300b1, 0x7f0300b4, 0x7f0300b5, 
-        0x7f0300c1, 0x7f0300e3, 0x7f0300e4, 0x7f0300e5, 
-        0x7f030101, 0x7f030102, 0x7f030103, 0x7f030104, 
-        0x7f030105, 0x7f030106, 0x7f030107, 0x7f030108, 
-        0x7f030109
+        0x010100af, 0x01010140, 0x7f030047, 0x7f03005c, 
+        0x7f03005d, 0x7f030072, 0x7f030073, 0x7f030074, 
+        0x7f030075, 0x7f030076, 0x7f030077, 0x7f030129, 
+        0x7f03012a, 0x7f03012c, 0x7f030143, 0x7f030144, 
+        0x7f030161, 0x7f03018d, 0x7f03018e, 0x7f03018f, 
+        0x7f0301af, 0x7f0301b0, 0x7f0301b1, 0x7f0301b2, 
+        0x7f0301b3, 0x7f0301b4, 0x7f0301b5, 0x7f0301b6, 
+        0x7f0301b7
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -9436,6 +20385,451 @@ public final class R {
      */
     public static final int Toolbar_titleTextColor=28;
     /**
+     * Attributes that can be used with a Transform.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Transform_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_translationX android:translationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_translationY android:translationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_scaleX android:scaleX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_scaleY android:scaleY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_rotation android:rotation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_rotationX android:rotationX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_rotationY android:rotationY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_translationZ android:translationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transform_android_elevation android:elevation}</code></td><td></td></tr>
+     * </table>
+     * @see #Transform_android_transformPivotX
+     * @see #Transform_android_transformPivotY
+     * @see #Transform_android_translationX
+     * @see #Transform_android_translationY
+     * @see #Transform_android_scaleX
+     * @see #Transform_android_scaleY
+     * @see #Transform_android_rotation
+     * @see #Transform_android_rotationX
+     * @see #Transform_android_rotationY
+     * @see #Transform_android_translationZ
+     * @see #Transform_android_elevation
+     */
+    public static final int[] Transform={
+        0x01010320, 0x01010321, 0x01010322, 0x01010323, 
+        0x01010324, 0x01010325, 0x01010326, 0x01010327, 
+        0x01010328, 0x010103fa, 0x01010440
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotX
+     */
+    public static final int Transform_android_transformPivotX=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:transformPivotY
+     */
+    public static final int Transform_android_transformPivotY=1;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationX}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationX
+     */
+    public static final int Transform_android_translationX=2;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationY}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationY
+     */
+    public static final int Transform_android_translationY=3;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleX
+     */
+    public static final int Transform_android_scaleX=4;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:scaleY
+     */
+    public static final int Transform_android_scaleY=5;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotation
+     */
+    public static final int Transform_android_rotation=6;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationX
+     */
+    public static final int Transform_android_rotationX=7;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotationY
+     */
+    public static final int Transform_android_rotationY=8;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:translationZ
+     */
+    public static final int Transform_android_translationZ=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#elevation}
+     * attribute's value can be found in the {@link #Transform} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:elevation
+     */
+    public static final int Transform_android_elevation=10;
+    /**
+     * Attributes that can be used with a Transition.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Transition_android_id android:id}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_autoTransition com.ngamolsky.android.materialme:autoTransition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_constraintSetEnd com.ngamolsky.android.materialme:constraintSetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_constraintSetStart com.ngamolsky.android.materialme:constraintSetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_duration com.ngamolsky.android.materialme:duration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_layoutDuringTransition com.ngamolsky.android.materialme:layoutDuringTransition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_motionInterpolator com.ngamolsky.android.materialme:motionInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_pathMotionArc com.ngamolsky.android.materialme:pathMotionArc}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_staggered com.ngamolsky.android.materialme:staggered}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_transitionDisable com.ngamolsky.android.materialme:transitionDisable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Transition_transitionFlags com.ngamolsky.android.materialme:transitionFlags}</code></td><td></td></tr>
+     * </table>
+     * @see #Transition_android_id
+     * @see #Transition_autoTransition
+     * @see #Transition_constraintSetEnd
+     * @see #Transition_constraintSetStart
+     * @see #Transition_duration
+     * @see #Transition_layoutDuringTransition
+     * @see #Transition_motionInterpolator
+     * @see #Transition_pathMotionArc
+     * @see #Transition_staggered
+     * @see #Transition_transitionDisable
+     * @see #Transition_transitionFlags
+     */
+    public static final int[] Transition={
+        0x010100d0, 0x7f030036, 0x7f03006b, 0x7f03006c, 
+        0x7f0300a2, 0x7f0300e1, 0x7f03013a, 0x7f030157, 
+        0x7f030188, 0x7f0301c4, 0x7f0301c6
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:id
+     */
+    public static final int Transition_android_id=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#autoTransition}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>animateToEnd</td><td>4</td><td></td></tr>
+     * <tr><td>animateToStart</td><td>3</td><td></td></tr>
+     * <tr><td>jumpToEnd</td><td>2</td><td></td></tr>
+     * <tr><td>jumpToStart</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:autoTransition
+     */
+    public static final int Transition_autoTransition=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraintSetEnd}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:constraintSetEnd
+     */
+    public static final int Transition_constraintSetEnd=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraintSetStart}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:constraintSetStart
+     */
+    public static final int Transition_constraintSetStart=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#duration}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:duration
+     */
+    public static final int Transition_duration=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#layoutDuringTransition}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>honorRequest</td><td>1</td><td></td></tr>
+     * <tr><td>ignoreRequest</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:layoutDuringTransition
+     */
+    public static final int Transition_layoutDuringTransition=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#motionInterpolator}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bounce</td><td>5</td><td></td></tr>
+     * <tr><td>easeIn</td><td>1</td><td></td></tr>
+     * <tr><td>easeInOut</td><td>0</td><td></td></tr>
+     * <tr><td>easeOut</td><td>2</td><td></td></tr>
+     * <tr><td>linear</td><td>3</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:motionInterpolator
+     */
+    public static final int Transition_motionInterpolator=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#pathMotionArc}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>flip</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>startHorizontal</td><td>2</td><td></td></tr>
+     * <tr><td>startVertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:pathMotionArc
+     */
+    public static final int Transition_pathMotionArc=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#staggered}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:staggered
+     */
+    public static final int Transition_staggered=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionDisable}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionDisable
+     */
+    public static final int Transition_transitionDisable=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#transitionFlags}
+     * attribute's value can be found in the {@link #Transition} array.
+     *
+     * <p>Must be one or more (separated by '|') of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>beginOnFirstDraw</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.ngamolsky.android.materialme:transitionFlags
+     */
+    public static final int Transition_transitionFlags=10;
+    /**
+     * Attributes that can be used with a Variant.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #Variant_constraints com.ngamolsky.android.materialme:constraints}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_heightLessThan com.ngamolsky.android.materialme:region_heightLessThan}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_heightMoreThan com.ngamolsky.android.materialme:region_heightMoreThan}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_widthLessThan com.ngamolsky.android.materialme:region_widthLessThan}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Variant_region_widthMoreThan com.ngamolsky.android.materialme:region_widthMoreThan}</code></td><td></td></tr>
+     * </table>
+     * @see #Variant_constraints
+     * @see #Variant_region_heightLessThan
+     * @see #Variant_region_heightMoreThan
+     * @see #Variant_region_widthLessThan
+     * @see #Variant_region_widthMoreThan
+     */
+    public static final int[] Variant={
+        0x7f03006f, 0x7f03016c, 0x7f03016d, 0x7f03016e, 
+        0x7f03016f
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#constraints}
+     * attribute's value can be found in the {@link #Variant} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.ngamolsky.android.materialme:constraints
+     */
+    public static final int Variant_constraints=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#region_heightLessThan}
+     * attribute's value can be found in the {@link #Variant} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:region_heightLessThan
+     */
+    public static final int Variant_region_heightLessThan=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#region_heightMoreThan}
+     * attribute's value can be found in the {@link #Variant} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:region_heightMoreThan
+     */
+    public static final int Variant_region_heightMoreThan=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#region_widthLessThan}
+     * attribute's value can be found in the {@link #Variant} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:region_widthLessThan
+     */
+    public static final int Variant_region_widthLessThan=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.ngamolsky.android.materialme.R.attr#region_widthMoreThan}
+     * attribute's value can be found in the {@link #Variant} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.ngamolsky.android.materialme:region_widthMoreThan
+     */
+    public static final int Variant_region_widthMoreThan=4;
+    /**
      * Attributes that can be used with a View.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -9455,8 +20849,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-        0x01010000, 0x010100da, 0x7f0300ba, 0x7f0300bb, 
-        0x7f0300f7
+        0x01010000, 0x010100da, 0x7f030151, 0x7f030152, 
+        0x7f0301a5
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}
@@ -9542,7 +20936,7 @@ public final class R {
      * @see #ViewBackgroundHelper_backgroundTintMode
      */
     public static final int[] ViewBackgroundHelper={
-        0x010100d4, 0x7f030034, 0x7f030035
+        0x010100d4, 0x7f03003a, 0x7f03003b
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
